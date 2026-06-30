@@ -1,0 +1,222 @@
+[
+  {
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "topic": "Arrays / Hash Maps",
+    "problem": "Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.\n\nYou may assume each input has exactly one solution, and you may not use the same element twice.",
+    "example": "Input: nums = [2, 7, 11, 15], target = 9\nOutput: [0, 1]  (because nums[0] + nums[1] == 9)",
+    "hint": "Use a hash map to store numbers you've seen and their indices. For each number, check if (target - current) is already in the map.",
+    "solutionLang": "javascript",
+    "solution": "function twoSum(nums, target) {\n  const seen = new Map();\n  for (let i = 0; i < nums.length; i++) {\n    const complement = target - nums[i];\n    if (seen.has(complement)) {\n      return [seen.get(complement), i];\n    }\n    seen.set(nums[i], i);\n  }\n  return [];\n}\n\n// O(n) time, O(n) space",
+    "explanation": "We trade space for time — instead of checking every pair (O(n²)), we remember what we've seen and check complements in O(1)."
+  },
+  {
+    "title": "Reverse a String",
+    "difficulty": "Easy",
+    "topic": "Strings",
+    "problem": "Reverse a string without using the built-in `.reverse()` method.",
+    "example": "Input: \"hello\"\nOutput: \"olleh\"",
+    "hint": "Use two pointers — one at the start, one at the end — and swap characters moving toward the center.",
+    "solutionLang": "javascript",
+    "solution": "function reverseString(str) {\n  const chars = str.split('');\n  let left = 0;\n  let right = chars.length - 1;\n  while (left < right) {\n    [chars[left], chars[right]] = [chars[right], chars[left]];\n    left++;\n    right--;\n  }\n  return chars.join('');\n}\n\n// O(n) time, O(n) space (for the array)",
+    "explanation": "Two-pointer technique — halve the work by going from both ends. Same pattern works for reversing arrays in place."
+  },
+  {
+    "title": "Palindrome Check",
+    "difficulty": "Easy",
+    "topic": "Strings",
+    "problem": "Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.",
+    "example": "Input: \"A man, a plan, a canal: Panama\"\nOutput: true",
+    "hint": "Sanitize the string first (lowercase, strip non-alphanumeric), then use two pointers from both ends.",
+    "solutionLang": "javascript",
+    "solution": "function isPalindrome(str) {\n  const clean = str.toLowerCase().replace(/[^a-z0-9]/g, '');\n  let left = 0, right = clean.length - 1;\n  while (left < right) {\n    if (clean[left] !== clean[right]) return false;\n    left++;\n    right--;\n  }\n  return true;\n}",
+    "explanation": "Cleaning the string first makes the comparison straightforward. Two-pointer avoids creating a reversed copy."
+  },
+  {
+    "title": "FizzBuzz",
+    "difficulty": "Easy",
+    "topic": "Loops / Conditionals",
+    "problem": "Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.",
+    "example": "1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, ...",
+    "hint": "Check the most specific case (both 3 AND 5) first, then the individual cases.",
+    "solutionLang": "javascript",
+    "solution": "for (let i = 1; i <= 100; i++) {\n  let out = '';\n  if (i % 3 === 0) out += 'Fizz';\n  if (i % 5 === 0) out += 'Buzz';\n  console.log(out || i);\n}",
+    "explanation": "Build the output string instead of using nested if/else. Cleaner and extends easily (e.g., add 'Jazz' for multiples of 7)."
+  },
+  {
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "topic": "Stacks",
+    "problem": "Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.",
+    "example": "Input: \"()[]{}\"\nOutput: true\n\nInput: \"([)]\"\nOutput: false",
+    "hint": "Use a stack. Push opening brackets, pop when you see a closing bracket and check it matches.",
+    "solutionLang": "javascript",
+    "solution": "function isValid(s) {\n  const stack = [];\n  const pairs = { ')': '(', '}': '{', ']': '[' };\n  for (const ch of s) {\n    if (ch === '(' || ch === '{' || ch === '[') {\n      stack.push(ch);\n    } else {\n      if (stack.pop() !== pairs[ch]) return false;\n    }\n  }\n  return stack.length === 0;\n}",
+    "explanation": "Stacks are perfect for nested/matching problems. Last-opened bracket must be first-closed — LIFO."
+  },
+  {
+    "title": "Find Maximum in Array",
+    "difficulty": "Easy",
+    "topic": "Arrays",
+    "problem": "Find the maximum value in an array without using `Math.max()` or `.sort()`.",
+    "example": "Input: [3, 1, 7, 2, 9, 4]\nOutput: 9",
+    "hint": "Initialize with the first element, then iterate and update when you find something bigger.",
+    "solutionLang": "javascript",
+    "solution": "function findMax(arr) {\n  if (arr.length === 0) return undefined;\n  let max = arr[0];\n  for (let i = 1; i < arr.length; i++) {\n    if (arr[i] > max) max = arr[i];\n  }\n  return max;\n}\n\n// O(n) time, O(1) space",
+    "explanation": "Linear scan is optimal — you can't find the max without looking at every element at least once."
+  },
+  {
+    "title": "Count Vowels",
+    "difficulty": "Easy",
+    "topic": "Strings / Regex",
+    "problem": "Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.",
+    "example": "Input: \"Hello World\"\nOutput: 3  (e, o, o)",
+    "hint": "Match against a vowel regex, or iterate and check membership in a Set.",
+    "solutionLang": "javascript",
+    "solution": "// Regex approach\nfunction countVowels(str) {\n  return (str.match(/[aeiou]/gi) || []).length;\n}\n\n// Set approach (faster for very long strings)\nfunction countVowelsSet(str) {\n  const vowels = new Set(['a','e','i','o','u']);\n  let count = 0;\n  for (const ch of str.toLowerCase()) {\n    if (vowels.has(ch)) count++;\n  }\n  return count;\n}",
+    "explanation": "Two valid approaches. Regex is concise; Set is faster because Set.has() is O(1) and there's no regex compilation."
+  },
+  {
+    "title": "Merge Two Sorted Arrays",
+    "difficulty": "Medium",
+    "topic": "Arrays / Two Pointers",
+    "problem": "Given two sorted arrays `a` and `b`, merge them into a single sorted array.",
+    "example": "Input: a = [1, 3, 5], b = [2, 4, 6]\nOutput: [1, 2, 3, 4, 5, 6]",
+    "hint": "Use two pointers — one per array. Compare current elements, push the smaller one, advance that pointer.",
+    "solutionLang": "javascript",
+    "solution": "function mergeSorted(a, b) {\n  const result = [];\n  let i = 0, j = 0;\n  while (i < a.length && j < b.length) {\n    if (a[i] <= b[j]) result.push(a[i++]);\n    else result.push(b[j++]);\n  }\n  while (i < a.length) result.push(a[i++]);\n  while (j < b.length) result.push(b[j++]);\n  return result;\n}\n\n// O(n + m) time",
+    "explanation": "Exploits the fact that inputs are already sorted. This is the merge step of merge sort."
+  },
+  {
+    "title": "Anagram Check",
+    "difficulty": "Easy",
+    "topic": "Strings / Sorting",
+    "problem": "Check if two strings are anagrams (contain the same characters with the same frequencies).",
+    "example": "Input: \"listen\", \"silent\"\nOutput: true\n\nInput: \"hello\", \"world\"\nOutput: false",
+    "hint": "Sort both strings and compare. Or, count character frequencies with a Map.",
+    "solutionLang": "javascript",
+    "solution": "// Approach 1: Sort and compare (concise)\nfunction isAnagram(a, b) {\n  const norm = (s) => s.toLowerCase().split('').sort().join('');\n  return norm(a) === norm(b);\n}\n\n// Approach 2: Frequency counter (faster for long strings)\nfunction isAnagramFast(a, b) {\n  if (a.length !== b.length) return false;\n  const counts = new Map();\n  for (const ch of a.toLowerCase()) {\n    counts.set(ch, (counts.get(ch) || 0) + 1);\n  }\n  for (const ch of b.toLowerCase()) {\n    if (!counts.has(ch)) return false;\n    counts.set(ch, counts.get(ch) - 1);\n    if (counts.get(ch) < 0) return false;\n  }\n  return true;\n}",
+    "explanation": "Sorting is O(n log n) but very concise. Frequency counting is O(n) but more code. Pick based on input size."
+  },
+  {
+    "title": "Factorial",
+    "difficulty": "Easy",
+    "topic": "Recursion",
+    "problem": "Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.",
+    "example": "Input: 5\nOutput: 120  (5 × 4 × 3 × 2 × 1)",
+    "hint": "Either recursively (n × factorial(n-1), base case 0! = 1) or iteratively with a running product.",
+    "solutionLang": "javascript",
+    "solution": "// Recursive\nfunction factorial(n) {\n  if (n <= 1) return 1;\n  return n * factorial(n - 1);\n}\n\n// Iterative (no stack overflow risk)\nfunction factorialIter(n) {\n  let result = 1;\n  for (let i = 2; i <= n; i++) result *= i;\n  return result;\n}",
+    "explanation": "Recursion is elegant but for large n, iterative is safer (JavaScript has a call stack limit around 10,000)."
+  },
+  {
+    "title": "Fibonacci (Efficient)",
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "problem": "Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.",
+    "example": "Input: 10\nOutput: 55",
+    "hint": "Naive recursion is O(2^n) — way too slow. Memoize, or iterate bottom-up keeping only the last two values.",
+    "solutionLang": "javascript",
+    "solution": "// Bottom-up, O(n) time, O(1) space\nfunction fib(n) {\n  if (n <= 1) return n;\n  let prev = 0, curr = 1;\n  for (let i = 2; i <= n; i++) {\n    [prev, curr] = [curr, prev + curr];\n  }\n  return curr;\n}\n\n// With memoization (top-down)\nconst memo = new Map([[0, 0], [1, 1]]);\nfunction fibMemo(n) {\n  if (memo.has(n)) return memo.get(n);\n  const result = fibMemo(n - 1) + fibMemo(n - 2);\n  memo.set(n, result);\n  return result;\n}",
+    "explanation": "Bottom-up with two variables is optimal — O(n) time, O(1) space. Memoization is O(n) time but O(n) space."
+  },
+  {
+    "title": "Binary Search",
+    "difficulty": "Medium",
+    "topic": "Search Algorithms",
+    "problem": "Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.",
+    "example": "Input: nums = [1, 3, 5, 7, 9, 11], target = 7\nOutput: 3",
+    "hint": "Maintain left and right pointers. Compute mid, compare, halve the search space each iteration.",
+    "solutionLang": "javascript",
+    "solution": "function binarySearch(nums, target) {\n  let left = 0, right = nums.length - 1;\n  while (left <= right) {\n    const mid = (left + right) >> 1;  // bit-shift for integer division\n    if (nums[mid] === target) return mid;\n    if (nums[mid] < target) left = mid + 1;\n    else right = mid - 1;\n  }\n  return -1;\n}",
+    "explanation": "Halving the search space each iteration gives O(log n). The bit-shift `>> 1` is a fast integer divide by 2."
+  },
+  {
+    "title": "Remove Duplicates from Array",
+    "difficulty": "Easy",
+    "topic": "Arrays / Sets",
+    "problem": "Return a new array with duplicates removed, preserving the order of first occurrence.",
+    "example": "Input: [1, 2, 2, 3, 4, 4, 5]\nOutput: [1, 2, 3, 4, 5]",
+    "hint": "Use a Set to track seen elements, or just convert to Set and back to array.",
+    "solutionLang": "javascript",
+    "solution": "// Simple Set approach\nfunction dedupe(arr) {\n  return [...new Set(arr)];\n}\n\n// Preserve order, filter manually (for objects you can't put in Set)\nfunction dedupeBy(arr, keyFn = (x) => x) {\n  const seen = new Set();\n  return arr.filter((item) => {\n    const key = keyFn(item);\n    if (seen.has(key)) return false;\n    seen.add(key);\n    return true;\n  });\n}",
+    "explanation": "Sets guarantee uniqueness. The second approach is more flexible — works for objects via a key function."
+  },
+  {
+    "title": "Debounce Function",
+    "difficulty": "Medium",
+    "topic": "Closures / Async",
+    "problem": "Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.",
+    "example": "const log = debounce(console.log, 300);\nlog('a'); log('b'); log('c');\n// Only 'c' is logged, after 300ms of silence",
+    "hint": "Use setTimeout. Clear the previous timer on each call so only the last one fires.",
+    "solutionLang": "javascript",
+    "solution": "function debounce(func, wait) {\n  let timer;\n  return function (...args) {\n    clearTimeout(timer);\n    timer = setTimeout(() => func.apply(this, args), wait);\n  };\n}",
+    "explanation": "Closures over `timer` let us share state across calls. Essential for search-as-you-type, resize handlers, etc."
+  },
+  {
+    "title": "Throttle Function",
+    "difficulty": "Medium",
+    "topic": "Closures / Async",
+    "problem": "Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.",
+    "example": "const log = throttle(console.log, 1000);\n// Calling log() 10 times in 1 second → log runs only once (or twice, edge case)",
+    "hint": "Track the last invocation time. If now - last >= limit, call it; otherwise skip (or schedule a trailing call).",
+    "solutionLang": "javascript",
+    "solution": "function throttle(func, limit) {\n  let lastCall = 0;\n  return function (...args) {\n    const now = Date.now();\n    if (now - lastCall >= limit) {\n      lastCall = now;\n      func.apply(this, args);\n    }\n  };\n}",
+    "explanation": "Unlike debounce (which waits for silence), throttle guarantees a max rate. Perfect for scroll/mousemove handlers."
+  },
+  {
+    "title": "Deep Clone Object",
+    "difficulty": "Medium",
+    "topic": "Objects / Recursion",
+    "problem": "Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.",
+    "example": "Input: { a: 1, b: { c: 2, d: [3, 4] } }\nOutput: a new object with the same structure but no shared references",
+    "hint": "Recursively clone. Handle arrays, plain objects, and primitives. Watch out for null (typeof null === 'object').",
+    "solutionLang": "javascript",
+    "solution": "function deepClone(obj) {\n  if (obj === null || typeof obj !== 'object') return obj;\n  if (Array.isArray(obj)) return obj.map(deepClone);\n  const clone = {};\n  for (const key in obj) {\n    if (Object.hasOwn(obj, key)) {\n      clone[key] = deepClone(obj[key]);\n    }\n  }\n  return clone;\n}",
+    "explanation": "Handles the common cases. Real-world deep clones also need to handle Dates, Maps, Sets, RegExps, circular refs — that's why `structuredClone()` exists in modern JS."
+  },
+  {
+    "title": "Flatten Nested Array",
+    "difficulty": "Medium",
+    "topic": "Recursion / Arrays",
+    "problem": "Flatten a deeply nested array into a single-level array.",
+    "example": "Input: [1, [2, [3, [4, [5]]]], 6]\nOutput: [1, 2, 3, 4, 5, 6]",
+    "hint": "Use recursion. If an element is an array, recurse; otherwise, push it to the result.",
+    "solutionLang": "javascript",
+    "solution": "// Recursive\nfunction flatten(arr) {\n  const result = [];\n  for (const item of arr) {\n    if (Array.isArray(item)) result.push(...flatten(item));\n    else result.push(item);\n  }\n  return result;\n}\n\n// Modern: Array.prototype.flat(Infinity)\nconst flattenModern = (arr) => arr.flat(Infinity);",
+    "explanation": "Recursion handles arbitrary depth. The built-in `.flat(Infinity)` does the same thing — know both!"
+  },
+  {
+    "title": "Capitalise Each Word",
+    "difficulty": "Easy",
+    "topic": "Strings",
+    "problem": "Given a sentence, capitalise the first letter of each word.",
+    "example": "Input: \"the quick brown fox\"\nOutput: \"The Quick Brown Fox\"",
+    "hint": "Split by space, map each word to its capitalised version, join back with spaces.",
+    "solutionLang": "javascript",
+    "solution": "function capitaliseWords(str) {\n  return str\n    .split(' ')\n    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))\n    .join(' ');\n}",
+    "explanation": "Clean functional approach with split/map/join. The same pattern works for many string transformations."
+  },
+  {
+    "title": "Count Character Frequencies",
+    "difficulty": "Easy",
+    "topic": "Strings / Hash Maps",
+    "problem": "Return an object mapping each character in a string to its frequency. Case-sensitive.",
+    "example": "Input: \"hello\"\nOutput: { h: 1, e: 1, l: 2, o: 1 }",
+    "hint": "Iterate and use a plain object or Map. Initialize missing keys to 0 then increment, or use nullish coalescing.",
+    "solutionLang": "javascript",
+    "solution": "function charFreq(str) {\n  const freq = {};\n  for (const ch of str) {\n    freq[ch] = (freq[ch] || 0) + 1;\n  }\n  return freq;\n}\n\n// Map version (works when keys aren't strings)\nfunction charFreqMap(str) {\n  const freq = new Map();\n  for (const ch of str) {\n    freq.set(ch, (freq.get(ch) || 0) + 1);\n  }\n  return freq;\n}",
+    "explanation": "Frequency counters are a fundamental pattern — used in anagram checks, compression, stats, etc."
+  },
+  {
+    "title": "Sum of Digits",
+    "difficulty": "Easy",
+    "topic": "Math / Loops",
+    "problem": "Given a non-negative integer, return the sum of its digits.",
+    "example": "Input: 12345\nOutput: 15  (1 + 2 + 3 + 4 + 5)",
+    "hint": "Either convert to string and iterate, or repeatedly mod 10 + divide by 10.",
+    "solutionLang": "javascript",
+    "solution": "// String approach\nfunction sumDigits(n) {\n  return String(n).split('').reduce((sum, d) => sum + Number(d), 0);\n}\n\n// Math approach (no string conversion)\nfunction sumDigitsMath(n) {\n  let sum = 0;\n  while (n > 0) {\n    sum += n % 10;\n    n = Math.floor(n / 10);\n  }\n  return sum;\n}",
+    "explanation": "The math approach is faster (no string allocation) and works in any language. String approach is more readable."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`",
+    "body": "Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.\n\nWhy safer? If someone creates an object with `{ hasOwnProperty: 'lol' }`, calling `.hasOwnProperty()` on it will fail. `Object.hasOwn()` is a static method — immune to prototype pollution.\n\n```js\n// ❌ Risky\nobj.hasOwnProperty('key')\n\n// ✅ Safer\nObject.hasOwn(obj, 'key')\n```"
+  },
+  {
+    "title": "Use `??` (nullish coalescing) instead of `||` for default values",
+    "body": "`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.\n\n`??` only treats `null` and `undefined` as nullish.\n\n```js\nconst count = response.count || 10;     // ❌ 0 becomes 10\nconst count = response.count ?? 10;      // ✅ 0 stays 0\n```"
+  },
+  {
+    "title": "`Array.prototype.at()` for negative indexing",
+    "body": "Forget `arr[arr.length - 1]` — use `.at(-1)`.\n\n```js\nconst arr = [10, 20, 30];\narr.at(-1);  // 30 (last element)\narr.at(-2);  // 20 (second-to-last)\narr.at(0);   // 10 (same as arr[0])\n```\n\nWorks on strings too: `'hello'.at(-1)` → `'o'`."
+  },
+  {
+    "title": "Use `structuredClone()` for deep copies",
+    "body": "Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.\n\nModern browsers and Node 17+ have `structuredClone()`:\n\n```js\nconst clone = structuredClone(original);\n// Handles Dates, Maps, Sets, circular refs, typed arrays, etc.\n```"
+  },
+  {
+    "title": "Optional chaining `?.` is your friend",
+    "body": "Replace verbose `&&` chains with `?.`:\n\n```js\n// ❌ Verbose\nconst city = user && user.address && user.address.city;\n\n// ✅ Clean\nconst city = user?.address?.city;\n\n// Also works for function calls\nconst result = obj.method?.();  // undefined if method doesn't exist\n```"
+  },
+  {
+    "title": "Use `Array.from()` with a mapper for clean transforms",
+    "body": "`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.\n\n```js\n// ❌ Verbose\nconst zeros = new Array(5).fill(0);\nconst squares = zeros.map((_, i) => i * i);\n\n// ✅ Clean\nconst squares = Array.from({ length: 5 }, (_, i) => i * i);\n// [0, 1, 4, 9, 16]\n```"
+  },
+  {
+    "title": "Destructure with default values and renames",
+    "body": "You can provide defaults AND rename in one go:\n\n```js\nconst { name: userName = 'Anonymous', age = 18 } = user;\n// userName = user.name (or 'Anonymous')\n// age = user.age (or 18)\n```\n\nAlso works with function params:\n```js\nfunction greet({ name = 'Anonymous' } = {}) { ... }\n```"
+  },
+  {
+    "title": "Use `Number.isFinite()` not `isFinite()`",
+    "body": "Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.\n\n```js\nisFinite('42');          // true (coerces string to number)\nNumber.isFinite('42');   // false (strict type check)\nNumber.isFinite(42);     // true\nNumber.isFinite(Infinity); // false\n```"
+  },
+  {
+    "title": "Bit-shift for integer division by powers of 2",
+    "body": "Bit-shifting is faster than `Math.floor(n / 2)`:\n\n```js\nMath.floor(7 / 2);   // 3\n7 >> 1;              // 3 (same result, faster)\n\nMath.floor(7 / 4);   // 1\n7 >> 2;              // 1\n```\n\nOnly works for positive integers and divisors that are powers of 2. Common in binary search midpoints."
+  },
+  {
+    "title": "Use `Set` for fast membership checks",
+    "body": "`Set.has()` is O(1), `Array.includes()` is O(n).\n\n```js\n// ❌ Slow for large arrays\nconst allowed = ['admin', 'editor', 'moderator'];\nif (allowed.includes(role)) { ... }\n\n// ✅ Fast — O(1) lookup\nconst allowed = new Set(['admin', 'editor', 'moderator']);\nif (allowed.has(role)) { ... }\n```\n\nRule of thumb: if you call `.includes()` more than once on the same array, convert to Set."
+  },
+  {
+    "title": "`Promise.allSettled()` waits for all, never rejects",
+    "body": "Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:\n\n```js\nconst results = await Promise.allSettled([\n  fetch('/api/a'),\n  fetch('/api/b'),\n  fetch('/api/c'),\n]);\n\nresults.forEach(r => {\n  if (r.status === 'fulfilled') console.log(r.value);\n  else console.error(r.reason);\n});\n```\n\nPerfect for parallel fetches where some failures are acceptable."
+  },
+  {
+    "title": "Use `AbortController` for cancellable fetch",
+    "body": "Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:\n\n```js\nconst controller = new AbortController();\n\nfetch('/api/search?q=foo', { signal: controller.signal })\n  .then(r => r.json())\n  .catch(err => {\n    if (err.name === 'AbortError') return; // expected\n    throw err;\n  });\n\n// Later, cancel it:\ncontroller.abort();\n```\n\nEssential for search-as-you-type UIs."
+  },
+  {
+    "title": "Use `crypto.randomUUID()` for IDs, not `Math.random()`",
+    "body": "For unique IDs, use the built-in crypto module:\n\n```js\ncrypto.randomUUID();\n// 'a1b2c3d4-e5f6-7890-abcd-ef1234567890'\n```\n\nIt's a proper UUID v4 (122 bits of entropy). `Math.random().toString(36)` is fine for non-security use but collisions are more likely with enough IDs."
+  },
+  {
+    "title": "Tagged template literals for safe HTML",
+    "body": "Template literals can be tagged with a function that pre-processes parts:\n\n```js\nfunction html(strings, ...values) {\n  return strings.reduce((acc, str, i) => {\n    const val = values[i] ?? '';\n    return acc + str + String(val).replace(/[<>&]/g, c =>\n      ({ '<': '&lt;', '>': '&gt;', '&': '&amp;' }[c]));\n  }, '');\n}\n\nconst userInput = '<script>alert(1)</script>';\nconst safe = html`<div>${userInput}</div>`;\n// <div>&lt;script&gt;alert(1)&lt;/script&gt;</div>\n```\n\nThis is how lit-html and other libraries escape user content safely."
+  },
+  {
+    "title": "Avoid `forEach` when you need to `break` or `return`",
+    "body": "`forEach` doesn't support `break` or early return — use `for...of` instead:\n\n```js\n// ❌ Can't break out of forEach\narr.forEach(item => {\n  if (item === target) return;  // doesn't do what you think!\n  console.log(item);\n});\n\n// ✅ for...of supports break\nfor (const item of arr) {\n  if (item === target) break;\n  console.log(item);\n}\n```\n\n`.some()` and `.every()` also short-circuit — useful for early-exit searches."
+  },
+  {
+    "title": "Use `??=` and `||=` for conditional assignment",
+    "body": "ES2021 added compound assignment for nullish and logical OR:\n\n```js\n// Old way\nif (obj.prop == null) obj.prop = 'default';\n\n// New way\nobj.prop ??= 'default';  // assign only if null/undefined\nobj.count ||= 1;         // assign only if falsy\nobj.active &&= false;    // assign only if truthy\n```"
+  },
+  {
+    "title": "Top-level `await` works in ES modules",
+    "body": "In `.mjs` files (or with `\"type\": \"module\"` in package.json), you can use `await` at the top level — no wrapping IIFE needed:\n\n```js\n// top-level await in app.mjs\nconst data = await fetch('/api/data').then(r => r.json());\nconsole.log(data);\n```\n\nUseful for scripts and config files. Doesn't work in CommonJS (`.cjs` / plain `.js`)."
+  },
+  {
+    "title": "`Object.entries()` for key-value iteration",
+    "body": "Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:\n\n```js\nconst obj = { a: 1, b: 2, c: 3 };\n\n// ✅ Clean\nfor (const [key, value] of Object.entries(obj)) {\n  console.log(key, value);\n}\n\n// Transform to array\nconst doubled = Object.fromEntries(\n  Object.entries(obj).map(([k, v]) => [k, v * 2])\n);\n```"
+  },
+  {
+    "title": "Use `Intl` APIs for locale-aware formatting",
+    "body": "Stop hardcoding date/number formats. Use `Intl`:\n\n```js\n// Currency\nnew Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR' })\n  .format(1234567.89);  // '₹12,34,567.89' (Indian grouping)\n\n// Dates\nnew Intl.DateTimeFormat('en-IN', { dateStyle: 'full' })\n  .format(new Date());  // 'Monday, 29 June 2026'\n\n// Relative time\nnew Intl.RelativeTimeFormat('en', { style: 'short' })\n  .format(-1, 'day');  // 'yesterday'\n```"
+  },
+  {
+    "title": "Use `Array.prototype.findLast()` and `.findLastIndex()`",
+    "body": "ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:\n\n```js\nconst arr = [1, 2, 3, 4, 5, 4, 3];\n\n// Old way\n[...arr].reverse().find(x => x === 4);  // mutates copy, awkward\n\n// New way (ES2023)\narr.findLast(x => x === 4);  // 4 (the second occurrence)\narr.findLastIndex(x => x === 4);  // 5\n```"
+  }
+]
