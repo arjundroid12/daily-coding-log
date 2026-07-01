@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-2-blue)
+![Day](https://img.shields.io/badge/day-3-blue)
 
-## 📅 Today — Tuesday, June 30, 2026 (Day 2)
+## 📅 Today — Wednesday, July 1, 2026 (Day 3)
 
-### 🧠 Challenge: Merge Two Sorted Arrays
-**Medium** · Arrays / Two Pointers
+### 🧠 Challenge: Count Vowels
+**Easy** · Strings / Regex
 
-Given two sorted arrays `a` and `b`, merge them into a single sorted array.
+Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
 
-👉 [Full challenge + solution](./logs/2026-06-30.md)
+👉 [Full challenge + solution](./logs/2026-07-01.md)
 
-### 💡 Tip: Use `Set` for fast membership checks
-`Set.has()` is O(1), `Array.includes()` is O(n).
+### 💡 Tip: Top-level `await` works in ES modules
+In `.mjs` files (or with `"type": "module"` in package.json), you can use `await` at the top level — no wrapping IIFE needed:
 
 ---
 
@@ -24,6 +24,7 @@ Given two sorted arrays `a` and `b`, merge them into a single sorted array.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-01](./logs/2026-07-01.md)
 - [2026-06-30](./logs/2026-06-30.md)
 
 ---
