@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-3-blue)
+![Day](https://img.shields.io/badge/day-4-blue)
 
-## 📅 Today — Wednesday, July 1, 2026 (Day 3)
+## 📅 Today — Thursday, July 2, 2026 (Day 4)
 
-### 🧠 Challenge: Count Vowels
-**Easy** · Strings / Regex
+### 🧠 Challenge: Binary Search
+**Medium** · Search Algorithms
 
-Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
+Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.
 
-👉 [Full challenge + solution](./logs/2026-07-01.md)
+👉 [Full challenge + solution](./logs/2026-07-02.md)
 
-### 💡 Tip: Top-level `await` works in ES modules
-In `.mjs` files (or with `"type": "module"` in package.json), you can use `await` at the top level — no wrapping IIFE needed:
+### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
+ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
 
 ---
 
@@ -24,6 +24,7 @@ In `.mjs` files (or with `"type": "module"` in package.json), you can use `await
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-02](./logs/2026-07-02.md)
 - [2026-07-01](./logs/2026-07-01.md)
 - [2026-06-30](./logs/2026-06-30.md)
 
