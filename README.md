@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-4-blue)
+![Day](https://img.shields.io/badge/day-5-blue)
 
-## 📅 Today — Thursday, July 2, 2026 (Day 4)
+## 📅 Today — Friday, July 3, 2026 (Day 5)
 
-### 🧠 Challenge: Binary Search
-**Medium** · Search Algorithms
+### 🧠 Challenge: Debounce Function
+**Medium** · Closures / Async
 
-Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.
+Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
 
-👉 [Full challenge + solution](./logs/2026-07-02.md)
+👉 [Full challenge + solution](./logs/2026-07-03.md)
 
-### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
-ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
+### 💡 Tip: Top-level `await` works in ES modules
+In `.mjs` files (or with `"type": "module"` in package.json), you can use `await` at the top level — no wrapping IIFE needed:
 
 ---
 
@@ -24,6 +24,7 @@ ES2023 added `findLast` / `findLastIndex` — find the LAST matching element wit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-03](./logs/2026-07-03.md)
 - [2026-07-02](./logs/2026-07-02.md)
 - [2026-07-01](./logs/2026-07-01.md)
 - [2026-06-30](./logs/2026-06-30.md)
