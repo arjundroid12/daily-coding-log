@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-5-blue)
+![Day](https://img.shields.io/badge/day-6-blue)
 
-## 📅 Today — Friday, July 3, 2026 (Day 5)
+## 📅 Today — Saturday, July 4, 2026 (Day 6)
 
-### 🧠 Challenge: Debounce Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Capitalise Each Word
+**Easy** · Strings
 
-Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
+Given a sentence, capitalise the first letter of each word.
 
-👉 [Full challenge + solution](./logs/2026-07-03.md)
+👉 [Full challenge + solution](./logs/2026-07-04.md)
 
-### 💡 Tip: Top-level `await` works in ES modules
-In `.mjs` files (or with `"type": "module"` in package.json), you can use `await` at the top level — no wrapping IIFE needed:
+### 💡 Tip: Avoid `forEach` when you need to `break` or `return`
+`forEach` doesn't support `break` or early return — use `for...of` instead:
 
 ---
 
@@ -24,6 +24,7 @@ In `.mjs` files (or with `"type": "module"` in package.json), you can use `await
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-04](./logs/2026-07-04.md)
 - [2026-07-03](./logs/2026-07-03.md)
 - [2026-07-02](./logs/2026-07-02.md)
 - [2026-07-01](./logs/2026-07-01.md)
