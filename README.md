@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-6-blue)
+![Day](https://img.shields.io/badge/day-7-blue)
 
-## 📅 Today — Saturday, July 4, 2026 (Day 6)
+## 📅 Today — Sunday, July 5, 2026 (Day 7)
 
-### 🧠 Challenge: Capitalise Each Word
-**Easy** · Strings
+### 🧠 Challenge: Debounce Function
+**Medium** · Closures / Async
 
-Given a sentence, capitalise the first letter of each word.
+Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
 
-👉 [Full challenge + solution](./logs/2026-07-04.md)
+👉 [Full challenge + solution](./logs/2026-07-05.md)
 
-### 💡 Tip: Avoid `forEach` when you need to `break` or `return`
-`forEach` doesn't support `break` or early return — use `for...of` instead:
+### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
+`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
 
 ---
 
@@ -24,6 +24,7 @@ Given a sentence, capitalise the first letter of each word.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-05](./logs/2026-07-05.md)
 - [2026-07-04](./logs/2026-07-04.md)
 - [2026-07-03](./logs/2026-07-03.md)
 - [2026-07-02](./logs/2026-07-02.md)
