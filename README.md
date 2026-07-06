@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-7-blue)
+![Day](https://img.shields.io/badge/day-8-blue)
 
-## 📅 Today — Sunday, July 5, 2026 (Day 7)
+## 📅 Today — Monday, July 6, 2026 (Day 8)
 
-### 🧠 Challenge: Debounce Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Factorial
+**Easy** · Recursion
 
-Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
+Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
 
-👉 [Full challenge + solution](./logs/2026-07-05.md)
+👉 [Full challenge + solution](./logs/2026-07-06.md)
 
-### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
-`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
+### 💡 Tip: `Object.entries()` for key-value iteration
+Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
 
 ---
 
@@ -24,6 +24,7 @@ Implement a `debounce(func, wait)` function that delays invoking `func` until `w
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-06](./logs/2026-07-06.md)
 - [2026-07-05](./logs/2026-07-05.md)
 - [2026-07-04](./logs/2026-07-04.md)
 - [2026-07-03](./logs/2026-07-03.md)
