@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-8-blue)
+![Day](https://img.shields.io/badge/day-9-blue)
 
-## 📅 Today — Monday, July 6, 2026 (Day 8)
+## 📅 Today — Tuesday, July 7, 2026 (Day 9)
 
-### 🧠 Challenge: Factorial
-**Easy** · Recursion
+### 🧠 Challenge: Binary Search
+**Medium** · Search Algorithms
 
-Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
+Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.
 
-👉 [Full challenge + solution](./logs/2026-07-06.md)
+👉 [Full challenge + solution](./logs/2026-07-07.md)
 
-### 💡 Tip: `Object.entries()` for key-value iteration
-Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
+### 💡 Tip: Top-level `await` works in ES modules
+In `.mjs` files (or with `"type": "module"` in package.json), you can use `await` at the top level — no wrapping IIFE needed:
 
 ---
 
@@ -24,6 +24,7 @@ Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` chec
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-07](./logs/2026-07-07.md)
 - [2026-07-06](./logs/2026-07-06.md)
 - [2026-07-05](./logs/2026-07-05.md)
 - [2026-07-04](./logs/2026-07-04.md)
