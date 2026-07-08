@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-9-blue)
+![Day](https://img.shields.io/badge/day-10-blue)
 
-## 📅 Today — Tuesday, July 7, 2026 (Day 9)
+## 📅 Today — Wednesday, July 8, 2026 (Day 10)
 
-### 🧠 Challenge: Binary Search
-**Medium** · Search Algorithms
+### 🧠 Challenge: Flatten Nested Array
+**Medium** · Recursion / Arrays
 
-Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.
+Flatten a deeply nested array into a single-level array.
 
-👉 [Full challenge + solution](./logs/2026-07-07.md)
+👉 [Full challenge + solution](./logs/2026-07-08.md)
 
-### 💡 Tip: Top-level `await` works in ES modules
-In `.mjs` files (or with `"type": "module"` in package.json), you can use `await` at the top level — no wrapping IIFE needed:
+### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
+`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
 
 ---
 
@@ -24,6 +24,7 @@ In `.mjs` files (or with `"type": "module"` in package.json), you can use `await
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-08](./logs/2026-07-08.md)
 - [2026-07-07](./logs/2026-07-07.md)
 - [2026-07-06](./logs/2026-07-06.md)
 - [2026-07-05](./logs/2026-07-05.md)
