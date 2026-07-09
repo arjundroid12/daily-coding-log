@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-10-blue)
+![Day](https://img.shields.io/badge/day-11-blue)
 
-## 📅 Today — Wednesday, July 8, 2026 (Day 10)
+## 📅 Today — Thursday, July 9, 2026 (Day 11)
 
-### 🧠 Challenge: Flatten Nested Array
-**Medium** · Recursion / Arrays
+### 🧠 Challenge: Palindrome Check
+**Easy** · Strings
 
-Flatten a deeply nested array into a single-level array.
+Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
 
-👉 [Full challenge + solution](./logs/2026-07-08.md)
+👉 [Full challenge + solution](./logs/2026-07-09.md)
 
-### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
-`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
+### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
+Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
 
 ---
 
@@ -24,6 +24,7 @@ Flatten a deeply nested array into a single-level array.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-09](./logs/2026-07-09.md)
 - [2026-07-08](./logs/2026-07-08.md)
 - [2026-07-07](./logs/2026-07-07.md)
 - [2026-07-06](./logs/2026-07-06.md)
