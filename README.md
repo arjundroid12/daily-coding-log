@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-11-blue)
+![Day](https://img.shields.io/badge/day-12-blue)
 
-## 📅 Today — Thursday, July 9, 2026 (Day 11)
+## 📅 Today — Friday, July 10, 2026 (Day 12)
 
-### 🧠 Challenge: Palindrome Check
-**Easy** · Strings
+### 🧠 Challenge: Valid Parentheses
+**Easy** · Stacks
 
-Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
+Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
 
-👉 [Full challenge + solution](./logs/2026-07-09.md)
+👉 [Full challenge + solution](./logs/2026-07-10.md)
 
-### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
-Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
+### 💡 Tip: Destructure with default values and renames
+You can provide defaults AND rename in one go:
 
 ---
 
@@ -24,6 +24,7 @@ Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-10](./logs/2026-07-10.md)
 - [2026-07-09](./logs/2026-07-09.md)
 - [2026-07-08](./logs/2026-07-08.md)
 - [2026-07-07](./logs/2026-07-07.md)
