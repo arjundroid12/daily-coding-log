@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-12-blue)
+![Day](https://img.shields.io/badge/day-13-blue)
 
-## 📅 Today — Friday, July 10, 2026 (Day 12)
+## 📅 Today — Saturday, July 11, 2026 (Day 13)
 
-### 🧠 Challenge: Valid Parentheses
-**Easy** · Stacks
+### 🧠 Challenge: Deep Clone Object
+**Medium** · Objects / Recursion
 
-Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
+Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
 
-👉 [Full challenge + solution](./logs/2026-07-10.md)
+👉 [Full challenge + solution](./logs/2026-07-11.md)
 
-### 💡 Tip: Destructure with default values and renames
-You can provide defaults AND rename in one go:
+### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
+Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
 
 ---
 
@@ -24,6 +24,7 @@ You can provide defaults AND rename in one go:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-11](./logs/2026-07-11.md)
 - [2026-07-10](./logs/2026-07-10.md)
 - [2026-07-09](./logs/2026-07-09.md)
 - [2026-07-08](./logs/2026-07-08.md)
