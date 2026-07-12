@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-13-blue)
+![Day](https://img.shields.io/badge/day-14-blue)
 
-## 📅 Today — Saturday, July 11, 2026 (Day 13)
+## 📅 Today — Sunday, July 12, 2026 (Day 14)
 
-### 🧠 Challenge: Deep Clone Object
-**Medium** · Objects / Recursion
+### 🧠 Challenge: Capitalise Each Word
+**Easy** · Strings
 
-Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
+Given a sentence, capitalise the first letter of each word.
 
-👉 [Full challenge + solution](./logs/2026-07-11.md)
+👉 [Full challenge + solution](./logs/2026-07-12.md)
 
-### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
-Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
+### 💡 Tip: Use `Intl` APIs for locale-aware formatting
+Stop hardcoding date/number formats. Use `Intl`:
 
 ---
 
@@ -24,6 +24,7 @@ Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-12](./logs/2026-07-12.md)
 - [2026-07-11](./logs/2026-07-11.md)
 - [2026-07-10](./logs/2026-07-10.md)
 - [2026-07-09](./logs/2026-07-09.md)
