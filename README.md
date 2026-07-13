@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-14-blue)
+![Day](https://img.shields.io/badge/day-15-blue)
 
-## 📅 Today — Sunday, July 12, 2026 (Day 14)
+## 📅 Today — Monday, July 13, 2026 (Day 15)
 
-### 🧠 Challenge: Capitalise Each Word
-**Easy** · Strings
+### 🧠 Challenge: Valid Parentheses
+**Easy** · Stacks
 
-Given a sentence, capitalise the first letter of each word.
+Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
 
-👉 [Full challenge + solution](./logs/2026-07-12.md)
+👉 [Full challenge + solution](./logs/2026-07-13.md)
 
-### 💡 Tip: Use `Intl` APIs for locale-aware formatting
-Stop hardcoding date/number formats. Use `Intl`:
+### 💡 Tip: Use `AbortController` for cancellable fetch
+Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
 
 ---
 
@@ -24,6 +24,7 @@ Stop hardcoding date/number formats. Use `Intl`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-13](./logs/2026-07-13.md)
 - [2026-07-12](./logs/2026-07-12.md)
 - [2026-07-11](./logs/2026-07-11.md)
 - [2026-07-10](./logs/2026-07-10.md)
