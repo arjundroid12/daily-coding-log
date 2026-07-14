@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-15-blue)
+![Day](https://img.shields.io/badge/day-16-blue)
 
-## 📅 Today — Monday, July 13, 2026 (Day 15)
+## 📅 Today — Tuesday, July 14, 2026 (Day 16)
 
-### 🧠 Challenge: Valid Parentheses
-**Easy** · Stacks
+### 🧠 Challenge: Count Vowels
+**Easy** · Strings / Regex
 
-Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
+Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
 
-👉 [Full challenge + solution](./logs/2026-07-13.md)
+👉 [Full challenge + solution](./logs/2026-07-14.md)
 
-### 💡 Tip: Use `AbortController` for cancellable fetch
-Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
+### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
+Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
 
 ---
 
@@ -24,6 +24,7 @@ Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-14](./logs/2026-07-14.md)
 - [2026-07-13](./logs/2026-07-13.md)
 - [2026-07-12](./logs/2026-07-12.md)
 - [2026-07-11](./logs/2026-07-11.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-03](./logs/2026-07-03.md)
 - [2026-07-02](./logs/2026-07-02.md)
 - [2026-07-01](./logs/2026-07-01.md)
-- [2026-06-30](./logs/2026-06-30.md)
 
 ---
 
