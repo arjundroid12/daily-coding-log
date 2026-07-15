@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-16-blue)
+![Day](https://img.shields.io/badge/day-17-blue)
 
-## 📅 Today — Tuesday, July 14, 2026 (Day 16)
+## 📅 Today — Wednesday, July 15, 2026 (Day 17)
 
-### 🧠 Challenge: Count Vowels
-**Easy** · Strings / Regex
+### 🧠 Challenge: Throttle Function
+**Medium** · Closures / Async
 
-Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
+Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
 
-👉 [Full challenge + solution](./logs/2026-07-14.md)
+👉 [Full challenge + solution](./logs/2026-07-15.md)
 
-### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
-Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
+### 💡 Tip: Tagged template literals for safe HTML
+Template literals can be tagged with a function that pre-processes parts:
 
 ---
 
@@ -24,6 +24,7 @@ Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-15](./logs/2026-07-15.md)
 - [2026-07-14](./logs/2026-07-14.md)
 - [2026-07-13](./logs/2026-07-13.md)
 - [2026-07-12](./logs/2026-07-12.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-04](./logs/2026-07-04.md)
 - [2026-07-03](./logs/2026-07-03.md)
 - [2026-07-02](./logs/2026-07-02.md)
-- [2026-07-01](./logs/2026-07-01.md)
 
 ---
 
