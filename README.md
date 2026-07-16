@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-17-blue)
+![Day](https://img.shields.io/badge/day-18-blue)
 
-## 📅 Today — Wednesday, July 15, 2026 (Day 17)
+## 📅 Today — Thursday, July 16, 2026 (Day 18)
 
-### 🧠 Challenge: Throttle Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Remove Duplicates from Array
+**Easy** · Arrays / Sets
 
-Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
+Return a new array with duplicates removed, preserving the order of first occurrence.
 
-👉 [Full challenge + solution](./logs/2026-07-15.md)
+👉 [Full challenge + solution](./logs/2026-07-16.md)
 
-### 💡 Tip: Tagged template literals for safe HTML
-Template literals can be tagged with a function that pre-processes parts:
+### 💡 Tip: Optional chaining `?.` is your friend
+Replace verbose `&&` chains with `?.`:
 
 ---
 
@@ -24,6 +24,7 @@ Template literals can be tagged with a function that pre-processes parts:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-16](./logs/2026-07-16.md)
 - [2026-07-15](./logs/2026-07-15.md)
 - [2026-07-14](./logs/2026-07-14.md)
 - [2026-07-13](./logs/2026-07-13.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-05](./logs/2026-07-05.md)
 - [2026-07-04](./logs/2026-07-04.md)
 - [2026-07-03](./logs/2026-07-03.md)
-- [2026-07-02](./logs/2026-07-02.md)
 
 ---
 
