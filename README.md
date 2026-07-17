@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-18-blue)
+![Day](https://img.shields.io/badge/day-19-blue)
 
-## 📅 Today — Thursday, July 16, 2026 (Day 18)
+## 📅 Today — Friday, July 17, 2026 (Day 19)
 
-### 🧠 Challenge: Remove Duplicates from Array
-**Easy** · Arrays / Sets
+### 🧠 Challenge: Flatten Nested Array
+**Medium** · Recursion / Arrays
 
-Return a new array with duplicates removed, preserving the order of first occurrence.
+Flatten a deeply nested array into a single-level array.
 
-👉 [Full challenge + solution](./logs/2026-07-16.md)
+👉 [Full challenge + solution](./logs/2026-07-17.md)
 
-### 💡 Tip: Optional chaining `?.` is your friend
-Replace verbose `&&` chains with `?.`:
+### 💡 Tip: `Object.entries()` for key-value iteration
+Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
 
 ---
 
@@ -24,6 +24,7 @@ Replace verbose `&&` chains with `?.`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-17](./logs/2026-07-17.md)
 - [2026-07-16](./logs/2026-07-16.md)
 - [2026-07-15](./logs/2026-07-15.md)
 - [2026-07-14](./logs/2026-07-14.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-06](./logs/2026-07-06.md)
 - [2026-07-05](./logs/2026-07-05.md)
 - [2026-07-04](./logs/2026-07-04.md)
-- [2026-07-03](./logs/2026-07-03.md)
 
 ---
 
