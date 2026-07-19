@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-20-blue)
+![Day](https://img.shields.io/badge/day-21-blue)
 
-## 📅 Today — Saturday, July 18, 2026 (Day 20)
+## 📅 Today — Sunday, July 19, 2026 (Day 21)
 
-### 🧠 Challenge: Reverse a String
-**Easy** · Strings
+### 🧠 Challenge: Two Sum
+**Easy** · Arrays / Hash Maps
 
-Reverse a string without using the built-in `.reverse()` method.
+Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
 
-👉 [Full challenge + solution](./logs/2026-07-18.md)
+👉 [Full challenge + solution](./logs/2026-07-19.md)
 
-### 💡 Tip: Use `Set` for fast membership checks
-`Set.has()` is O(1), `Array.includes()` is O(n).
+### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
+`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
 
 ---
 
@@ -24,6 +24,7 @@ Reverse a string without using the built-in `.reverse()` method.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-19](./logs/2026-07-19.md)
 - [2026-07-18](./logs/2026-07-18.md)
 - [2026-07-17](./logs/2026-07-17.md)
 - [2026-07-16](./logs/2026-07-16.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-08](./logs/2026-07-08.md)
 - [2026-07-07](./logs/2026-07-07.md)
 - [2026-07-06](./logs/2026-07-06.md)
-- [2026-07-05](./logs/2026-07-05.md)
 
 ---
 
