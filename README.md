@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-21-blue)
+![Day](https://img.shields.io/badge/day-22-blue)
 
-## 📅 Today — Sunday, July 19, 2026 (Day 21)
+## 📅 Today — Monday, July 20, 2026 (Day 22)
 
-### 🧠 Challenge: Two Sum
-**Easy** · Arrays / Hash Maps
+### 🧠 Challenge: Deep Clone Object
+**Medium** · Objects / Recursion
 
-Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
+Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
 
-👉 [Full challenge + solution](./logs/2026-07-19.md)
+👉 [Full challenge + solution](./logs/2026-07-20.md)
 
-### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
-`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
+### 💡 Tip: `Object.entries()` for key-value iteration
+Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
 
 ---
 
@@ -24,6 +24,7 @@ Given an array of integers `nums` and an integer `target`, return the indices of
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-20](./logs/2026-07-20.md)
 - [2026-07-19](./logs/2026-07-19.md)
 - [2026-07-18](./logs/2026-07-18.md)
 - [2026-07-17](./logs/2026-07-17.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-09](./logs/2026-07-09.md)
 - [2026-07-08](./logs/2026-07-08.md)
 - [2026-07-07](./logs/2026-07-07.md)
-- [2026-07-06](./logs/2026-07-06.md)
 
 ---
 
