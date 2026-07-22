@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-23-blue)
+![Day](https://img.shields.io/badge/day-24-blue)
 
-## 📅 Today — Tuesday, July 21, 2026 (Day 23)
+## 📅 Today — Wednesday, July 22, 2026 (Day 24)
 
-### 🧠 Challenge: Find Maximum in Array
-**Easy** · Arrays
+### 🧠 Challenge: Throttle Function
+**Medium** · Closures / Async
 
-Find the maximum value in an array without using `Math.max()` or `.sort()`.
+Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
 
-👉 [Full challenge + solution](./logs/2026-07-21.md)
+👉 [Full challenge + solution](./logs/2026-07-22.md)
 
-### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
-`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
+### 💡 Tip: `Object.entries()` for key-value iteration
+Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
 
 ---
 
@@ -24,6 +24,7 @@ Find the maximum value in an array without using `Math.max()` or `.sort()`.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-22](./logs/2026-07-22.md)
 - [2026-07-21](./logs/2026-07-21.md)
 - [2026-07-20](./logs/2026-07-20.md)
 - [2026-07-19](./logs/2026-07-19.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-11](./logs/2026-07-11.md)
 - [2026-07-10](./logs/2026-07-10.md)
 - [2026-07-09](./logs/2026-07-09.md)
-- [2026-07-08](./logs/2026-07-08.md)
 
 ---
 
