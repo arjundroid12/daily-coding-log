@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-24-blue)
+![Day](https://img.shields.io/badge/day-25-blue)
 
-## 📅 Today — Wednesday, July 22, 2026 (Day 24)
+## 📅 Today — Thursday, July 23, 2026 (Day 25)
 
-### 🧠 Challenge: Throttle Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Valid Parentheses
+**Easy** · Stacks
 
-Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
+Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
 
-👉 [Full challenge + solution](./logs/2026-07-22.md)
+👉 [Full challenge + solution](./logs/2026-07-23.md)
 
-### 💡 Tip: `Object.entries()` for key-value iteration
-Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
+### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
+Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
 
 ---
 
@@ -24,6 +24,7 @@ Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` chec
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-23](./logs/2026-07-23.md)
 - [2026-07-22](./logs/2026-07-22.md)
 - [2026-07-21](./logs/2026-07-21.md)
 - [2026-07-20](./logs/2026-07-20.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-12](./logs/2026-07-12.md)
 - [2026-07-11](./logs/2026-07-11.md)
 - [2026-07-10](./logs/2026-07-10.md)
-- [2026-07-09](./logs/2026-07-09.md)
 
 ---
 
