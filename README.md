@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-25-blue)
+![Day](https://img.shields.io/badge/day-26-blue)
 
-## 📅 Today — Thursday, July 23, 2026 (Day 25)
+## 📅 Today — Friday, July 24, 2026 (Day 26)
 
-### 🧠 Challenge: Valid Parentheses
-**Easy** · Stacks
+### 🧠 Challenge: Factorial
+**Easy** · Recursion
 
-Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
+Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
 
-👉 [Full challenge + solution](./logs/2026-07-23.md)
+👉 [Full challenge + solution](./logs/2026-07-24.md)
 
-### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
-Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
+### 💡 Tip: Use `Intl` APIs for locale-aware formatting
+Stop hardcoding date/number formats. Use `Intl`:
 
 ---
 
@@ -24,6 +24,7 @@ Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-24](./logs/2026-07-24.md)
 - [2026-07-23](./logs/2026-07-23.md)
 - [2026-07-22](./logs/2026-07-22.md)
 - [2026-07-21](./logs/2026-07-21.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-13](./logs/2026-07-13.md)
 - [2026-07-12](./logs/2026-07-12.md)
 - [2026-07-11](./logs/2026-07-11.md)
-- [2026-07-10](./logs/2026-07-10.md)
 
 ---
 
