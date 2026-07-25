@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-26-blue)
+![Day](https://img.shields.io/badge/day-27-blue)
 
-## 📅 Today — Friday, July 24, 2026 (Day 26)
+## 📅 Today — Saturday, July 25, 2026 (Day 27)
 
-### 🧠 Challenge: Factorial
-**Easy** · Recursion
+### 🧠 Challenge: Sum of Digits
+**Easy** · Math / Loops
 
-Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
+Given a non-negative integer, return the sum of its digits.
 
-👉 [Full challenge + solution](./logs/2026-07-24.md)
+👉 [Full challenge + solution](./logs/2026-07-25.md)
 
-### 💡 Tip: Use `Intl` APIs for locale-aware formatting
-Stop hardcoding date/number formats. Use `Intl`:
+### 💡 Tip: Avoid `forEach` when you need to `break` or `return`
+`forEach` doesn't support `break` or early return — use `for...of` instead:
 
 ---
 
@@ -24,6 +24,7 @@ Stop hardcoding date/number formats. Use `Intl`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-25](./logs/2026-07-25.md)
 - [2026-07-24](./logs/2026-07-24.md)
 - [2026-07-23](./logs/2026-07-23.md)
 - [2026-07-22](./logs/2026-07-22.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-14](./logs/2026-07-14.md)
 - [2026-07-13](./logs/2026-07-13.md)
 - [2026-07-12](./logs/2026-07-12.md)
-- [2026-07-11](./logs/2026-07-11.md)
 
 ---
 
