@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-27-blue)
+![Day](https://img.shields.io/badge/day-28-blue)
 
-## 📅 Today — Saturday, July 25, 2026 (Day 27)
+## 📅 Today — Sunday, July 26, 2026 (Day 28)
 
-### 🧠 Challenge: Sum of Digits
-**Easy** · Math / Loops
+### 🧠 Challenge: Valid Parentheses
+**Easy** · Stacks
 
-Given a non-negative integer, return the sum of its digits.
+Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
 
-👉 [Full challenge + solution](./logs/2026-07-25.md)
+👉 [Full challenge + solution](./logs/2026-07-26.md)
 
-### 💡 Tip: Avoid `forEach` when you need to `break` or `return`
-`forEach` doesn't support `break` or early return — use `for...of` instead:
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
@@ -24,6 +24,7 @@ Given a non-negative integer, return the sum of its digits.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-26](./logs/2026-07-26.md)
 - [2026-07-25](./logs/2026-07-25.md)
 - [2026-07-24](./logs/2026-07-24.md)
 - [2026-07-23](./logs/2026-07-23.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-15](./logs/2026-07-15.md)
 - [2026-07-14](./logs/2026-07-14.md)
 - [2026-07-13](./logs/2026-07-13.md)
-- [2026-07-12](./logs/2026-07-12.md)
 
 ---
 
