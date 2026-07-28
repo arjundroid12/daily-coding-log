@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-29-blue)
+![Day](https://img.shields.io/badge/day-30-blue)
 
-## 📅 Today — Monday, July 27, 2026 (Day 29)
+## 📅 Today — Tuesday, July 28, 2026 (Day 30)
 
-### 🧠 Challenge: Fibonacci (Efficient)
-**Medium** · Dynamic Programming
+### 🧠 Challenge: Debounce Function
+**Medium** · Closures / Async
 
-Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
+Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
 
-👉 [Full challenge + solution](./logs/2026-07-27.md)
+👉 [Full challenge + solution](./logs/2026-07-28.md)
 
-### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
-Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
@@ -24,6 +24,7 @@ Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to 
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-28](./logs/2026-07-28.md)
 - [2026-07-27](./logs/2026-07-27.md)
 - [2026-07-26](./logs/2026-07-26.md)
 - [2026-07-25](./logs/2026-07-25.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-17](./logs/2026-07-17.md)
 - [2026-07-16](./logs/2026-07-16.md)
 - [2026-07-15](./logs/2026-07-15.md)
-- [2026-07-14](./logs/2026-07-14.md)
 
 ---
 
