@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-30-blue)
+![Day](https://img.shields.io/badge/day-31-blue)
 
-## 📅 Today — Tuesday, July 28, 2026 (Day 30)
+## 📅 Today — Wednesday, July 29, 2026 (Day 31)
 
-### 🧠 Challenge: Debounce Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Merge Two Sorted Arrays
+**Medium** · Arrays / Two Pointers
 
-Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
+Given two sorted arrays `a` and `b`, merge them into a single sorted array.
 
-👉 [Full challenge + solution](./logs/2026-07-28.md)
+👉 [Full challenge + solution](./logs/2026-07-29.md)
 
-### 💡 Tip: Use `structuredClone()` for deep copies
-Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
+### 💡 Tip: Avoid `forEach` when you need to `break` or `return`
+`forEach` doesn't support `break` or early return — use `for...of` instead:
 
 ---
 
@@ -24,6 +24,7 @@ Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, u
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-29](./logs/2026-07-29.md)
 - [2026-07-28](./logs/2026-07-28.md)
 - [2026-07-27](./logs/2026-07-27.md)
 - [2026-07-26](./logs/2026-07-26.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-18](./logs/2026-07-18.md)
 - [2026-07-17](./logs/2026-07-17.md)
 - [2026-07-16](./logs/2026-07-16.md)
-- [2026-07-15](./logs/2026-07-15.md)
 
 ---
 
