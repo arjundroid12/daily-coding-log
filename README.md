@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-31-blue)
+![Day](https://img.shields.io/badge/day-32-blue)
 
-## 📅 Today — Wednesday, July 29, 2026 (Day 31)
+## 📅 Today — Thursday, July 30, 2026 (Day 32)
 
-### 🧠 Challenge: Merge Two Sorted Arrays
-**Medium** · Arrays / Two Pointers
+### 🧠 Challenge: Reverse a String
+**Easy** · Strings
 
-Given two sorted arrays `a` and `b`, merge them into a single sorted array.
+Reverse a string without using the built-in `.reverse()` method.
 
-👉 [Full challenge + solution](./logs/2026-07-29.md)
+👉 [Full challenge + solution](./logs/2026-07-30.md)
 
-### 💡 Tip: Avoid `forEach` when you need to `break` or `return`
-`forEach` doesn't support `break` or early return — use `for...of` instead:
+### 💡 Tip: Use `??=` and `||=` for conditional assignment
+ES2021 added compound assignment for nullish and logical OR:
 
 ---
 
@@ -24,6 +24,7 @@ Given two sorted arrays `a` and `b`, merge them into a single sorted array.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-30](./logs/2026-07-30.md)
 - [2026-07-29](./logs/2026-07-29.md)
 - [2026-07-28](./logs/2026-07-28.md)
 - [2026-07-27](./logs/2026-07-27.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-19](./logs/2026-07-19.md)
 - [2026-07-18](./logs/2026-07-18.md)
 - [2026-07-17](./logs/2026-07-17.md)
-- [2026-07-16](./logs/2026-07-16.md)
 
 ---
 
