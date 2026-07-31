@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-32-blue)
+![Day](https://img.shields.io/badge/day-33-blue)
 
-## 📅 Today — Thursday, July 30, 2026 (Day 32)
+## 📅 Today — Friday, July 31, 2026 (Day 33)
 
-### 🧠 Challenge: Reverse a String
-**Easy** · Strings
+### 🧠 Challenge: Count Character Frequencies
+**Easy** · Strings / Hash Maps
 
-Reverse a string without using the built-in `.reverse()` method.
+Return an object mapping each character in a string to its frequency. Case-sensitive.
 
-👉 [Full challenge + solution](./logs/2026-07-30.md)
+👉 [Full challenge + solution](./logs/2026-07-31.md)
 
-### 💡 Tip: Use `??=` and `||=` for conditional assignment
-ES2021 added compound assignment for nullish and logical OR:
+### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
+For unique IDs, use the built-in crypto module:
 
 ---
 
@@ -24,6 +24,7 @@ ES2021 added compound assignment for nullish and logical OR:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-07-31](./logs/2026-07-31.md)
 - [2026-07-30](./logs/2026-07-30.md)
 - [2026-07-29](./logs/2026-07-29.md)
 - [2026-07-28](./logs/2026-07-28.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-20](./logs/2026-07-20.md)
 - [2026-07-19](./logs/2026-07-19.md)
 - [2026-07-18](./logs/2026-07-18.md)
-- [2026-07-17](./logs/2026-07-17.md)
 
 ---
 
