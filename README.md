@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-33-blue)
+![Day](https://img.shields.io/badge/day-34-blue)
 
-## 📅 Today — Friday, July 31, 2026 (Day 33)
+## 📅 Today — Saturday, August 1, 2026 (Day 34)
 
-### 🧠 Challenge: Count Character Frequencies
-**Easy** · Strings / Hash Maps
+### 🧠 Challenge: FizzBuzz
+**Easy** · Loops / Conditionals
 
-Return an object mapping each character in a string to its frequency. Case-sensitive.
+Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
 
-👉 [Full challenge + solution](./logs/2026-07-31.md)
+👉 [Full challenge + solution](./logs/2026-08-01.md)
 
-### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
-For unique IDs, use the built-in crypto module:
+### 💡 Tip: Use `??=` and `||=` for conditional assignment
+ES2021 added compound assignment for nullish and logical OR:
 
 ---
 
@@ -24,6 +24,7 @@ For unique IDs, use the built-in crypto module:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-01](./logs/2026-08-01.md)
 - [2026-07-31](./logs/2026-07-31.md)
 - [2026-07-30](./logs/2026-07-30.md)
 - [2026-07-29](./logs/2026-07-29.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-21](./logs/2026-07-21.md)
 - [2026-07-20](./logs/2026-07-20.md)
 - [2026-07-19](./logs/2026-07-19.md)
-- [2026-07-18](./logs/2026-07-18.md)
 
 ---
 
