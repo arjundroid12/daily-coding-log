@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-34-blue)
+![Day](https://img.shields.io/badge/day-35-blue)
 
-## 📅 Today — Saturday, August 1, 2026 (Day 34)
+## 📅 Today — Sunday, August 2, 2026 (Day 35)
 
-### 🧠 Challenge: FizzBuzz
-**Easy** · Loops / Conditionals
+### 🧠 Challenge: Find Maximum in Array
+**Easy** · Arrays
 
-Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
+Find the maximum value in an array without using `Math.max()` or `.sort()`.
 
-👉 [Full challenge + solution](./logs/2026-08-01.md)
+👉 [Full challenge + solution](./logs/2026-08-02.md)
 
-### 💡 Tip: Use `??=` and `||=` for conditional assignment
-ES2021 added compound assignment for nullish and logical OR:
+### 💡 Tip: Use `Set` for fast membership checks
+`Set.has()` is O(1), `Array.includes()` is O(n).
 
 ---
 
@@ -24,6 +24,7 @@ ES2021 added compound assignment for nullish and logical OR:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-02](./logs/2026-08-02.md)
 - [2026-08-01](./logs/2026-08-01.md)
 - [2026-07-31](./logs/2026-07-31.md)
 - [2026-07-30](./logs/2026-07-30.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-22](./logs/2026-07-22.md)
 - [2026-07-21](./logs/2026-07-21.md)
 - [2026-07-20](./logs/2026-07-20.md)
-- [2026-07-19](./logs/2026-07-19.md)
 
 ---
 
