@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-35-blue)
+![Day](https://img.shields.io/badge/day-36-blue)
 
-## 📅 Today — Sunday, August 2, 2026 (Day 35)
+## 📅 Today — Monday, August 3, 2026 (Day 36)
 
-### 🧠 Challenge: Find Maximum in Array
-**Easy** · Arrays
+### 🧠 Challenge: Palindrome Check
+**Easy** · Strings
 
-Find the maximum value in an array without using `Math.max()` or `.sort()`.
+Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
 
-👉 [Full challenge + solution](./logs/2026-08-02.md)
+👉 [Full challenge + solution](./logs/2026-08-03.md)
 
-### 💡 Tip: Use `Set` for fast membership checks
-`Set.has()` is O(1), `Array.includes()` is O(n).
+### 💡 Tip: Destructure with default values and renames
+You can provide defaults AND rename in one go:
 
 ---
 
@@ -24,6 +24,7 @@ Find the maximum value in an array without using `Math.max()` or `.sort()`.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-03](./logs/2026-08-03.md)
 - [2026-08-02](./logs/2026-08-02.md)
 - [2026-08-01](./logs/2026-08-01.md)
 - [2026-07-31](./logs/2026-07-31.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-23](./logs/2026-07-23.md)
 - [2026-07-22](./logs/2026-07-22.md)
 - [2026-07-21](./logs/2026-07-21.md)
-- [2026-07-20](./logs/2026-07-20.md)
 
 ---
 
