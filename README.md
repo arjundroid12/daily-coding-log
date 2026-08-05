@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-37-blue)
+![Day](https://img.shields.io/badge/day-38-blue)
 
-## 📅 Today — Tuesday, August 4, 2026 (Day 37)
+## 📅 Today — Wednesday, August 5, 2026 (Day 38)
 
-### 🧠 Challenge: Anagram Check
-**Easy** · Strings / Sorting
+### 🧠 Challenge: Capitalise Each Word
+**Easy** · Strings
 
-Check if two strings are anagrams (contain the same characters with the same frequencies).
+Given a sentence, capitalise the first letter of each word.
 
-👉 [Full challenge + solution](./logs/2026-08-04.md)
+👉 [Full challenge + solution](./logs/2026-08-05.md)
 
-### 💡 Tip: Use `??=` and `||=` for conditional assignment
-ES2021 added compound assignment for nullish and logical OR:
+### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
+ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
 
 ---
 
@@ -24,6 +24,7 @@ ES2021 added compound assignment for nullish and logical OR:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-05](./logs/2026-08-05.md)
 - [2026-08-04](./logs/2026-08-04.md)
 - [2026-08-03](./logs/2026-08-03.md)
 - [2026-08-02](./logs/2026-08-02.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-25](./logs/2026-07-25.md)
 - [2026-07-24](./logs/2026-07-24.md)
 - [2026-07-23](./logs/2026-07-23.md)
-- [2026-07-22](./logs/2026-07-22.md)
 
 ---
 
