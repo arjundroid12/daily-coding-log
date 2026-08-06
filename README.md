@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-38-blue)
+![Day](https://img.shields.io/badge/day-39-blue)
 
-## 📅 Today — Wednesday, August 5, 2026 (Day 38)
+## 📅 Today — Thursday, August 6, 2026 (Day 39)
 
-### 🧠 Challenge: Capitalise Each Word
-**Easy** · Strings
+### 🧠 Challenge: Merge Two Sorted Arrays
+**Medium** · Arrays / Two Pointers
 
-Given a sentence, capitalise the first letter of each word.
+Given two sorted arrays `a` and `b`, merge them into a single sorted array.
 
-👉 [Full challenge + solution](./logs/2026-08-05.md)
+👉 [Full challenge + solution](./logs/2026-08-06.md)
 
-### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
-ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
+### 💡 Tip: Use `Intl` APIs for locale-aware formatting
+Stop hardcoding date/number formats. Use `Intl`:
 
 ---
 
@@ -24,6 +24,7 @@ ES2023 added `findLast` / `findLastIndex` — find the LAST matching element wit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-06](./logs/2026-08-06.md)
 - [2026-08-05](./logs/2026-08-05.md)
 - [2026-08-04](./logs/2026-08-04.md)
 - [2026-08-03](./logs/2026-08-03.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-26](./logs/2026-07-26.md)
 - [2026-07-25](./logs/2026-07-25.md)
 - [2026-07-24](./logs/2026-07-24.md)
-- [2026-07-23](./logs/2026-07-23.md)
 
 ---
 
