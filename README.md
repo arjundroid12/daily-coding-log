@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-40-blue)
+![Day](https://img.shields.io/badge/day-42-blue)
 
-## 📅 Today — Friday, August 7, 2026 (Day 40)
+## 📅 Today — Sunday, August 9, 2026 (Day 42)
 
-### 🧠 Challenge: Count Character Frequencies
-**Easy** · Strings / Hash Maps
+### 🧠 Challenge: Factorial
+**Easy** · Recursion
 
-Return an object mapping each character in a string to its frequency. Case-sensitive.
+Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
 
-👉 [Full challenge + solution](./logs/2026-08-07.md)
+👉 [Full challenge + solution](./logs/2026-08-09.md)
 
-### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
-Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
+### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
+`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
 
 ---
 
@@ -24,6 +24,7 @@ Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-09](./logs/2026-08-09.md)
 - [2026-08-07](./logs/2026-08-07.md)
 - [2026-08-06](./logs/2026-08-06.md)
 - [2026-08-05](./logs/2026-08-05.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-28](./logs/2026-07-28.md)
 - [2026-07-27](./logs/2026-07-27.md)
 - [2026-07-26](./logs/2026-07-26.md)
-- [2026-07-25](./logs/2026-07-25.md)
 
 ---
 
