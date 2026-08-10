@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-42-blue)
+![Day](https://img.shields.io/badge/day-43-blue)
 
-## 📅 Today — Sunday, August 9, 2026 (Day 42)
+## 📅 Today — Monday, August 10, 2026 (Day 43)
 
-### 🧠 Challenge: Factorial
-**Easy** · Recursion
+### 🧠 Challenge: Flatten Nested Array
+**Medium** · Recursion / Arrays
 
-Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
+Flatten a deeply nested array into a single-level array.
 
-👉 [Full challenge + solution](./logs/2026-08-09.md)
+👉 [Full challenge + solution](./logs/2026-08-10.md)
 
-### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
-`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
@@ -24,6 +24,7 @@ Compute n! (n factorial) — the product of all positive integers up to n. Note:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-10](./logs/2026-08-10.md)
 - [2026-08-09](./logs/2026-08-09.md)
 - [2026-08-07](./logs/2026-08-07.md)
 - [2026-08-06](./logs/2026-08-06.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-29](./logs/2026-07-29.md)
 - [2026-07-28](./logs/2026-07-28.md)
 - [2026-07-27](./logs/2026-07-27.md)
-- [2026-07-26](./logs/2026-07-26.md)
 
 ---
 
