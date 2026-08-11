@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-43-blue)
+![Day](https://img.shields.io/badge/day-44-blue)
 
-## 📅 Today — Monday, August 10, 2026 (Day 43)
+## 📅 Today — Tuesday, August 11, 2026 (Day 44)
 
-### 🧠 Challenge: Flatten Nested Array
-**Medium** · Recursion / Arrays
+### 🧠 Challenge: Valid Parentheses
+**Easy** · Stacks
 
-Flatten a deeply nested array into a single-level array.
+Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
 
-👉 [Full challenge + solution](./logs/2026-08-10.md)
+👉 [Full challenge + solution](./logs/2026-08-11.md)
 
-### 💡 Tip: Use `structuredClone()` for deep copies
-Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
+### 💡 Tip: Top-level `await` works in ES modules
+In `.mjs` files (or with `"type": "module"` in package.json), you can use `await` at the top level — no wrapping IIFE needed:
 
 ---
 
@@ -24,6 +24,7 @@ Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, u
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-11](./logs/2026-08-11.md)
 - [2026-08-10](./logs/2026-08-10.md)
 - [2026-08-09](./logs/2026-08-09.md)
 - [2026-08-07](./logs/2026-08-07.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-30](./logs/2026-07-30.md)
 - [2026-07-29](./logs/2026-07-29.md)
 - [2026-07-28](./logs/2026-07-28.md)
-- [2026-07-27](./logs/2026-07-27.md)
 
 ---
 
