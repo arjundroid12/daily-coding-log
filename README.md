@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-44-blue)
+![Day](https://img.shields.io/badge/day-45-blue)
 
-## 📅 Today — Tuesday, August 11, 2026 (Day 44)
+## 📅 Today — Wednesday, August 12, 2026 (Day 45)
 
 ### 🧠 Challenge: Valid Parentheses
 **Easy** · Stacks
 
 Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
 
-👉 [Full challenge + solution](./logs/2026-08-11.md)
+👉 [Full challenge + solution](./logs/2026-08-12.md)
 
-### 💡 Tip: Top-level `await` works in ES modules
-In `.mjs` files (or with `"type": "module"` in package.json), you can use `await` at the top level — no wrapping IIFE needed:
+### 💡 Tip: Bit-shift for integer division by powers of 2
+Bit-shifting is faster than `Math.floor(n / 2)`:
 
 ---
 
@@ -24,6 +24,7 @@ In `.mjs` files (or with `"type": "module"` in package.json), you can use `await
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-12](./logs/2026-08-12.md)
 - [2026-08-11](./logs/2026-08-11.md)
 - [2026-08-10](./logs/2026-08-10.md)
 - [2026-08-09](./logs/2026-08-09.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-07-31](./logs/2026-07-31.md)
 - [2026-07-30](./logs/2026-07-30.md)
 - [2026-07-29](./logs/2026-07-29.md)
-- [2026-07-28](./logs/2026-07-28.md)
 
 ---
 
