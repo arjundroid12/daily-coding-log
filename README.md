@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-45-blue)
+![Day](https://img.shields.io/badge/day-46-blue)
 
-## 📅 Today — Wednesday, August 12, 2026 (Day 45)
+## 📅 Today — Thursday, August 13, 2026 (Day 46)
 
-### 🧠 Challenge: Valid Parentheses
-**Easy** · Stacks
+### 🧠 Challenge: Binary Search
+**Medium** · Search Algorithms
 
-Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
+Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.
 
-👉 [Full challenge + solution](./logs/2026-08-12.md)
+👉 [Full challenge + solution](./logs/2026-08-13.md)
 
-### 💡 Tip: Bit-shift for integer division by powers of 2
-Bit-shifting is faster than `Math.floor(n / 2)`:
+### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
+Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
 
 ---
 
@@ -24,6 +24,7 @@ Bit-shifting is faster than `Math.floor(n / 2)`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-13](./logs/2026-08-13.md)
 - [2026-08-12](./logs/2026-08-12.md)
 - [2026-08-11](./logs/2026-08-11.md)
 - [2026-08-10](./logs/2026-08-10.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-01](./logs/2026-08-01.md)
 - [2026-07-31](./logs/2026-07-31.md)
 - [2026-07-30](./logs/2026-07-30.md)
-- [2026-07-29](./logs/2026-07-29.md)
 
 ---
 
