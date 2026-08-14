@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-46-blue)
+![Day](https://img.shields.io/badge/day-47-blue)
 
-## 📅 Today — Thursday, August 13, 2026 (Day 46)
+## 📅 Today — Friday, August 14, 2026 (Day 47)
 
-### 🧠 Challenge: Binary Search
-**Medium** · Search Algorithms
+### 🧠 Challenge: FizzBuzz
+**Easy** · Loops / Conditionals
 
-Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.
+Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
 
-👉 [Full challenge + solution](./logs/2026-08-13.md)
+👉 [Full challenge + solution](./logs/2026-08-14.md)
 
-### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
-Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
+### 💡 Tip: Bit-shift for integer division by powers of 2
+Bit-shifting is faster than `Math.floor(n / 2)`:
 
 ---
 
@@ -24,6 +24,7 @@ Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to 
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-14](./logs/2026-08-14.md)
 - [2026-08-13](./logs/2026-08-13.md)
 - [2026-08-12](./logs/2026-08-12.md)
 - [2026-08-11](./logs/2026-08-11.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-02](./logs/2026-08-02.md)
 - [2026-08-01](./logs/2026-08-01.md)
 - [2026-07-31](./logs/2026-07-31.md)
-- [2026-07-30](./logs/2026-07-30.md)
 
 ---
 
