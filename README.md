@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-47-blue)
+![Day](https://img.shields.io/badge/day-48-blue)
 
-## 📅 Today — Friday, August 14, 2026 (Day 47)
+## 📅 Today — Saturday, August 15, 2026 (Day 48)
 
-### 🧠 Challenge: FizzBuzz
-**Easy** · Loops / Conditionals
+### 🧠 Challenge: Reverse a String
+**Easy** · Strings
 
-Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
+Reverse a string without using the built-in `.reverse()` method.
 
-👉 [Full challenge + solution](./logs/2026-08-14.md)
+👉 [Full challenge + solution](./logs/2026-08-15.md)
 
-### 💡 Tip: Bit-shift for integer division by powers of 2
-Bit-shifting is faster than `Math.floor(n / 2)`:
+### 💡 Tip: `Object.entries()` for key-value iteration
+Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
 
 ---
 
@@ -24,6 +24,7 @@ Bit-shifting is faster than `Math.floor(n / 2)`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-15](./logs/2026-08-15.md)
 - [2026-08-14](./logs/2026-08-14.md)
 - [2026-08-13](./logs/2026-08-13.md)
 - [2026-08-12](./logs/2026-08-12.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-03](./logs/2026-08-03.md)
 - [2026-08-02](./logs/2026-08-02.md)
 - [2026-08-01](./logs/2026-08-01.md)
-- [2026-07-31](./logs/2026-07-31.md)
 
 ---
 
