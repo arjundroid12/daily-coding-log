@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-48-blue)
+![Day](https://img.shields.io/badge/day-49-blue)
 
-## 📅 Today — Saturday, August 15, 2026 (Day 48)
+## 📅 Today — Sunday, August 16, 2026 (Day 49)
 
-### 🧠 Challenge: Reverse a String
+### 🧠 Challenge: Palindrome Check
 **Easy** · Strings
 
-Reverse a string without using the built-in `.reverse()` method.
+Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
 
-👉 [Full challenge + solution](./logs/2026-08-15.md)
+👉 [Full challenge + solution](./logs/2026-08-16.md)
 
-### 💡 Tip: `Object.entries()` for key-value iteration
-Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
+### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
+ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
 
 ---
 
@@ -24,6 +24,7 @@ Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` chec
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-16](./logs/2026-08-16.md)
 - [2026-08-15](./logs/2026-08-15.md)
 - [2026-08-14](./logs/2026-08-14.md)
 - [2026-08-13](./logs/2026-08-13.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-04](./logs/2026-08-04.md)
 - [2026-08-03](./logs/2026-08-03.md)
 - [2026-08-02](./logs/2026-08-02.md)
-- [2026-08-01](./logs/2026-08-01.md)
 
 ---
 
