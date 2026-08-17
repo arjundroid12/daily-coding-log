@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-49-blue)
+![Day](https://img.shields.io/badge/day-50-blue)
 
-## 📅 Today — Sunday, August 16, 2026 (Day 49)
+## 📅 Today — Monday, August 17, 2026 (Day 50)
 
-### 🧠 Challenge: Palindrome Check
-**Easy** · Strings
+### 🧠 Challenge: Factorial
+**Easy** · Recursion
 
-Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
+Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
 
-👉 [Full challenge + solution](./logs/2026-08-16.md)
+👉 [Full challenge + solution](./logs/2026-08-17.md)
 
-### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
-ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
+### 💡 Tip: Bit-shift for integer division by powers of 2
+Bit-shifting is faster than `Math.floor(n / 2)`:
 
 ---
 
@@ -24,6 +24,7 @@ ES2023 added `findLast` / `findLastIndex` — find the LAST matching element wit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-17](./logs/2026-08-17.md)
 - [2026-08-16](./logs/2026-08-16.md)
 - [2026-08-15](./logs/2026-08-15.md)
 - [2026-08-14](./logs/2026-08-14.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-05](./logs/2026-08-05.md)
 - [2026-08-04](./logs/2026-08-04.md)
 - [2026-08-03](./logs/2026-08-03.md)
-- [2026-08-02](./logs/2026-08-02.md)
 
 ---
 
