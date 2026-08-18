@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-50-blue)
+![Day](https://img.shields.io/badge/day-51-blue)
 
-## 📅 Today — Monday, August 17, 2026 (Day 50)
+## 📅 Today — Tuesday, August 18, 2026 (Day 51)
 
-### 🧠 Challenge: Factorial
-**Easy** · Recursion
+### 🧠 Challenge: Throttle Function
+**Medium** · Closures / Async
 
-Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
+Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
 
-👉 [Full challenge + solution](./logs/2026-08-17.md)
+👉 [Full challenge + solution](./logs/2026-08-18.md)
 
-### 💡 Tip: Bit-shift for integer division by powers of 2
-Bit-shifting is faster than `Math.floor(n / 2)`:
+### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
+Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
 
 ---
 
@@ -24,6 +24,7 @@ Bit-shifting is faster than `Math.floor(n / 2)`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-18](./logs/2026-08-18.md)
 - [2026-08-17](./logs/2026-08-17.md)
 - [2026-08-16](./logs/2026-08-16.md)
 - [2026-08-15](./logs/2026-08-15.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-06](./logs/2026-08-06.md)
 - [2026-08-05](./logs/2026-08-05.md)
 - [2026-08-04](./logs/2026-08-04.md)
-- [2026-08-03](./logs/2026-08-03.md)
 
 ---
 
