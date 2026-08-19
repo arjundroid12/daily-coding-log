@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-51-blue)
+![Day](https://img.shields.io/badge/day-52-blue)
 
-## 📅 Today — Tuesday, August 18, 2026 (Day 51)
+## 📅 Today — Wednesday, August 19, 2026 (Day 52)
 
-### 🧠 Challenge: Throttle Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Remove Duplicates from Array
+**Easy** · Arrays / Sets
 
-Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
+Return a new array with duplicates removed, preserving the order of first occurrence.
 
-👉 [Full challenge + solution](./logs/2026-08-18.md)
+👉 [Full challenge + solution](./logs/2026-08-19.md)
 
-### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
-Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
+### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
+Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
 
 ---
 
@@ -24,6 +24,7 @@ Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-19](./logs/2026-08-19.md)
 - [2026-08-18](./logs/2026-08-18.md)
 - [2026-08-17](./logs/2026-08-17.md)
 - [2026-08-16](./logs/2026-08-16.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-07](./logs/2026-08-07.md)
 - [2026-08-06](./logs/2026-08-06.md)
 - [2026-08-05](./logs/2026-08-05.md)
-- [2026-08-04](./logs/2026-08-04.md)
 
 ---
 
