@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-52-blue)
+![Day](https://img.shields.io/badge/day-53-blue)
 
-## 📅 Today — Wednesday, August 19, 2026 (Day 52)
+## 📅 Today — Thursday, August 20, 2026 (Day 53)
 
-### 🧠 Challenge: Remove Duplicates from Array
-**Easy** · Arrays / Sets
+### 🧠 Challenge: Reverse a String
+**Easy** · Strings
 
-Return a new array with duplicates removed, preserving the order of first occurrence.
+Reverse a string without using the built-in `.reverse()` method.
 
-👉 [Full challenge + solution](./logs/2026-08-19.md)
+👉 [Full challenge + solution](./logs/2026-08-20.md)
 
-### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
-Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
+### 💡 Tip: Use `AbortController` for cancellable fetch
+Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
 
 ---
 
@@ -24,6 +24,7 @@ Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to 
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-20](./logs/2026-08-20.md)
 - [2026-08-19](./logs/2026-08-19.md)
 - [2026-08-18](./logs/2026-08-18.md)
 - [2026-08-17](./logs/2026-08-17.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-09](./logs/2026-08-09.md)
 - [2026-08-07](./logs/2026-08-07.md)
 - [2026-08-06](./logs/2026-08-06.md)
-- [2026-08-05](./logs/2026-08-05.md)
 
 ---
 
