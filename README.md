@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-53-blue)
+![Day](https://img.shields.io/badge/day-54-blue)
 
-## 📅 Today — Thursday, August 20, 2026 (Day 53)
+## 📅 Today — Friday, August 21, 2026 (Day 54)
 
-### 🧠 Challenge: Reverse a String
-**Easy** · Strings
+### 🧠 Challenge: Debounce Function
+**Medium** · Closures / Async
 
-Reverse a string without using the built-in `.reverse()` method.
+Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
 
-👉 [Full challenge + solution](./logs/2026-08-20.md)
+👉 [Full challenge + solution](./logs/2026-08-21.md)
 
-### 💡 Tip: Use `AbortController` for cancellable fetch
-Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
+### 💡 Tip: `Object.entries()` for key-value iteration
+Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
 
 ---
 
@@ -24,6 +24,7 @@ Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-21](./logs/2026-08-21.md)
 - [2026-08-20](./logs/2026-08-20.md)
 - [2026-08-19](./logs/2026-08-19.md)
 - [2026-08-18](./logs/2026-08-18.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-10](./logs/2026-08-10.md)
 - [2026-08-09](./logs/2026-08-09.md)
 - [2026-08-07](./logs/2026-08-07.md)
-- [2026-08-06](./logs/2026-08-06.md)
 
 ---
 
