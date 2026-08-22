@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-54-blue)
+![Day](https://img.shields.io/badge/day-55-blue)
 
-## 📅 Today — Friday, August 21, 2026 (Day 54)
+## 📅 Today — Saturday, August 22, 2026 (Day 55)
 
-### 🧠 Challenge: Debounce Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Deep Clone Object
+**Medium** · Objects / Recursion
 
-Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
+Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
 
-👉 [Full challenge + solution](./logs/2026-08-21.md)
+👉 [Full challenge + solution](./logs/2026-08-22.md)
 
-### 💡 Tip: `Object.entries()` for key-value iteration
-Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
+### 💡 Tip: Use `??=` and `||=` for conditional assignment
+ES2021 added compound assignment for nullish and logical OR:
 
 ---
 
@@ -24,6 +24,7 @@ Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` chec
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-22](./logs/2026-08-22.md)
 - [2026-08-21](./logs/2026-08-21.md)
 - [2026-08-20](./logs/2026-08-20.md)
 - [2026-08-19](./logs/2026-08-19.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-11](./logs/2026-08-11.md)
 - [2026-08-10](./logs/2026-08-10.md)
 - [2026-08-09](./logs/2026-08-09.md)
-- [2026-08-07](./logs/2026-08-07.md)
 
 ---
 
