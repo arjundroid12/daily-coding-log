@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-55-blue)
+![Day](https://img.shields.io/badge/day-56-blue)
 
-## 📅 Today — Saturday, August 22, 2026 (Day 55)
+## 📅 Today — Sunday, August 23, 2026 (Day 56)
 
-### 🧠 Challenge: Deep Clone Object
-**Medium** · Objects / Recursion
+### 🧠 Challenge: Count Vowels
+**Easy** · Strings / Regex
 
-Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
+Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
 
-👉 [Full challenge + solution](./logs/2026-08-22.md)
+👉 [Full challenge + solution](./logs/2026-08-23.md)
 
-### 💡 Tip: Use `??=` and `||=` for conditional assignment
-ES2021 added compound assignment for nullish and logical OR:
+### 💡 Tip: `Array.prototype.at()` for negative indexing
+Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 ---
 
@@ -24,6 +24,7 @@ ES2021 added compound assignment for nullish and logical OR:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-23](./logs/2026-08-23.md)
 - [2026-08-22](./logs/2026-08-22.md)
 - [2026-08-21](./logs/2026-08-21.md)
 - [2026-08-20](./logs/2026-08-20.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-12](./logs/2026-08-12.md)
 - [2026-08-11](./logs/2026-08-11.md)
 - [2026-08-10](./logs/2026-08-10.md)
-- [2026-08-09](./logs/2026-08-09.md)
 
 ---
 
