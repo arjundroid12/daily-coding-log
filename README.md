@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-56-blue)
+![Day](https://img.shields.io/badge/day-57-blue)
 
-## 📅 Today — Sunday, August 23, 2026 (Day 56)
+## 📅 Today — Monday, August 24, 2026 (Day 57)
 
-### 🧠 Challenge: Count Vowels
-**Easy** · Strings / Regex
+### 🧠 Challenge: FizzBuzz
+**Easy** · Loops / Conditionals
 
-Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
+Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
 
-👉 [Full challenge + solution](./logs/2026-08-23.md)
+👉 [Full challenge + solution](./logs/2026-08-24.md)
 
-### 💡 Tip: `Array.prototype.at()` for negative indexing
-Forget `arr[arr.length - 1]` — use `.at(-1)`.
+### 💡 Tip: Optional chaining `?.` is your friend
+Replace verbose `&&` chains with `?.`:
 
 ---
 
@@ -24,6 +24,7 @@ Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-24](./logs/2026-08-24.md)
 - [2026-08-23](./logs/2026-08-23.md)
 - [2026-08-22](./logs/2026-08-22.md)
 - [2026-08-21](./logs/2026-08-21.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-13](./logs/2026-08-13.md)
 - [2026-08-12](./logs/2026-08-12.md)
 - [2026-08-11](./logs/2026-08-11.md)
-- [2026-08-10](./logs/2026-08-10.md)
 
 ---
 
