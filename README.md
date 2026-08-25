@@ -4,16 +4,16 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-57-blue)
+![Day](https://img.shields.io/badge/day-58-blue)
 
-## 📅 Today — Monday, August 24, 2026 (Day 57)
+## 📅 Today — Tuesday, August 25, 2026 (Day 58)
 
-### 🧠 Challenge: FizzBuzz
-**Easy** · Loops / Conditionals
+### 🧠 Challenge: Count Character Frequencies
+**Easy** · Strings / Hash Maps
 
-Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
+Return an object mapping each character in a string to its frequency. Case-sensitive.
 
-👉 [Full challenge + solution](./logs/2026-08-24.md)
+👉 [Full challenge + solution](./logs/2026-08-25.md)
 
 ### 💡 Tip: Optional chaining `?.` is your friend
 Replace verbose `&&` chains with `?.`:
@@ -24,6 +24,7 @@ Replace verbose `&&` chains with `?.`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-25](./logs/2026-08-25.md)
 - [2026-08-24](./logs/2026-08-24.md)
 - [2026-08-23](./logs/2026-08-23.md)
 - [2026-08-22](./logs/2026-08-22.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-14](./logs/2026-08-14.md)
 - [2026-08-13](./logs/2026-08-13.md)
 - [2026-08-12](./logs/2026-08-12.md)
-- [2026-08-11](./logs/2026-08-11.md)
 
 ---
 
