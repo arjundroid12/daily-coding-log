@@ -8,15 +8,15 @@
 
 ## 📅 Today — Thursday, August 27, 2026 (Day 60)
 
-### 🧠 Challenge: Fibonacci (Efficient)
-**Medium** · Dynamic Programming
+### 🧠 Challenge: Count Character Frequencies
+**Easy** · Strings / Hash Maps
 
-Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
+Return an object mapping each character in a string to its frequency. Case-sensitive.
 
 👉 [Full challenge + solution](./logs/2026-08-27.md)
 
-### 💡 Tip: Bit-shift for integer division by powers of 2
-Bit-shifting is faster than `Math.floor(n / 2)`:
+### 💡 Tip: `Array.prototype.at()` for negative indexing
+Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 ---
 
