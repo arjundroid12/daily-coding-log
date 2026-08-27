@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-59-blue)
+![Day](https://img.shields.io/badge/day-60-blue)
 
-## 📅 Today — Wednesday, August 26, 2026 (Day 59)
+## 📅 Today — Thursday, August 27, 2026 (Day 60)
 
-### 🧠 Challenge: Count Character Frequencies
-**Easy** · Strings / Hash Maps
+### 🧠 Challenge: Fibonacci (Efficient)
+**Medium** · Dynamic Programming
 
-Return an object mapping each character in a string to its frequency. Case-sensitive.
+Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
 
-👉 [Full challenge + solution](./logs/2026-08-26.md)
+👉 [Full challenge + solution](./logs/2026-08-27.md)
 
-### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
-ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
+### 💡 Tip: Bit-shift for integer division by powers of 2
+Bit-shifting is faster than `Math.floor(n / 2)`:
 
 ---
 
@@ -24,6 +24,7 @@ ES2023 added `findLast` / `findLastIndex` — find the LAST matching element wit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-27](./logs/2026-08-27.md)
 - [2026-08-26](./logs/2026-08-26.md)
 - [2026-08-25](./logs/2026-08-25.md)
 - [2026-08-24](./logs/2026-08-24.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-16](./logs/2026-08-16.md)
 - [2026-08-15](./logs/2026-08-15.md)
 - [2026-08-14](./logs/2026-08-14.md)
-- [2026-08-13](./logs/2026-08-13.md)
 
 ---
 
