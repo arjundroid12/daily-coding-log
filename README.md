@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-61-blue)
+![Day](https://img.shields.io/badge/day-62-blue)
 
-## 📅 Today — Friday, August 28, 2026 (Day 61)
+## 📅 Today — Saturday, August 29, 2026 (Day 62)
 
-### 🧠 Challenge: FizzBuzz
-**Easy** · Loops / Conditionals
+### 🧠 Challenge: Valid Parentheses
+**Easy** · Stacks
 
-Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
+Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
 
-👉 [Full challenge + solution](./logs/2026-08-28.md)
+👉 [Full challenge + solution](./logs/2026-08-29.md)
 
-### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
-`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
+### 💡 Tip: `Array.prototype.at()` for negative indexing
+Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 ---
 
@@ -24,6 +24,7 @@ Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. 
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-29](./logs/2026-08-29.md)
 - [2026-08-28](./logs/2026-08-28.md)
 - [2026-08-27](./logs/2026-08-27.md)
 - [2026-08-26](./logs/2026-08-26.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-18](./logs/2026-08-18.md)
 - [2026-08-17](./logs/2026-08-17.md)
 - [2026-08-16](./logs/2026-08-16.md)
-- [2026-08-15](./logs/2026-08-15.md)
 
 ---
 
