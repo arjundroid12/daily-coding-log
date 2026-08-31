@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-63-blue)
+![Day](https://img.shields.io/badge/day-64-blue)
 
-## 📅 Today — Sunday, August 30, 2026 (Day 63)
+## 📅 Today — Monday, August 31, 2026 (Day 64)
 
-### 🧠 Challenge: FizzBuzz
-**Easy** · Loops / Conditionals
+### 🧠 Challenge: Count Vowels
+**Easy** · Strings / Regex
 
-Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
+Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
 
-👉 [Full challenge + solution](./logs/2026-08-30.md)
+👉 [Full challenge + solution](./logs/2026-08-31.md)
 
-### 💡 Tip: Use `Intl` APIs for locale-aware formatting
-Stop hardcoding date/number formats. Use `Intl`:
+### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
+Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
 
 ---
 
@@ -24,6 +24,7 @@ Stop hardcoding date/number formats. Use `Intl`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-08-31](./logs/2026-08-31.md)
 - [2026-08-30](./logs/2026-08-30.md)
 - [2026-08-29](./logs/2026-08-29.md)
 - [2026-08-28](./logs/2026-08-28.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-20](./logs/2026-08-20.md)
 - [2026-08-19](./logs/2026-08-19.md)
 - [2026-08-18](./logs/2026-08-18.md)
-- [2026-08-17](./logs/2026-08-17.md)
 
 ---
 
