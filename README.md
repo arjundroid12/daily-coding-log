@@ -8,15 +8,15 @@
 
 ## 📅 Today — Monday, August 31, 2026 (Day 64)
 
-### 🧠 Challenge: Deep Clone Object
-**Medium** · Objects / Recursion
+### 🧠 Challenge: Find Maximum in Array
+**Easy** · Arrays
 
-Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
+Find the maximum value in an array without using `Math.max()` or `.sort()`.
 
 👉 [Full challenge + solution](./logs/2026-08-31.md)
 
-### 💡 Tip: Use `??=` and `||=` for conditional assignment
-ES2021 added compound assignment for nullish and logical OR:
+### 💡 Tip: Destructure with default values and renames
+You can provide defaults AND rename in one go:
 
 ---
 
