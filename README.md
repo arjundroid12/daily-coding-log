@@ -8,15 +8,15 @@
 
 ## 📅 Today — Monday, August 31, 2026 (Day 64)
 
-### 🧠 Challenge: Count Vowels
-**Easy** · Strings / Regex
+### 🧠 Challenge: Deep Clone Object
+**Medium** · Objects / Recursion
 
-Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
+Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
 
 👉 [Full challenge + solution](./logs/2026-08-31.md)
 
-### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
-Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
+### 💡 Tip: Use `??=` and `||=` for conditional assignment
+ES2021 added compound assignment for nullish and logical OR:
 
 ---
 
