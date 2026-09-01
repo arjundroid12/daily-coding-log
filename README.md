@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-64-blue)
+![Day](https://img.shields.io/badge/day-65-blue)
 
-## 📅 Today — Monday, August 31, 2026 (Day 64)
+## 📅 Today — Tuesday, September 1, 2026 (Day 65)
 
 ### 🧠 Challenge: Find Maximum in Array
 **Easy** · Arrays
 
 Find the maximum value in an array without using `Math.max()` or `.sort()`.
 
-👉 [Full challenge + solution](./logs/2026-08-31.md)
+👉 [Full challenge + solution](./logs/2026-09-01.md)
 
-### 💡 Tip: Destructure with default values and renames
-You can provide defaults AND rename in one go:
+### 💡 Tip: Use `AbortController` for cancellable fetch
+Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
 
 ---
 
@@ -24,6 +24,7 @@ You can provide defaults AND rename in one go:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-01](./logs/2026-09-01.md)
 - [2026-08-31](./logs/2026-08-31.md)
 - [2026-08-30](./logs/2026-08-30.md)
 - [2026-08-29](./logs/2026-08-29.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-21](./logs/2026-08-21.md)
 - [2026-08-20](./logs/2026-08-20.md)
 - [2026-08-19](./logs/2026-08-19.md)
-- [2026-08-18](./logs/2026-08-18.md)
 
 ---
 
