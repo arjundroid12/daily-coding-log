@@ -8,15 +8,15 @@
 
 ## 📅 Today — Thursday, September 3, 2026 (Day 67)
 
-### 🧠 Challenge: Reverse a String
+### 🧠 Challenge: Palindrome Check
 **Easy** · Strings
 
-Reverse a string without using the built-in `.reverse()` method.
+Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
 
 👉 [Full challenge + solution](./logs/2026-09-03.md)
 
-### 💡 Tip: `Array.prototype.at()` for negative indexing
-Forget `arr[arr.length - 1]` — use `.at(-1)`.
+### 💡 Tip: Avoid `forEach` when you need to `break` or `return`
+`forEach` doesn't support `break` or early return — use `for...of` instead:
 
 ---
 
