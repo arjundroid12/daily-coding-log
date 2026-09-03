@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-66-blue)
+![Day](https://img.shields.io/badge/day-67-blue)
 
-## 📅 Today — Wednesday, September 2, 2026 (Day 66)
+## 📅 Today — Thursday, September 3, 2026 (Day 67)
 
-### 🧠 Challenge: Factorial
-**Easy** · Recursion
+### 🧠 Challenge: Reverse a String
+**Easy** · Strings
 
-Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
+Reverse a string without using the built-in `.reverse()` method.
 
-👉 [Full challenge + solution](./logs/2026-09-02.md)
+👉 [Full challenge + solution](./logs/2026-09-03.md)
 
-### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
-Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
+### 💡 Tip: `Array.prototype.at()` for negative indexing
+Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 ---
 
@@ -24,6 +24,7 @@ Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-03](./logs/2026-09-03.md)
 - [2026-09-02](./logs/2026-09-02.md)
 - [2026-09-01](./logs/2026-09-01.md)
 - [2026-08-31](./logs/2026-08-31.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-23](./logs/2026-08-23.md)
 - [2026-08-22](./logs/2026-08-22.md)
 - [2026-08-21](./logs/2026-08-21.md)
-- [2026-08-20](./logs/2026-08-20.md)
 
 ---
 
