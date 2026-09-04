@@ -8,15 +8,15 @@
 
 ## 📅 Today — Friday, September 4, 2026 (Day 68)
 
-### 🧠 Challenge: Debounce Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Count Vowels
+**Easy** · Strings / Regex
 
-Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
+Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
 
 👉 [Full challenge + solution](./logs/2026-09-04.md)
 
-### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
-`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
+### 💡 Tip: Top-level `await` works in ES modules
+In `.mjs` files (or with `"type": "module"` in package.json), you can use `await` at the top level — no wrapping IIFE needed:
 
 ---
 
