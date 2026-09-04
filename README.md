@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-67-blue)
+![Day](https://img.shields.io/badge/day-68-blue)
 
-## 📅 Today — Thursday, September 3, 2026 (Day 67)
+## 📅 Today — Friday, September 4, 2026 (Day 68)
 
-### 🧠 Challenge: Palindrome Check
-**Easy** · Strings
+### 🧠 Challenge: Debounce Function
+**Medium** · Closures / Async
 
-Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
+Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
 
-👉 [Full challenge + solution](./logs/2026-09-03.md)
+👉 [Full challenge + solution](./logs/2026-09-04.md)
 
-### 💡 Tip: Avoid `forEach` when you need to `break` or `return`
-`forEach` doesn't support `break` or early return — use `for...of` instead:
+### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
+`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
 
 ---
 
@@ -24,6 +24,7 @@ Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric c
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-04](./logs/2026-09-04.md)
 - [2026-09-03](./logs/2026-09-03.md)
 - [2026-09-02](./logs/2026-09-02.md)
 - [2026-09-01](./logs/2026-09-01.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-24](./logs/2026-08-24.md)
 - [2026-08-23](./logs/2026-08-23.md)
 - [2026-08-22](./logs/2026-08-22.md)
-- [2026-08-21](./logs/2026-08-21.md)
 
 ---
 
