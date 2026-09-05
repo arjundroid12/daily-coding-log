@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-68-blue)
+![Day](https://img.shields.io/badge/day-69-blue)
 
-## 📅 Today — Friday, September 4, 2026 (Day 68)
+## 📅 Today — Saturday, September 5, 2026 (Day 69)
 
-### 🧠 Challenge: Count Vowels
-**Easy** · Strings / Regex
+### 🧠 Challenge: FizzBuzz
+**Easy** · Loops / Conditionals
 
-Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
+Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
 
-👉 [Full challenge + solution](./logs/2026-09-04.md)
+👉 [Full challenge + solution](./logs/2026-09-05.md)
 
-### 💡 Tip: Top-level `await` works in ES modules
-In `.mjs` files (or with `"type": "module"` in package.json), you can use `await` at the top level — no wrapping IIFE needed:
+### 💡 Tip: Use `??=` and `||=` for conditional assignment
+ES2021 added compound assignment for nullish and logical OR:
 
 ---
 
@@ -24,6 +24,7 @@ In `.mjs` files (or with `"type": "module"` in package.json), you can use `await
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-05](./logs/2026-09-05.md)
 - [2026-09-04](./logs/2026-09-04.md)
 - [2026-09-03](./logs/2026-09-03.md)
 - [2026-09-02](./logs/2026-09-02.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-25](./logs/2026-08-25.md)
 - [2026-08-24](./logs/2026-08-24.md)
 - [2026-08-23](./logs/2026-08-23.md)
-- [2026-08-22](./logs/2026-08-22.md)
 
 ---
 
