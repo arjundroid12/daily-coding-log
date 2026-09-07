@@ -8,15 +8,15 @@
 
 ## 📅 Today — Monday, September 7, 2026 (Day 71)
 
-### 🧠 Challenge: Merge Two Sorted Arrays
-**Medium** · Arrays / Two Pointers
+### 🧠 Challenge: Palindrome Check
+**Easy** · Strings
 
-Given two sorted arrays `a` and `b`, merge them into a single sorted array.
+Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
 
 👉 [Full challenge + solution](./logs/2026-09-07.md)
 
-### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
-ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
+### 💡 Tip: Tagged template literals for safe HTML
+Template literals can be tagged with a function that pre-processes parts:
 
 ---
 
