@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-70-blue)
+![Day](https://img.shields.io/badge/day-71-blue)
 
-## 📅 Today — Sunday, September 6, 2026 (Day 70)
+## 📅 Today — Monday, September 7, 2026 (Day 71)
 
 ### 🧠 Challenge: Merge Two Sorted Arrays
 **Medium** · Arrays / Two Pointers
 
 Given two sorted arrays `a` and `b`, merge them into a single sorted array.
 
-👉 [Full challenge + solution](./logs/2026-09-06.md)
+👉 [Full challenge + solution](./logs/2026-09-07.md)
 
-### 💡 Tip: Avoid `forEach` when you need to `break` or `return`
-`forEach` doesn't support `break` or early return — use `for...of` instead:
+### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
+ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
 
 ---
 
@@ -24,6 +24,7 @@ Given two sorted arrays `a` and `b`, merge them into a single sorted array.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-07](./logs/2026-09-07.md)
 - [2026-09-06](./logs/2026-09-06.md)
 - [2026-09-05](./logs/2026-09-05.md)
 - [2026-09-04](./logs/2026-09-04.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-27](./logs/2026-08-27.md)
 - [2026-08-26](./logs/2026-08-26.md)
 - [2026-08-25](./logs/2026-08-25.md)
-- [2026-08-24](./logs/2026-08-24.md)
 
 ---
 
