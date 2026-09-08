@@ -8,15 +8,15 @@
 
 ## 📅 Today — Tuesday, September 8, 2026 (Day 72)
 
-### 🧠 Challenge: Deep Clone Object
-**Medium** · Objects / Recursion
+### 🧠 Challenge: Valid Parentheses
+**Easy** · Stacks
 
-Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
+Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
 
 👉 [Full challenge + solution](./logs/2026-09-08.md)
 
-### 💡 Tip: `Array.prototype.at()` for negative indexing
-Forget `arr[arr.length - 1]` — use `.at(-1)`.
+### 💡 Tip: `Object.entries()` for key-value iteration
+Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
 
 ---
 
