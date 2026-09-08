@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-71-blue)
+![Day](https://img.shields.io/badge/day-72-blue)
 
-## 📅 Today — Monday, September 7, 2026 (Day 71)
+## 📅 Today — Tuesday, September 8, 2026 (Day 72)
 
-### 🧠 Challenge: Palindrome Check
-**Easy** · Strings
+### 🧠 Challenge: Deep Clone Object
+**Medium** · Objects / Recursion
 
-Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
+Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
 
-👉 [Full challenge + solution](./logs/2026-09-07.md)
+👉 [Full challenge + solution](./logs/2026-09-08.md)
 
-### 💡 Tip: Tagged template literals for safe HTML
-Template literals can be tagged with a function that pre-processes parts:
+### 💡 Tip: `Array.prototype.at()` for negative indexing
+Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 ---
 
@@ -24,6 +24,7 @@ Template literals can be tagged with a function that pre-processes parts:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-08](./logs/2026-09-08.md)
 - [2026-09-07](./logs/2026-09-07.md)
 - [2026-09-06](./logs/2026-09-06.md)
 - [2026-09-05](./logs/2026-09-05.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-28](./logs/2026-08-28.md)
 - [2026-08-27](./logs/2026-08-27.md)
 - [2026-08-26](./logs/2026-08-26.md)
-- [2026-08-25](./logs/2026-08-25.md)
 
 ---
 
