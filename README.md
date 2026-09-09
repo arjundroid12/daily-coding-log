@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-72-blue)
+![Day](https://img.shields.io/badge/day-73-blue)
 
-## 📅 Today — Tuesday, September 8, 2026 (Day 72)
+## 📅 Today — Wednesday, September 9, 2026 (Day 73)
 
-### 🧠 Challenge: Valid Parentheses
-**Easy** · Stacks
+### 🧠 Challenge: Throttle Function
+**Medium** · Closures / Async
 
-Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
+Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
 
-👉 [Full challenge + solution](./logs/2026-09-08.md)
+👉 [Full challenge + solution](./logs/2026-09-09.md)
 
-### 💡 Tip: `Object.entries()` for key-value iteration
-Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
+### 💡 Tip: Bit-shift for integer division by powers of 2
+Bit-shifting is faster than `Math.floor(n / 2)`:
 
 ---
 
@@ -24,6 +24,7 @@ Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` chec
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-09](./logs/2026-09-09.md)
 - [2026-09-08](./logs/2026-09-08.md)
 - [2026-09-07](./logs/2026-09-07.md)
 - [2026-09-06](./logs/2026-09-06.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-29](./logs/2026-08-29.md)
 - [2026-08-28](./logs/2026-08-28.md)
 - [2026-08-27](./logs/2026-08-27.md)
-- [2026-08-26](./logs/2026-08-26.md)
 
 ---
 
