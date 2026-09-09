@@ -8,15 +8,15 @@
 
 ## 📅 Today — Wednesday, September 9, 2026 (Day 73)
 
-### 🧠 Challenge: Throttle Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Anagram Check
+**Easy** · Strings / Sorting
 
-Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
+Check if two strings are anagrams (contain the same characters with the same frequencies).
 
 👉 [Full challenge + solution](./logs/2026-09-09.md)
 
-### 💡 Tip: Bit-shift for integer division by powers of 2
-Bit-shifting is faster than `Math.floor(n / 2)`:
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
