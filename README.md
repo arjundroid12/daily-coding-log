@@ -8,15 +8,15 @@
 
 ## 📅 Today — Thursday, September 10, 2026 (Day 74)
 
-### 🧠 Challenge: Deep Clone Object
-**Medium** · Objects / Recursion
+### 🧠 Challenge: Count Vowels
+**Easy** · Strings / Regex
 
-Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
+Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
 
 👉 [Full challenge + solution](./logs/2026-09-10.md)
 
-### 💡 Tip: Use `AbortController` for cancellable fetch
-Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
+### 💡 Tip: Bit-shift for integer division by powers of 2
+Bit-shifting is faster than `Math.floor(n / 2)`:
 
 ---
 
