@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-73-blue)
+![Day](https://img.shields.io/badge/day-74-blue)
 
-## 📅 Today — Wednesday, September 9, 2026 (Day 73)
+## 📅 Today — Thursday, September 10, 2026 (Day 74)
 
-### 🧠 Challenge: Anagram Check
-**Easy** · Strings / Sorting
+### 🧠 Challenge: Deep Clone Object
+**Medium** · Objects / Recursion
 
-Check if two strings are anagrams (contain the same characters with the same frequencies).
+Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
 
-👉 [Full challenge + solution](./logs/2026-09-09.md)
+👉 [Full challenge + solution](./logs/2026-09-10.md)
 
-### 💡 Tip: Use `structuredClone()` for deep copies
-Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
+### 💡 Tip: Use `AbortController` for cancellable fetch
+Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
 
 ---
 
@@ -24,6 +24,7 @@ Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, u
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-10](./logs/2026-09-10.md)
 - [2026-09-09](./logs/2026-09-09.md)
 - [2026-09-08](./logs/2026-09-08.md)
 - [2026-09-07](./logs/2026-09-07.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-30](./logs/2026-08-30.md)
 - [2026-08-29](./logs/2026-08-29.md)
 - [2026-08-28](./logs/2026-08-28.md)
-- [2026-08-27](./logs/2026-08-27.md)
 
 ---
 
