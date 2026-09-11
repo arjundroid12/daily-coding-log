@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-74-blue)
+![Day](https://img.shields.io/badge/day-75-blue)
 
-## 📅 Today — Thursday, September 10, 2026 (Day 74)
+## 📅 Today — Friday, September 11, 2026 (Day 75)
 
 ### 🧠 Challenge: Count Vowels
 **Easy** · Strings / Regex
 
 Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
 
-👉 [Full challenge + solution](./logs/2026-09-10.md)
+👉 [Full challenge + solution](./logs/2026-09-11.md)
 
-### 💡 Tip: Bit-shift for integer division by powers of 2
-Bit-shifting is faster than `Math.floor(n / 2)`:
+### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
+For unique IDs, use the built-in crypto module:
 
 ---
 
@@ -24,6 +24,7 @@ Bit-shifting is faster than `Math.floor(n / 2)`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-11](./logs/2026-09-11.md)
 - [2026-09-10](./logs/2026-09-10.md)
 - [2026-09-09](./logs/2026-09-09.md)
 - [2026-09-08](./logs/2026-09-08.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-08-31](./logs/2026-08-31.md)
 - [2026-08-30](./logs/2026-08-30.md)
 - [2026-08-29](./logs/2026-08-29.md)
-- [2026-08-28](./logs/2026-08-28.md)
 
 ---
 
