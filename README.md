@@ -8,15 +8,15 @@
 
 ## 📅 Today — Friday, September 11, 2026 (Day 75)
 
-### 🧠 Challenge: Count Vowels
-**Easy** · Strings / Regex
+### 🧠 Challenge: Deep Clone Object
+**Medium** · Objects / Recursion
 
-Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
+Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
 
 👉 [Full challenge + solution](./logs/2026-09-11.md)
 
-### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
-For unique IDs, use the built-in crypto module:
+### 💡 Tip: `Object.entries()` for key-value iteration
+Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
 
 ---
 
