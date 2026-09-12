@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-75-blue)
+![Day](https://img.shields.io/badge/day-76-blue)
 
-## 📅 Today — Friday, September 11, 2026 (Day 75)
+## 📅 Today — Saturday, September 12, 2026 (Day 76)
 
-### 🧠 Challenge: Deep Clone Object
-**Medium** · Objects / Recursion
+### 🧠 Challenge: Sum of Digits
+**Easy** · Math / Loops
 
-Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
+Given a non-negative integer, return the sum of its digits.
 
-👉 [Full challenge + solution](./logs/2026-09-11.md)
+👉 [Full challenge + solution](./logs/2026-09-12.md)
 
-### 💡 Tip: `Object.entries()` for key-value iteration
-Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
+### 💡 Tip: Use `Set` for fast membership checks
+`Set.has()` is O(1), `Array.includes()` is O(n).
 
 ---
 
@@ -24,6 +24,7 @@ Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` chec
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-12](./logs/2026-09-12.md)
 - [2026-09-11](./logs/2026-09-11.md)
 - [2026-09-10](./logs/2026-09-10.md)
 - [2026-09-09](./logs/2026-09-09.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-01](./logs/2026-09-01.md)
 - [2026-08-31](./logs/2026-08-31.md)
 - [2026-08-30](./logs/2026-08-30.md)
-- [2026-08-29](./logs/2026-08-29.md)
 
 ---
 
