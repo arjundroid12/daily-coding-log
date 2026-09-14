@@ -4,16 +4,16 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-76-blue)
+![Day](https://img.shields.io/badge/day-78-blue)
 
-## 📅 Today — Saturday, September 12, 2026 (Day 76)
+## 📅 Today — Monday, September 14, 2026 (Day 78)
 
-### 🧠 Challenge: Sum of Digits
-**Easy** · Math / Loops
+### 🧠 Challenge: Reverse a String
+**Easy** · Strings
 
-Given a non-negative integer, return the sum of its digits.
+Reverse a string without using the built-in `.reverse()` method.
 
-👉 [Full challenge + solution](./logs/2026-09-12.md)
+👉 [Full challenge + solution](./logs/2026-09-14.md)
 
 ### 💡 Tip: Use `Set` for fast membership checks
 `Set.has()` is O(1), `Array.includes()` is O(n).
@@ -24,6 +24,7 @@ Given a non-negative integer, return the sum of its digits.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-14](./logs/2026-09-14.md)
 - [2026-09-12](./logs/2026-09-12.md)
 - [2026-09-11](./logs/2026-09-11.md)
 - [2026-09-10](./logs/2026-09-10.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-02](./logs/2026-09-02.md)
 - [2026-09-01](./logs/2026-09-01.md)
 - [2026-08-31](./logs/2026-08-31.md)
-- [2026-08-30](./logs/2026-08-30.md)
 
 ---
 
