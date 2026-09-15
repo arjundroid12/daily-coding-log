@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-78-blue)
+![Day](https://img.shields.io/badge/day-79-blue)
 
-## 📅 Today — Monday, September 14, 2026 (Day 78)
+## 📅 Today — Tuesday, September 15, 2026 (Day 79)
 
-### 🧠 Challenge: Reverse a String
-**Easy** · Strings
+### 🧠 Challenge: Count Character Frequencies
+**Easy** · Strings / Hash Maps
 
-Reverse a string without using the built-in `.reverse()` method.
+Return an object mapping each character in a string to its frequency. Case-sensitive.
 
-👉 [Full challenge + solution](./logs/2026-09-14.md)
+👉 [Full challenge + solution](./logs/2026-09-15.md)
 
-### 💡 Tip: Use `Set` for fast membership checks
-`Set.has()` is O(1), `Array.includes()` is O(n).
+### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
+Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
 
 ---
 
@@ -24,6 +24,7 @@ Reverse a string without using the built-in `.reverse()` method.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-15](./logs/2026-09-15.md)
 - [2026-09-14](./logs/2026-09-14.md)
 - [2026-09-12](./logs/2026-09-12.md)
 - [2026-09-11](./logs/2026-09-11.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-03](./logs/2026-09-03.md)
 - [2026-09-02](./logs/2026-09-02.md)
 - [2026-09-01](./logs/2026-09-01.md)
-- [2026-08-31](./logs/2026-08-31.md)
 
 ---
 
