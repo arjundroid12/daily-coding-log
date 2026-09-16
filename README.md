@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-79-blue)
+![Day](https://img.shields.io/badge/day-80-blue)
 
-## 📅 Today — Tuesday, September 15, 2026 (Day 79)
+## 📅 Today — Wednesday, September 16, 2026 (Day 80)
 
-### 🧠 Challenge: Count Character Frequencies
-**Easy** · Strings / Hash Maps
+### 🧠 Challenge: Merge Two Sorted Arrays
+**Medium** · Arrays / Two Pointers
 
-Return an object mapping each character in a string to its frequency. Case-sensitive.
+Given two sorted arrays `a` and `b`, merge them into a single sorted array.
 
-👉 [Full challenge + solution](./logs/2026-09-15.md)
+👉 [Full challenge + solution](./logs/2026-09-16.md)
 
-### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
-Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
+### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
+`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
 
 ---
 
@@ -24,6 +24,7 @@ Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to 
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-16](./logs/2026-09-16.md)
 - [2026-09-15](./logs/2026-09-15.md)
 - [2026-09-14](./logs/2026-09-14.md)
 - [2026-09-12](./logs/2026-09-12.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-04](./logs/2026-09-04.md)
 - [2026-09-03](./logs/2026-09-03.md)
 - [2026-09-02](./logs/2026-09-02.md)
-- [2026-09-01](./logs/2026-09-01.md)
 
 ---
 
