@@ -8,15 +8,15 @@
 
 ## 📅 Today — Wednesday, September 16, 2026 (Day 80)
 
-### 🧠 Challenge: Merge Two Sorted Arrays
-**Medium** · Arrays / Two Pointers
+### 🧠 Challenge: FizzBuzz
+**Easy** · Loops / Conditionals
 
-Given two sorted arrays `a` and `b`, merge them into a single sorted array.
+Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
 
 👉 [Full challenge + solution](./logs/2026-09-16.md)
 
-### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
-`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
+### 💡 Tip: Use `Set` for fast membership checks
+`Set.has()` is O(1), `Array.includes()` is O(n).
 
 ---
 
