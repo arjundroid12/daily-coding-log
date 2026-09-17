@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-80-blue)
+![Day](https://img.shields.io/badge/day-81-blue)
 
-## 📅 Today — Wednesday, September 16, 2026 (Day 80)
+## 📅 Today — Thursday, September 17, 2026 (Day 81)
 
-### 🧠 Challenge: FizzBuzz
-**Easy** · Loops / Conditionals
+### 🧠 Challenge: Flatten Nested Array
+**Medium** · Recursion / Arrays
 
-Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
+Flatten a deeply nested array into a single-level array.
 
-👉 [Full challenge + solution](./logs/2026-09-16.md)
+👉 [Full challenge + solution](./logs/2026-09-17.md)
 
-### 💡 Tip: Use `Set` for fast membership checks
-`Set.has()` is O(1), `Array.includes()` is O(n).
+### 💡 Tip: Use `Intl` APIs for locale-aware formatting
+Stop hardcoding date/number formats. Use `Intl`:
 
 ---
 
@@ -24,6 +24,7 @@ Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. 
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-17](./logs/2026-09-17.md)
 - [2026-09-16](./logs/2026-09-16.md)
 - [2026-09-15](./logs/2026-09-15.md)
 - [2026-09-14](./logs/2026-09-14.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-05](./logs/2026-09-05.md)
 - [2026-09-04](./logs/2026-09-04.md)
 - [2026-09-03](./logs/2026-09-03.md)
-- [2026-09-02](./logs/2026-09-02.md)
 
 ---
 
