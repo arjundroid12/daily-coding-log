@@ -8,15 +8,15 @@
 
 ## 📅 Today — Thursday, September 17, 2026 (Day 81)
 
-### 🧠 Challenge: Flatten Nested Array
-**Medium** · Recursion / Arrays
+### 🧠 Challenge: Anagram Check
+**Easy** · Strings / Sorting
 
-Flatten a deeply nested array into a single-level array.
+Check if two strings are anagrams (contain the same characters with the same frequencies).
 
 👉 [Full challenge + solution](./logs/2026-09-17.md)
 
-### 💡 Tip: Use `Intl` APIs for locale-aware formatting
-Stop hardcoding date/number formats. Use `Intl`:
+### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
+Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
 
 ---
 
