@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-83-blue)
+![Day](https://img.shields.io/badge/day-84-blue)
 
-## 📅 Today — Saturday, September 19, 2026 (Day 83)
+## 📅 Today — Sunday, September 20, 2026 (Day 84)
 
-### 🧠 Challenge: Debounce Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Deep Clone Object
+**Medium** · Objects / Recursion
 
-Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
+Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
 
-👉 [Full challenge + solution](./logs/2026-09-19.md)
+👉 [Full challenge + solution](./logs/2026-09-20.md)
 
-### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
-Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
+### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
+Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
 
 ---
 
@@ -24,6 +24,7 @@ Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to 
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-20](./logs/2026-09-20.md)
 - [2026-09-19](./logs/2026-09-19.md)
 - [2026-09-17](./logs/2026-09-17.md)
 - [2026-09-16](./logs/2026-09-16.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-07](./logs/2026-09-07.md)
 - [2026-09-06](./logs/2026-09-06.md)
 - [2026-09-05](./logs/2026-09-05.md)
-- [2026-09-04](./logs/2026-09-04.md)
 
 ---
 
