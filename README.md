@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-84-blue)
+![Day](https://img.shields.io/badge/day-85-blue)
 
-## 📅 Today — Sunday, September 20, 2026 (Day 84)
+## 📅 Today — Monday, September 21, 2026 (Day 85)
 
-### 🧠 Challenge: Deep Clone Object
-**Medium** · Objects / Recursion
+### 🧠 Challenge: Flatten Nested Array
+**Medium** · Recursion / Arrays
 
-Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
+Flatten a deeply nested array into a single-level array.
 
-👉 [Full challenge + solution](./logs/2026-09-20.md)
+👉 [Full challenge + solution](./logs/2026-09-21.md)
 
-### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
-Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
+### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
+For unique IDs, use the built-in crypto module:
 
 ---
 
@@ -24,6 +24,7 @@ Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-21](./logs/2026-09-21.md)
 - [2026-09-20](./logs/2026-09-20.md)
 - [2026-09-19](./logs/2026-09-19.md)
 - [2026-09-17](./logs/2026-09-17.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-08](./logs/2026-09-08.md)
 - [2026-09-07](./logs/2026-09-07.md)
 - [2026-09-06](./logs/2026-09-06.md)
-- [2026-09-05](./logs/2026-09-05.md)
 
 ---
 
