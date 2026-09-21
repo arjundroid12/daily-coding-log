@@ -8,15 +8,15 @@
 
 ## 📅 Today — Monday, September 21, 2026 (Day 85)
 
-### 🧠 Challenge: Flatten Nested Array
-**Medium** · Recursion / Arrays
+### 🧠 Challenge: Fibonacci (Efficient)
+**Medium** · Dynamic Programming
 
-Flatten a deeply nested array into a single-level array.
+Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
 
 👉 [Full challenge + solution](./logs/2026-09-21.md)
 
-### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
-For unique IDs, use the built-in crypto module:
+### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
+`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
 
 ---
 
