@@ -8,15 +8,15 @@
 
 ## 📅 Today — Tuesday, September 22, 2026 (Day 86)
 
-### 🧠 Challenge: Reverse a String
-**Easy** · Strings
+### 🧠 Challenge: Valid Parentheses
+**Easy** · Stacks
 
-Reverse a string without using the built-in `.reverse()` method.
+Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
 
 👉 [Full challenge + solution](./logs/2026-09-22.md)
 
-### 💡 Tip: Use `AbortController` for cancellable fetch
-Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
