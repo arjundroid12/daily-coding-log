@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-85-blue)
+![Day](https://img.shields.io/badge/day-86-blue)
 
-## 📅 Today — Monday, September 21, 2026 (Day 85)
+## 📅 Today — Tuesday, September 22, 2026 (Day 86)
 
-### 🧠 Challenge: Fibonacci (Efficient)
-**Medium** · Dynamic Programming
+### 🧠 Challenge: Reverse a String
+**Easy** · Strings
 
-Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
+Reverse a string without using the built-in `.reverse()` method.
 
-👉 [Full challenge + solution](./logs/2026-09-21.md)
+👉 [Full challenge + solution](./logs/2026-09-22.md)
 
-### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
-`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
+### 💡 Tip: Use `AbortController` for cancellable fetch
+Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
 
 ---
 
@@ -24,6 +24,7 @@ Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Han
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-22](./logs/2026-09-22.md)
 - [2026-09-21](./logs/2026-09-21.md)
 - [2026-09-20](./logs/2026-09-20.md)
 - [2026-09-19](./logs/2026-09-19.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-09](./logs/2026-09-09.md)
 - [2026-09-08](./logs/2026-09-08.md)
 - [2026-09-07](./logs/2026-09-07.md)
-- [2026-09-06](./logs/2026-09-06.md)
 
 ---
 
