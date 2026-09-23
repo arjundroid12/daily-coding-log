@@ -8,15 +8,15 @@
 
 ## 📅 Today — Wednesday, September 23, 2026 (Day 87)
 
-### 🧠 Challenge: Remove Duplicates from Array
-**Easy** · Arrays / Sets
+### 🧠 Challenge: Valid Parentheses
+**Easy** · Stacks
 
-Return a new array with duplicates removed, preserving the order of first occurrence.
+Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
 
 👉 [Full challenge + solution](./logs/2026-09-23.md)
 
-### 💡 Tip: Avoid `forEach` when you need to `break` or `return`
-`forEach` doesn't support `break` or early return — use `for...of` instead:
+### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
+Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
 
 ---
 
