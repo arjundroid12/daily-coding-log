@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-86-blue)
+![Day](https://img.shields.io/badge/day-87-blue)
 
-## 📅 Today — Tuesday, September 22, 2026 (Day 86)
+## 📅 Today — Wednesday, September 23, 2026 (Day 87)
 
-### 🧠 Challenge: Valid Parentheses
-**Easy** · Stacks
+### 🧠 Challenge: Remove Duplicates from Array
+**Easy** · Arrays / Sets
 
-Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
+Return a new array with duplicates removed, preserving the order of first occurrence.
 
-👉 [Full challenge + solution](./logs/2026-09-22.md)
+👉 [Full challenge + solution](./logs/2026-09-23.md)
 
-### 💡 Tip: Use `structuredClone()` for deep copies
-Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
+### 💡 Tip: Avoid `forEach` when you need to `break` or `return`
+`forEach` doesn't support `break` or early return — use `for...of` instead:
 
 ---
 
@@ -24,6 +24,7 @@ Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, u
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-23](./logs/2026-09-23.md)
 - [2026-09-22](./logs/2026-09-22.md)
 - [2026-09-21](./logs/2026-09-21.md)
 - [2026-09-20](./logs/2026-09-20.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-10](./logs/2026-09-10.md)
 - [2026-09-09](./logs/2026-09-09.md)
 - [2026-09-08](./logs/2026-09-08.md)
-- [2026-09-07](./logs/2026-09-07.md)
 
 ---
 
