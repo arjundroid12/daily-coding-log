@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-88-blue)
+![Day](https://img.shields.io/badge/day-89-blue)
 
-## 📅 Today — Thursday, September 24, 2026 (Day 88)
+## 📅 Today — Friday, September 25, 2026 (Day 89)
 
-### 🧠 Challenge: Factorial
-**Easy** · Recursion
+### 🧠 Challenge: Throttle Function
+**Medium** · Closures / Async
 
-Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
+Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
 
-👉 [Full challenge + solution](./logs/2026-09-24.md)
+👉 [Full challenge + solution](./logs/2026-09-25.md)
 
-### 💡 Tip: Avoid `forEach` when you need to `break` or `return`
-`forEach` doesn't support `break` or early return — use `for...of` instead:
+### 💡 Tip: `Object.entries()` for key-value iteration
+Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
 
 ---
 
@@ -24,6 +24,7 @@ Compute n! (n factorial) — the product of all positive integers up to n. Note:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-25](./logs/2026-09-25.md)
 - [2026-09-24](./logs/2026-09-24.md)
 - [2026-09-23](./logs/2026-09-23.md)
 - [2026-09-22](./logs/2026-09-22.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-12](./logs/2026-09-12.md)
 - [2026-09-11](./logs/2026-09-11.md)
 - [2026-09-10](./logs/2026-09-10.md)
-- [2026-09-09](./logs/2026-09-09.md)
 
 ---
 
