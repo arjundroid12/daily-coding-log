@@ -8,15 +8,15 @@
 
 ## 📅 Today — Friday, September 25, 2026 (Day 89)
 
-### 🧠 Challenge: Throttle Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Merge Two Sorted Arrays
+**Medium** · Arrays / Two Pointers
 
-Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
+Given two sorted arrays `a` and `b`, merge them into a single sorted array.
 
 👉 [Full challenge + solution](./logs/2026-09-25.md)
 
-### 💡 Tip: `Object.entries()` for key-value iteration
-Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
+### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
+`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
 
 ---
 
