@@ -8,15 +8,15 @@
 
 ## 📅 Today — Saturday, September 26, 2026 (Day 90)
 
-### 🧠 Challenge: Two Sum
-**Easy** · Arrays / Hash Maps
+### 🧠 Challenge: Throttle Function
+**Medium** · Closures / Async
 
-Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
+Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
 
 👉 [Full challenge + solution](./logs/2026-09-26.md)
 
-### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
-For unique IDs, use the built-in crypto module:
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
