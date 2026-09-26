@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-89-blue)
+![Day](https://img.shields.io/badge/day-90-blue)
 
-## 📅 Today — Friday, September 25, 2026 (Day 89)
+## 📅 Today — Saturday, September 26, 2026 (Day 90)
 
-### 🧠 Challenge: Merge Two Sorted Arrays
-**Medium** · Arrays / Two Pointers
+### 🧠 Challenge: Two Sum
+**Easy** · Arrays / Hash Maps
 
-Given two sorted arrays `a` and `b`, merge them into a single sorted array.
+Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
 
-👉 [Full challenge + solution](./logs/2026-09-25.md)
+👉 [Full challenge + solution](./logs/2026-09-26.md)
 
-### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
-`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
+### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
+For unique IDs, use the built-in crypto module:
 
 ---
 
@@ -24,6 +24,7 @@ Given two sorted arrays `a` and `b`, merge them into a single sorted array.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-26](./logs/2026-09-26.md)
 - [2026-09-25](./logs/2026-09-25.md)
 - [2026-09-24](./logs/2026-09-24.md)
 - [2026-09-23](./logs/2026-09-23.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-14](./logs/2026-09-14.md)
 - [2026-09-12](./logs/2026-09-12.md)
 - [2026-09-11](./logs/2026-09-11.md)
-- [2026-09-10](./logs/2026-09-10.md)
 
 ---
 
