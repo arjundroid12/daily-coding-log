@@ -8,15 +8,15 @@
 
 ## 📅 Today — Sunday, September 27, 2026 (Day 91)
 
-### 🧠 Challenge: Remove Duplicates from Array
-**Easy** · Arrays / Sets
+### 🧠 Challenge: FizzBuzz
+**Easy** · Loops / Conditionals
 
-Return a new array with duplicates removed, preserving the order of first occurrence.
+Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
 
 👉 [Full challenge + solution](./logs/2026-09-27.md)
 
-### 💡 Tip: Use `Set` for fast membership checks
-`Set.has()` is O(1), `Array.includes()` is O(n).
+### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
+For unique IDs, use the built-in crypto module:
 
 ---
 
