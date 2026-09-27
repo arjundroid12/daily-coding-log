@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-90-blue)
+![Day](https://img.shields.io/badge/day-91-blue)
 
-## 📅 Today — Saturday, September 26, 2026 (Day 90)
+## 📅 Today — Sunday, September 27, 2026 (Day 91)
 
-### 🧠 Challenge: Throttle Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Remove Duplicates from Array
+**Easy** · Arrays / Sets
 
-Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
+Return a new array with duplicates removed, preserving the order of first occurrence.
 
-👉 [Full challenge + solution](./logs/2026-09-26.md)
+👉 [Full challenge + solution](./logs/2026-09-27.md)
 
-### 💡 Tip: Use `structuredClone()` for deep copies
-Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
+### 💡 Tip: Use `Set` for fast membership checks
+`Set.has()` is O(1), `Array.includes()` is O(n).
 
 ---
 
@@ -24,6 +24,7 @@ Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, u
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-27](./logs/2026-09-27.md)
 - [2026-09-26](./logs/2026-09-26.md)
 - [2026-09-25](./logs/2026-09-25.md)
 - [2026-09-24](./logs/2026-09-24.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-15](./logs/2026-09-15.md)
 - [2026-09-14](./logs/2026-09-14.md)
 - [2026-09-12](./logs/2026-09-12.md)
-- [2026-09-11](./logs/2026-09-11.md)
 
 ---
 
