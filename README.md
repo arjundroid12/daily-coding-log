@@ -8,15 +8,15 @@
 
 ## 📅 Today — Monday, September 28, 2026 (Day 92)
 
-### 🧠 Challenge: Palindrome Check
-**Easy** · Strings
+### 🧠 Challenge: Find Maximum in Array
+**Easy** · Arrays
 
-Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
+Find the maximum value in an array without using `Math.max()` or `.sort()`.
 
 👉 [Full challenge + solution](./logs/2026-09-28.md)
 
-### 💡 Tip: Use `structuredClone()` for deep copies
-Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
+### 💡 Tip: Tagged template literals for safe HTML
+Template literals can be tagged with a function that pre-processes parts:
 
 ---
 
