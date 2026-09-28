@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-91-blue)
+![Day](https://img.shields.io/badge/day-92-blue)
 
-## 📅 Today — Sunday, September 27, 2026 (Day 91)
+## 📅 Today — Monday, September 28, 2026 (Day 92)
 
-### 🧠 Challenge: FizzBuzz
-**Easy** · Loops / Conditionals
+### 🧠 Challenge: Palindrome Check
+**Easy** · Strings
 
-Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
+Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
 
-👉 [Full challenge + solution](./logs/2026-09-27.md)
+👉 [Full challenge + solution](./logs/2026-09-28.md)
 
-### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
-For unique IDs, use the built-in crypto module:
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
@@ -24,6 +24,7 @@ For unique IDs, use the built-in crypto module:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-28](./logs/2026-09-28.md)
 - [2026-09-27](./logs/2026-09-27.md)
 - [2026-09-26](./logs/2026-09-26.md)
 - [2026-09-25](./logs/2026-09-25.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-16](./logs/2026-09-16.md)
 - [2026-09-15](./logs/2026-09-15.md)
 - [2026-09-14](./logs/2026-09-14.md)
-- [2026-09-12](./logs/2026-09-12.md)
 
 ---
 
