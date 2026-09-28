@@ -8,15 +8,15 @@
 
 ## 📅 Today — Monday, September 28, 2026 (Day 92)
 
-### 🧠 Challenge: Find Maximum in Array
-**Easy** · Arrays
+### 🧠 Challenge: Sum of Digits
+**Easy** · Math / Loops
 
-Find the maximum value in an array without using `Math.max()` or `.sort()`.
+Given a non-negative integer, return the sum of its digits.
 
 👉 [Full challenge + solution](./logs/2026-09-28.md)
 
-### 💡 Tip: Tagged template literals for safe HTML
-Template literals can be tagged with a function that pre-processes parts:
+### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
+Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
 
 ---
 
