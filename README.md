@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-92-blue)
+![Day](https://img.shields.io/badge/day-93-blue)
 
-## 📅 Today — Monday, September 28, 2026 (Day 92)
+## 📅 Today — Tuesday, September 29, 2026 (Day 93)
 
-### 🧠 Challenge: Sum of Digits
-**Easy** · Math / Loops
+### 🧠 Challenge: Throttle Function
+**Medium** · Closures / Async
 
-Given a non-negative integer, return the sum of its digits.
+Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
 
-👉 [Full challenge + solution](./logs/2026-09-28.md)
+👉 [Full challenge + solution](./logs/2026-09-29.md)
 
-### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
-Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
+### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
+`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
 
 ---
 
@@ -24,6 +24,7 @@ Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-09-29](./logs/2026-09-29.md)
 - [2026-09-28](./logs/2026-09-28.md)
 - [2026-09-27](./logs/2026-09-27.md)
 - [2026-09-26](./logs/2026-09-26.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-17](./logs/2026-09-17.md)
 - [2026-09-16](./logs/2026-09-16.md)
 - [2026-09-15](./logs/2026-09-15.md)
-- [2026-09-14](./logs/2026-09-14.md)
 
 ---
 
