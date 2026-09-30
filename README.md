@@ -8,15 +8,15 @@
 
 ## 📅 Today — Wednesday, September 30, 2026 (Day 94)
 
-### 🧠 Challenge: Remove Duplicates from Array
-**Easy** · Arrays / Sets
+### 🧠 Challenge: Debounce Function
+**Medium** · Closures / Async
 
-Return a new array with duplicates removed, preserving the order of first occurrence.
+Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
 
 👉 [Full challenge + solution](./logs/2026-09-30.md)
 
-### 💡 Tip: Destructure with default values and renames
-You can provide defaults AND rename in one go:
+### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
+Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
 
 ---
 
