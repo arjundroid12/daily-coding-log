@@ -8,15 +8,15 @@
 
 ## 📅 Today — Thursday, October 1, 2026 (Day 95)
 
-### 🧠 Challenge: Binary Search
-**Medium** · Search Algorithms
+### 🧠 Challenge: Two Sum
+**Easy** · Arrays / Hash Maps
 
-Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.
+Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
 
 👉 [Full challenge + solution](./logs/2026-10-01.md)
 
-### 💡 Tip: Use `Intl` APIs for locale-aware formatting
-Stop hardcoding date/number formats. Use `Intl`:
+### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
+`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
 
 ---
 
