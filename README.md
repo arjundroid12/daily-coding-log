@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-94-blue)
+![Day](https://img.shields.io/badge/day-95-blue)
 
-## 📅 Today — Wednesday, September 30, 2026 (Day 94)
+## 📅 Today — Thursday, October 1, 2026 (Day 95)
 
-### 🧠 Challenge: Debounce Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Binary Search
+**Medium** · Search Algorithms
 
-Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
+Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.
 
-👉 [Full challenge + solution](./logs/2026-09-30.md)
+👉 [Full challenge + solution](./logs/2026-10-01.md)
 
-### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
-Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
+### 💡 Tip: Use `Intl` APIs for locale-aware formatting
+Stop hardcoding date/number formats. Use `Intl`:
 
 ---
 
@@ -24,6 +24,7 @@ Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-01](./logs/2026-10-01.md)
 - [2026-09-30](./logs/2026-09-30.md)
 - [2026-09-29](./logs/2026-09-29.md)
 - [2026-09-28](./logs/2026-09-28.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-20](./logs/2026-09-20.md)
 - [2026-09-19](./logs/2026-09-19.md)
 - [2026-09-17](./logs/2026-09-17.md)
-- [2026-09-16](./logs/2026-09-16.md)
 
 ---
 
