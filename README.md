@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-95-blue)
+![Day](https://img.shields.io/badge/day-96-blue)
 
-## 📅 Today — Thursday, October 1, 2026 (Day 95)
+## 📅 Today — Friday, October 2, 2026 (Day 96)
 
-### 🧠 Challenge: Two Sum
-**Easy** · Arrays / Hash Maps
+### 🧠 Challenge: Remove Duplicates from Array
+**Easy** · Arrays / Sets
 
-Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
+Return a new array with duplicates removed, preserving the order of first occurrence.
 
-👉 [Full challenge + solution](./logs/2026-10-01.md)
+👉 [Full challenge + solution](./logs/2026-10-02.md)
 
-### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
-`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
+### 💡 Tip: Tagged template literals for safe HTML
+Template literals can be tagged with a function that pre-processes parts:
 
 ---
 
@@ -24,6 +24,7 @@ Given an array of integers `nums` and an integer `target`, return the indices of
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-02](./logs/2026-10-02.md)
 - [2026-10-01](./logs/2026-10-01.md)
 - [2026-09-30](./logs/2026-09-30.md)
 - [2026-09-29](./logs/2026-09-29.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-21](./logs/2026-09-21.md)
 - [2026-09-20](./logs/2026-09-20.md)
 - [2026-09-19](./logs/2026-09-19.md)
-- [2026-09-17](./logs/2026-09-17.md)
 
 ---
 
