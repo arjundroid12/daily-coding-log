@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-96-blue)
+![Day](https://img.shields.io/badge/day-97-blue)
 
-## 📅 Today — Friday, October 2, 2026 (Day 96)
+## 📅 Today — Saturday, October 3, 2026 (Day 97)
 
-### 🧠 Challenge: Remove Duplicates from Array
-**Easy** · Arrays / Sets
+### 🧠 Challenge: Flatten Nested Array
+**Medium** · Recursion / Arrays
 
-Return a new array with duplicates removed, preserving the order of first occurrence.
+Flatten a deeply nested array into a single-level array.
 
-👉 [Full challenge + solution](./logs/2026-10-02.md)
+👉 [Full challenge + solution](./logs/2026-10-03.md)
 
-### 💡 Tip: Tagged template literals for safe HTML
-Template literals can be tagged with a function that pre-processes parts:
+### 💡 Tip: `Array.prototype.at()` for negative indexing
+Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 ---
 
@@ -24,6 +24,7 @@ Template literals can be tagged with a function that pre-processes parts:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-03](./logs/2026-10-03.md)
 - [2026-10-02](./logs/2026-10-02.md)
 - [2026-10-01](./logs/2026-10-01.md)
 - [2026-09-30](./logs/2026-09-30.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-22](./logs/2026-09-22.md)
 - [2026-09-21](./logs/2026-09-21.md)
 - [2026-09-20](./logs/2026-09-20.md)
-- [2026-09-19](./logs/2026-09-19.md)
 
 ---
 
