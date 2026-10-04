@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-97-blue)
+![Day](https://img.shields.io/badge/day-98-blue)
 
-## 📅 Today — Saturday, October 3, 2026 (Day 97)
+## 📅 Today — Sunday, October 4, 2026 (Day 98)
 
-### 🧠 Challenge: Flatten Nested Array
-**Medium** · Recursion / Arrays
+### 🧠 Challenge: Factorial
+**Easy** · Recursion
 
-Flatten a deeply nested array into a single-level array.
+Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
 
-👉 [Full challenge + solution](./logs/2026-10-03.md)
+👉 [Full challenge + solution](./logs/2026-10-04.md)
 
-### 💡 Tip: `Array.prototype.at()` for negative indexing
-Forget `arr[arr.length - 1]` — use `.at(-1)`.
+### 💡 Tip: `Object.entries()` for key-value iteration
+Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
 
 ---
 
@@ -24,6 +24,7 @@ Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-04](./logs/2026-10-04.md)
 - [2026-10-03](./logs/2026-10-03.md)
 - [2026-10-02](./logs/2026-10-02.md)
 - [2026-10-01](./logs/2026-10-01.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-23](./logs/2026-09-23.md)
 - [2026-09-22](./logs/2026-09-22.md)
 - [2026-09-21](./logs/2026-09-21.md)
-- [2026-09-20](./logs/2026-09-20.md)
 
 ---
 
