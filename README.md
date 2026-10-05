@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-98-blue)
+![Day](https://img.shields.io/badge/day-99-blue)
 
-## 📅 Today — Sunday, October 4, 2026 (Day 98)
+## 📅 Today — Monday, October 5, 2026 (Day 99)
 
-### 🧠 Challenge: Factorial
-**Easy** · Recursion
+### 🧠 Challenge: Count Vowels
+**Easy** · Strings / Regex
 
-Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
+Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
 
-👉 [Full challenge + solution](./logs/2026-10-04.md)
+👉 [Full challenge + solution](./logs/2026-10-05.md)
 
-### 💡 Tip: `Object.entries()` for key-value iteration
-Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
+### 💡 Tip: Bit-shift for integer division by powers of 2
+Bit-shifting is faster than `Math.floor(n / 2)`:
 
 ---
 
@@ -24,6 +24,7 @@ Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` chec
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-05](./logs/2026-10-05.md)
 - [2026-10-04](./logs/2026-10-04.md)
 - [2026-10-03](./logs/2026-10-03.md)
 - [2026-10-02](./logs/2026-10-02.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-24](./logs/2026-09-24.md)
 - [2026-09-23](./logs/2026-09-23.md)
 - [2026-09-22](./logs/2026-09-22.md)
-- [2026-09-21](./logs/2026-09-21.md)
 
 ---
 
