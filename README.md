@@ -8,15 +8,15 @@
 
 ## 📅 Today — Monday, October 5, 2026 (Day 99)
 
-### 🧠 Challenge: Count Vowels
-**Easy** · Strings / Regex
+### 🧠 Challenge: Valid Parentheses
+**Easy** · Stacks
 
-Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
+Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
 
 👉 [Full challenge + solution](./logs/2026-10-05.md)
 
-### 💡 Tip: Bit-shift for integer division by powers of 2
-Bit-shifting is faster than `Math.floor(n / 2)`:
+### 💡 Tip: Use `Set` for fast membership checks
+`Set.has()` is O(1), `Array.includes()` is O(n).
 
 ---
 
