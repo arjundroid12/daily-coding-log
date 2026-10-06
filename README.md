@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-99-blue)
+![Day](https://img.shields.io/badge/day-100-blue)
 
-## 📅 Today — Monday, October 5, 2026 (Day 99)
+## 📅 Today — Tuesday, October 6, 2026 (Day 100)
 
-### 🧠 Challenge: FizzBuzz
-**Easy** · Loops / Conditionals
+### 🧠 Challenge: Palindrome Check
+**Easy** · Strings
 
-Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
+Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
 
-👉 [Full challenge + solution](./logs/2026-10-05.md)
+👉 [Full challenge + solution](./logs/2026-10-06.md)
 
-### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
-Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
+### 💡 Tip: Destructure with default values and renames
+You can provide defaults AND rename in one go:
 
 ---
 
@@ -24,6 +24,7 @@ Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-06](./logs/2026-10-06.md)
 - [2026-10-05](./logs/2026-10-05.md)
 - [2026-10-04](./logs/2026-10-04.md)
 - [2026-10-03](./logs/2026-10-03.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-25](./logs/2026-09-25.md)
 - [2026-09-24](./logs/2026-09-24.md)
 - [2026-09-23](./logs/2026-09-23.md)
-- [2026-09-22](./logs/2026-09-22.md)
 
 ---
 
