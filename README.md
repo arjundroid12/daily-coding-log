@@ -8,15 +8,15 @@
 
 ## 📅 Today — Tuesday, October 6, 2026 (Day 100)
 
-### 🧠 Challenge: Palindrome Check
-**Easy** · Strings
+### 🧠 Challenge: Deep Clone Object
+**Medium** · Objects / Recursion
 
-Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
+Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
 
 👉 [Full challenge + solution](./logs/2026-10-06.md)
 
-### 💡 Tip: Destructure with default values and renames
-You can provide defaults AND rename in one go:
+### 💡 Tip: Optional chaining `?.` is your friend
+Replace verbose `&&` chains with `?.`:
 
 ---
 
