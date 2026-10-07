@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-100-blue)
+![Day](https://img.shields.io/badge/day-101-blue)
 
-## 📅 Today — Tuesday, October 6, 2026 (Day 100)
+## 📅 Today — Wednesday, October 7, 2026 (Day 101)
 
-### 🧠 Challenge: Deep Clone Object
-**Medium** · Objects / Recursion
+### 🧠 Challenge: Debounce Function
+**Medium** · Closures / Async
 
-Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
+Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
 
-👉 [Full challenge + solution](./logs/2026-10-06.md)
+👉 [Full challenge + solution](./logs/2026-10-07.md)
 
-### 💡 Tip: Optional chaining `?.` is your friend
-Replace verbose `&&` chains with `?.`:
+### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
+Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
 
 ---
 
@@ -24,6 +24,7 @@ Replace verbose `&&` chains with `?.`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-07](./logs/2026-10-07.md)
 - [2026-10-06](./logs/2026-10-06.md)
 - [2026-10-05](./logs/2026-10-05.md)
 - [2026-10-04](./logs/2026-10-04.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-26](./logs/2026-09-26.md)
 - [2026-09-25](./logs/2026-09-25.md)
 - [2026-09-24](./logs/2026-09-24.md)
-- [2026-09-23](./logs/2026-09-23.md)
 
 ---
 
