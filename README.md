@@ -8,15 +8,15 @@
 
 ## 📅 Today — Wednesday, October 7, 2026 (Day 101)
 
-### 🧠 Challenge: Debounce Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Sum of Digits
+**Easy** · Math / Loops
 
-Implement a `debounce(func, wait)` function that delays invoking `func` until `wait` ms have elapsed since the last call.
+Given a non-negative integer, return the sum of its digits.
 
 👉 [Full challenge + solution](./logs/2026-10-07.md)
 
-### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
-Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
+### 💡 Tip: Tagged template literals for safe HTML
+Template literals can be tagged with a function that pre-processes parts:
 
 ---
 
