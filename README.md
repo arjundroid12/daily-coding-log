@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-101-blue)
+![Day](https://img.shields.io/badge/day-102-blue)
 
-## 📅 Today — Wednesday, October 7, 2026 (Day 101)
+## 📅 Today — Thursday, October 8, 2026 (Day 102)
 
-### 🧠 Challenge: Sum of Digits
-**Easy** · Math / Loops
+### 🧠 Challenge: Anagram Check
+**Easy** · Strings / Sorting
 
-Given a non-negative integer, return the sum of its digits.
+Check if two strings are anagrams (contain the same characters with the same frequencies).
 
-👉 [Full challenge + solution](./logs/2026-10-07.md)
+👉 [Full challenge + solution](./logs/2026-10-08.md)
 
-### 💡 Tip: Tagged template literals for safe HTML
-Template literals can be tagged with a function that pre-processes parts:
+### 💡 Tip: Optional chaining `?.` is your friend
+Replace verbose `&&` chains with `?.`:
 
 ---
 
@@ -24,6 +24,7 @@ Template literals can be tagged with a function that pre-processes parts:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-08](./logs/2026-10-08.md)
 - [2026-10-07](./logs/2026-10-07.md)
 - [2026-10-06](./logs/2026-10-06.md)
 - [2026-10-05](./logs/2026-10-05.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-27](./logs/2026-09-27.md)
 - [2026-09-26](./logs/2026-09-26.md)
 - [2026-09-25](./logs/2026-09-25.md)
-- [2026-09-24](./logs/2026-09-24.md)
 
 ---
 
