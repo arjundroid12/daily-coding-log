@@ -8,15 +8,15 @@
 
 ## 📅 Today — Thursday, October 8, 2026 (Day 102)
 
-### 🧠 Challenge: Factorial
-**Easy** · Recursion
+### 🧠 Challenge: Count Vowels
+**Easy** · Strings / Regex
 
-Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
+Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
 
 👉 [Full challenge + solution](./logs/2026-10-08.md)
 
-### 💡 Tip: Use `AbortController` for cancellable fetch
-Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
+### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
+`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
 
 ---
 
