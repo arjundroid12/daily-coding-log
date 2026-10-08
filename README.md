@@ -8,15 +8,15 @@
 
 ## 📅 Today — Thursday, October 8, 2026 (Day 102)
 
-### 🧠 Challenge: Anagram Check
-**Easy** · Strings / Sorting
+### 🧠 Challenge: Factorial
+**Easy** · Recursion
 
-Check if two strings are anagrams (contain the same characters with the same frequencies).
+Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
 
 👉 [Full challenge + solution](./logs/2026-10-08.md)
 
-### 💡 Tip: Optional chaining `?.` is your friend
-Replace verbose `&&` chains with `?.`:
+### 💡 Tip: Use `AbortController` for cancellable fetch
+Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
 
 ---
 
