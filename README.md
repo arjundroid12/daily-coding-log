@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-102-blue)
+![Day](https://img.shields.io/badge/day-103-blue)
 
-## 📅 Today — Thursday, October 8, 2026 (Day 102)
+## 📅 Today — Friday, October 9, 2026 (Day 103)
 
-### 🧠 Challenge: Count Vowels
-**Easy** · Strings / Regex
+### 🧠 Challenge: Anagram Check
+**Easy** · Strings / Sorting
 
-Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
+Check if two strings are anagrams (contain the same characters with the same frequencies).
 
-👉 [Full challenge + solution](./logs/2026-10-08.md)
+👉 [Full challenge + solution](./logs/2026-10-09.md)
 
-### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
-`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
+### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
+For unique IDs, use the built-in crypto module:
 
 ---
 
@@ -24,6 +24,7 @@ Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-09](./logs/2026-10-09.md)
 - [2026-10-08](./logs/2026-10-08.md)
 - [2026-10-07](./logs/2026-10-07.md)
 - [2026-10-06](./logs/2026-10-06.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-28](./logs/2026-09-28.md)
 - [2026-09-27](./logs/2026-09-27.md)
 - [2026-09-26](./logs/2026-09-26.md)
-- [2026-09-25](./logs/2026-09-25.md)
 
 ---
 
