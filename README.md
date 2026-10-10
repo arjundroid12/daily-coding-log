@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-103-blue)
+![Day](https://img.shields.io/badge/day-104-blue)
 
-## 📅 Today — Friday, October 9, 2026 (Day 103)
+## 📅 Today — Saturday, October 10, 2026 (Day 104)
 
-### 🧠 Challenge: Anagram Check
-**Easy** · Strings / Sorting
+### 🧠 Challenge: Fibonacci (Efficient)
+**Medium** · Dynamic Programming
 
-Check if two strings are anagrams (contain the same characters with the same frequencies).
+Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
 
-👉 [Full challenge + solution](./logs/2026-10-09.md)
+👉 [Full challenge + solution](./logs/2026-10-10.md)
 
-### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
-For unique IDs, use the built-in crypto module:
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
@@ -24,6 +24,7 @@ For unique IDs, use the built-in crypto module:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-10](./logs/2026-10-10.md)
 - [2026-10-09](./logs/2026-10-09.md)
 - [2026-10-08](./logs/2026-10-08.md)
 - [2026-10-07](./logs/2026-10-07.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-29](./logs/2026-09-29.md)
 - [2026-09-28](./logs/2026-09-28.md)
 - [2026-09-27](./logs/2026-09-27.md)
-- [2026-09-26](./logs/2026-09-26.md)
 
 ---
 
