@@ -8,15 +8,15 @@
 
 ## 📅 Today — Saturday, October 10, 2026 (Day 104)
 
-### 🧠 Challenge: Fibonacci (Efficient)
-**Medium** · Dynamic Programming
+### 🧠 Challenge: Factorial
+**Easy** · Recursion
 
-Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
+Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
 
 👉 [Full challenge + solution](./logs/2026-10-10.md)
 
-### 💡 Tip: Use `structuredClone()` for deep copies
-Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
+### 💡 Tip: `Array.prototype.at()` for negative indexing
+Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 ---
 
