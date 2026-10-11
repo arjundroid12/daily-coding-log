@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-104-blue)
+![Day](https://img.shields.io/badge/day-105-blue)
 
-## 📅 Today — Saturday, October 10, 2026 (Day 104)
+## 📅 Today — Sunday, October 11, 2026 (Day 105)
 
-### 🧠 Challenge: Factorial
-**Easy** · Recursion
+### 🧠 Challenge: Count Character Frequencies
+**Easy** · Strings / Hash Maps
 
-Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
+Return an object mapping each character in a string to its frequency. Case-sensitive.
 
-👉 [Full challenge + solution](./logs/2026-10-10.md)
+👉 [Full challenge + solution](./logs/2026-10-11.md)
 
-### 💡 Tip: `Array.prototype.at()` for negative indexing
-Forget `arr[arr.length - 1]` — use `.at(-1)`.
+### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
+For unique IDs, use the built-in crypto module:
 
 ---
 
@@ -24,6 +24,7 @@ Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-11](./logs/2026-10-11.md)
 - [2026-10-10](./logs/2026-10-10.md)
 - [2026-10-09](./logs/2026-10-09.md)
 - [2026-10-08](./logs/2026-10-08.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-09-30](./logs/2026-09-30.md)
 - [2026-09-29](./logs/2026-09-29.md)
 - [2026-09-28](./logs/2026-09-28.md)
-- [2026-09-27](./logs/2026-09-27.md)
 
 ---
 
