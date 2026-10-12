@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-105-blue)
+![Day](https://img.shields.io/badge/day-106-blue)
 
-## 📅 Today — Sunday, October 11, 2026 (Day 105)
+## 📅 Today — Monday, October 12, 2026 (Day 106)
 
-### 🧠 Challenge: Count Character Frequencies
-**Easy** · Strings / Hash Maps
+### 🧠 Challenge: Palindrome Check
+**Easy** · Strings
 
-Return an object mapping each character in a string to its frequency. Case-sensitive.
+Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
 
-👉 [Full challenge + solution](./logs/2026-10-11.md)
+👉 [Full challenge + solution](./logs/2026-10-12.md)
 
-### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
-For unique IDs, use the built-in crypto module:
+### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
+Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
 
 ---
 
@@ -24,6 +24,7 @@ For unique IDs, use the built-in crypto module:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-12](./logs/2026-10-12.md)
 - [2026-10-11](./logs/2026-10-11.md)
 - [2026-10-10](./logs/2026-10-10.md)
 - [2026-10-09](./logs/2026-10-09.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-01](./logs/2026-10-01.md)
 - [2026-09-30](./logs/2026-09-30.md)
 - [2026-09-29](./logs/2026-09-29.md)
-- [2026-09-28](./logs/2026-09-28.md)
 
 ---
 
