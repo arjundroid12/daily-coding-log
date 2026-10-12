@@ -8,15 +8,15 @@
 
 ## 📅 Today — Monday, October 12, 2026 (Day 106)
 
-### 🧠 Challenge: Merge Two Sorted Arrays
-**Medium** · Arrays / Two Pointers
+### 🧠 Challenge: Count Character Frequencies
+**Easy** · Strings / Hash Maps
 
-Given two sorted arrays `a` and `b`, merge them into a single sorted array.
+Return an object mapping each character in a string to its frequency. Case-sensitive.
 
 👉 [Full challenge + solution](./logs/2026-10-12.md)
 
-### 💡 Tip: Optional chaining `?.` is your friend
-Replace verbose `&&` chains with `?.`:
+### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
+Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
 
 ---
 
