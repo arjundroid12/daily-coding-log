@@ -8,15 +8,15 @@
 
 ## 📅 Today — Monday, October 12, 2026 (Day 106)
 
-### 🧠 Challenge: Palindrome Check
-**Easy** · Strings
+### 🧠 Challenge: Merge Two Sorted Arrays
+**Medium** · Arrays / Two Pointers
 
-Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
+Given two sorted arrays `a` and `b`, merge them into a single sorted array.
 
 👉 [Full challenge + solution](./logs/2026-10-12.md)
 
-### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
-Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
+### 💡 Tip: Optional chaining `?.` is your friend
+Replace verbose `&&` chains with `?.`:
 
 ---
 
