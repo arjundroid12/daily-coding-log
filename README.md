@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-106-blue)
+![Day](https://img.shields.io/badge/day-107-blue)
 
-## 📅 Today — Monday, October 12, 2026 (Day 106)
+## 📅 Today — Tuesday, October 13, 2026 (Day 107)
 
-### 🧠 Challenge: Count Character Frequencies
-**Easy** · Strings / Hash Maps
+### 🧠 Challenge: Throttle Function
+**Medium** · Closures / Async
 
-Return an object mapping each character in a string to its frequency. Case-sensitive.
+Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
 
-👉 [Full challenge + solution](./logs/2026-10-12.md)
+👉 [Full challenge + solution](./logs/2026-10-13.md)
 
-### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
-Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
+### 💡 Tip: Use `AbortController` for cancellable fetch
+Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
 
 ---
 
@@ -24,6 +24,7 @@ Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to 
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-13](./logs/2026-10-13.md)
 - [2026-10-12](./logs/2026-10-12.md)
 - [2026-10-11](./logs/2026-10-11.md)
 - [2026-10-10](./logs/2026-10-10.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-02](./logs/2026-10-02.md)
 - [2026-10-01](./logs/2026-10-01.md)
 - [2026-09-30](./logs/2026-09-30.md)
-- [2026-09-29](./logs/2026-09-29.md)
 
 ---
 
