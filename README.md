@@ -8,15 +8,15 @@
 
 ## 📅 Today — Tuesday, October 13, 2026 (Day 107)
 
-### 🧠 Challenge: Merge Two Sorted Arrays
-**Medium** · Arrays / Two Pointers
+### 🧠 Challenge: Sum of Digits
+**Easy** · Math / Loops
 
-Given two sorted arrays `a` and `b`, merge them into a single sorted array.
+Given a non-negative integer, return the sum of its digits.
 
 👉 [Full challenge + solution](./logs/2026-10-13.md)
 
-### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
-`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
+### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
+`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
 
 ---
 
