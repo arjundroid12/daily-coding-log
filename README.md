@@ -8,15 +8,15 @@
 
 ## 📅 Today — Wednesday, October 14, 2026 (Day 108)
 
-### 🧠 Challenge: Fibonacci (Efficient)
-**Medium** · Dynamic Programming
+### 🧠 Challenge: Two Sum
+**Easy** · Arrays / Hash Maps
 
-Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
+Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
 
 👉 [Full challenge + solution](./logs/2026-10-14.md)
 
-### 💡 Tip: Optional chaining `?.` is your friend
-Replace verbose `&&` chains with `?.`:
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
