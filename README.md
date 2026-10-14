@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-107-blue)
+![Day](https://img.shields.io/badge/day-108-blue)
 
-## 📅 Today — Tuesday, October 13, 2026 (Day 107)
+## 📅 Today — Wednesday, October 14, 2026 (Day 108)
 
-### 🧠 Challenge: Sum of Digits
-**Easy** · Math / Loops
+### 🧠 Challenge: Fibonacci (Efficient)
+**Medium** · Dynamic Programming
 
-Given a non-negative integer, return the sum of its digits.
+Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
 
-👉 [Full challenge + solution](./logs/2026-10-13.md)
+👉 [Full challenge + solution](./logs/2026-10-14.md)
 
-### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
-`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
+### 💡 Tip: Optional chaining `?.` is your friend
+Replace verbose `&&` chains with `?.`:
 
 ---
 
@@ -24,6 +24,7 @@ Given a non-negative integer, return the sum of its digits.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-14](./logs/2026-10-14.md)
 - [2026-10-13](./logs/2026-10-13.md)
 - [2026-10-12](./logs/2026-10-12.md)
 - [2026-10-11](./logs/2026-10-11.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-03](./logs/2026-10-03.md)
 - [2026-10-02](./logs/2026-10-02.md)
 - [2026-10-01](./logs/2026-10-01.md)
-- [2026-09-30](./logs/2026-09-30.md)
 
 ---
 
