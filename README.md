@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-108-blue)
+![Day](https://img.shields.io/badge/day-109-blue)
 
-## 📅 Today — Wednesday, October 14, 2026 (Day 108)
+## 📅 Today — Thursday, October 15, 2026 (Day 109)
 
-### 🧠 Challenge: Two Sum
-**Easy** · Arrays / Hash Maps
+### 🧠 Challenge: Throttle Function
+**Medium** · Closures / Async
 
-Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
+Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
 
-👉 [Full challenge + solution](./logs/2026-10-14.md)
+👉 [Full challenge + solution](./logs/2026-10-15.md)
 
-### 💡 Tip: Use `structuredClone()` for deep copies
-Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
+### 💡 Tip: Use `Intl` APIs for locale-aware formatting
+Stop hardcoding date/number formats. Use `Intl`:
 
 ---
 
@@ -24,6 +24,7 @@ Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, u
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-15](./logs/2026-10-15.md)
 - [2026-10-14](./logs/2026-10-14.md)
 - [2026-10-13](./logs/2026-10-13.md)
 - [2026-10-12](./logs/2026-10-12.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-04](./logs/2026-10-04.md)
 - [2026-10-03](./logs/2026-10-03.md)
 - [2026-10-02](./logs/2026-10-02.md)
-- [2026-10-01](./logs/2026-10-01.md)
 
 ---
 
