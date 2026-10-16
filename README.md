@@ -8,15 +8,15 @@
 
 ## 📅 Today — Friday, October 16, 2026 (Day 110)
 
-### 🧠 Challenge: Count Character Frequencies
-**Easy** · Strings / Hash Maps
+### 🧠 Challenge: Throttle Function
+**Medium** · Closures / Async
 
-Return an object mapping each character in a string to its frequency. Case-sensitive.
+Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
 
 👉 [Full challenge + solution](./logs/2026-10-16.md)
 
-### 💡 Tip: Use `Set` for fast membership checks
-`Set.has()` is O(1), `Array.includes()` is O(n).
+### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
+ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
 
 ---
 
