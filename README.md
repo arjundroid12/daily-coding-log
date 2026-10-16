@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-109-blue)
+![Day](https://img.shields.io/badge/day-110-blue)
 
-## 📅 Today — Thursday, October 15, 2026 (Day 109)
+## 📅 Today — Friday, October 16, 2026 (Day 110)
 
-### 🧠 Challenge: Throttle Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Count Character Frequencies
+**Easy** · Strings / Hash Maps
 
-Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
+Return an object mapping each character in a string to its frequency. Case-sensitive.
 
-👉 [Full challenge + solution](./logs/2026-10-15.md)
+👉 [Full challenge + solution](./logs/2026-10-16.md)
 
-### 💡 Tip: Use `Intl` APIs for locale-aware formatting
-Stop hardcoding date/number formats. Use `Intl`:
+### 💡 Tip: Use `Set` for fast membership checks
+`Set.has()` is O(1), `Array.includes()` is O(n).
 
 ---
 
@@ -24,6 +24,7 @@ Stop hardcoding date/number formats. Use `Intl`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-16](./logs/2026-10-16.md)
 - [2026-10-15](./logs/2026-10-15.md)
 - [2026-10-14](./logs/2026-10-14.md)
 - [2026-10-13](./logs/2026-10-13.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-05](./logs/2026-10-05.md)
 - [2026-10-04](./logs/2026-10-04.md)
 - [2026-10-03](./logs/2026-10-03.md)
-- [2026-10-02](./logs/2026-10-02.md)
 
 ---
 
