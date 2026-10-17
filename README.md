@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-110-blue)
+![Day](https://img.shields.io/badge/day-111-blue)
 
-## 📅 Today — Friday, October 16, 2026 (Day 110)
+## 📅 Today — Saturday, October 17, 2026 (Day 111)
 
-### 🧠 Challenge: Throttle Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Sum of Digits
+**Easy** · Math / Loops
 
-Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
+Given a non-negative integer, return the sum of its digits.
 
-👉 [Full challenge + solution](./logs/2026-10-16.md)
+👉 [Full challenge + solution](./logs/2026-10-17.md)
 
-### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
-ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
+### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
+Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
 
 ---
 
@@ -24,6 +24,7 @@ ES2023 added `findLast` / `findLastIndex` — find the LAST matching element wit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-17](./logs/2026-10-17.md)
 - [2026-10-16](./logs/2026-10-16.md)
 - [2026-10-15](./logs/2026-10-15.md)
 - [2026-10-14](./logs/2026-10-14.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-06](./logs/2026-10-06.md)
 - [2026-10-05](./logs/2026-10-05.md)
 - [2026-10-04](./logs/2026-10-04.md)
-- [2026-10-03](./logs/2026-10-03.md)
 
 ---
 
