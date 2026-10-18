@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-111-blue)
+![Day](https://img.shields.io/badge/day-112-blue)
 
-## 📅 Today — Saturday, October 17, 2026 (Day 111)
+## 📅 Today — Sunday, October 18, 2026 (Day 112)
 
-### 🧠 Challenge: Sum of Digits
-**Easy** · Math / Loops
+### 🧠 Challenge: Capitalise Each Word
+**Easy** · Strings
 
-Given a non-negative integer, return the sum of its digits.
+Given a sentence, capitalise the first letter of each word.
 
-👉 [Full challenge + solution](./logs/2026-10-17.md)
+👉 [Full challenge + solution](./logs/2026-10-18.md)
 
-### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
-Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
+### 💡 Tip: `Array.prototype.at()` for negative indexing
+Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 ---
 
@@ -24,6 +24,7 @@ Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-18](./logs/2026-10-18.md)
 - [2026-10-17](./logs/2026-10-17.md)
 - [2026-10-16](./logs/2026-10-16.md)
 - [2026-10-15](./logs/2026-10-15.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-07](./logs/2026-10-07.md)
 - [2026-10-06](./logs/2026-10-06.md)
 - [2026-10-05](./logs/2026-10-05.md)
-- [2026-10-04](./logs/2026-10-04.md)
 
 ---
 
