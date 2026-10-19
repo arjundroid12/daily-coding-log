@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-112-blue)
+![Day](https://img.shields.io/badge/day-113-blue)
 
-## 📅 Today — Sunday, October 18, 2026 (Day 112)
+## 📅 Today — Monday, October 19, 2026 (Day 113)
 
-### 🧠 Challenge: Capitalise Each Word
-**Easy** · Strings
+### 🧠 Challenge: Fibonacci (Efficient)
+**Medium** · Dynamic Programming
 
-Given a sentence, capitalise the first letter of each word.
+Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
 
-👉 [Full challenge + solution](./logs/2026-10-18.md)
+👉 [Full challenge + solution](./logs/2026-10-19.md)
 
-### 💡 Tip: `Array.prototype.at()` for negative indexing
-Forget `arr[arr.length - 1]` — use `.at(-1)`.
+### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
+For unique IDs, use the built-in crypto module:
 
 ---
 
@@ -24,6 +24,7 @@ Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-19](./logs/2026-10-19.md)
 - [2026-10-18](./logs/2026-10-18.md)
 - [2026-10-17](./logs/2026-10-17.md)
 - [2026-10-16](./logs/2026-10-16.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-08](./logs/2026-10-08.md)
 - [2026-10-07](./logs/2026-10-07.md)
 - [2026-10-06](./logs/2026-10-06.md)
-- [2026-10-05](./logs/2026-10-05.md)
 
 ---
 
