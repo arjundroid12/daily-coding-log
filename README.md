@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-113-blue)
+![Day](https://img.shields.io/badge/day-114-blue)
 
-## 📅 Today — Monday, October 19, 2026 (Day 113)
+## 📅 Today — Tuesday, October 20, 2026 (Day 114)
 
-### 🧠 Challenge: Fibonacci (Efficient)
-**Medium** · Dynamic Programming
+### 🧠 Challenge: Count Vowels
+**Easy** · Strings / Regex
 
-Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
+Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
 
-👉 [Full challenge + solution](./logs/2026-10-19.md)
+👉 [Full challenge + solution](./logs/2026-10-20.md)
 
-### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
-For unique IDs, use the built-in crypto module:
+### 💡 Tip: Optional chaining `?.` is your friend
+Replace verbose `&&` chains with `?.`:
 
 ---
 
@@ -24,6 +24,7 @@ For unique IDs, use the built-in crypto module:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-20](./logs/2026-10-20.md)
 - [2026-10-19](./logs/2026-10-19.md)
 - [2026-10-18](./logs/2026-10-18.md)
 - [2026-10-17](./logs/2026-10-17.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-09](./logs/2026-10-09.md)
 - [2026-10-08](./logs/2026-10-08.md)
 - [2026-10-07](./logs/2026-10-07.md)
-- [2026-10-06](./logs/2026-10-06.md)
 
 ---
 
