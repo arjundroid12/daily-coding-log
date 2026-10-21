@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-114-blue)
+![Day](https://img.shields.io/badge/day-115-blue)
 
-## 📅 Today — Tuesday, October 20, 2026 (Day 114)
+## 📅 Today — Wednesday, October 21, 2026 (Day 115)
 
-### 🧠 Challenge: Count Vowels
-**Easy** · Strings / Regex
+### 🧠 Challenge: Fibonacci (Efficient)
+**Medium** · Dynamic Programming
 
-Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
+Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
 
-👉 [Full challenge + solution](./logs/2026-10-20.md)
+👉 [Full challenge + solution](./logs/2026-10-21.md)
 
-### 💡 Tip: Optional chaining `?.` is your friend
-Replace verbose `&&` chains with `?.`:
+### 💡 Tip: Destructure with default values and renames
+You can provide defaults AND rename in one go:
 
 ---
 
@@ -24,6 +24,7 @@ Replace verbose `&&` chains with `?.`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-21](./logs/2026-10-21.md)
 - [2026-10-20](./logs/2026-10-20.md)
 - [2026-10-19](./logs/2026-10-19.md)
 - [2026-10-18](./logs/2026-10-18.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-10](./logs/2026-10-10.md)
 - [2026-10-09](./logs/2026-10-09.md)
 - [2026-10-08](./logs/2026-10-08.md)
-- [2026-10-07](./logs/2026-10-07.md)
 
 ---
 
