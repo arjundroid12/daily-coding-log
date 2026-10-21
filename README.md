@@ -8,15 +8,15 @@
 
 ## 📅 Today — Wednesday, October 21, 2026 (Day 115)
 
-### 🧠 Challenge: Fibonacci (Efficient)
-**Medium** · Dynamic Programming
+### 🧠 Challenge: Throttle Function
+**Medium** · Closures / Async
 
-Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
+Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
 
 👉 [Full challenge + solution](./logs/2026-10-21.md)
 
-### 💡 Tip: Destructure with default values and renames
-You can provide defaults AND rename in one go:
+### 💡 Tip: Use `Intl` APIs for locale-aware formatting
+Stop hardcoding date/number formats. Use `Intl`:
 
 ---
 
