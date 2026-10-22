@@ -4,16 +4,16 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-115-blue)
+![Day](https://img.shields.io/badge/day-116-blue)
 
-## 📅 Today — Wednesday, October 21, 2026 (Day 115)
+## 📅 Today — Thursday, October 22, 2026 (Day 116)
 
-### 🧠 Challenge: Throttle Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Count Vowels
+**Easy** · Strings / Regex
 
-Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
+Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
 
-👉 [Full challenge + solution](./logs/2026-10-21.md)
+👉 [Full challenge + solution](./logs/2026-10-22.md)
 
 ### 💡 Tip: Use `Intl` APIs for locale-aware formatting
 Stop hardcoding date/number formats. Use `Intl`:
@@ -24,6 +24,7 @@ Stop hardcoding date/number formats. Use `Intl`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-22](./logs/2026-10-22.md)
 - [2026-10-21](./logs/2026-10-21.md)
 - [2026-10-20](./logs/2026-10-20.md)
 - [2026-10-19](./logs/2026-10-19.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-11](./logs/2026-10-11.md)
 - [2026-10-10](./logs/2026-10-10.md)
 - [2026-10-09](./logs/2026-10-09.md)
-- [2026-10-08](./logs/2026-10-08.md)
 
 ---
 
