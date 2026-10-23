@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-116-blue)
+![Day](https://img.shields.io/badge/day-117-blue)
 
-## 📅 Today — Thursday, October 22, 2026 (Day 116)
+## 📅 Today — Friday, October 23, 2026 (Day 117)
 
-### 🧠 Challenge: Count Vowels
-**Easy** · Strings / Regex
+### 🧠 Challenge: Find Maximum in Array
+**Easy** · Arrays
 
-Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
+Find the maximum value in an array without using `Math.max()` or `.sort()`.
 
-👉 [Full challenge + solution](./logs/2026-10-22.md)
+👉 [Full challenge + solution](./logs/2026-10-23.md)
 
-### 💡 Tip: Use `Intl` APIs for locale-aware formatting
-Stop hardcoding date/number formats. Use `Intl`:
+### 💡 Tip: Destructure with default values and renames
+You can provide defaults AND rename in one go:
 
 ---
 
@@ -24,6 +24,7 @@ Stop hardcoding date/number formats. Use `Intl`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-23](./logs/2026-10-23.md)
 - [2026-10-22](./logs/2026-10-22.md)
 - [2026-10-21](./logs/2026-10-21.md)
 - [2026-10-20](./logs/2026-10-20.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-12](./logs/2026-10-12.md)
 - [2026-10-11](./logs/2026-10-11.md)
 - [2026-10-10](./logs/2026-10-10.md)
-- [2026-10-09](./logs/2026-10-09.md)
 
 ---
 
