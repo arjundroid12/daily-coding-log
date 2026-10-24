@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-117-blue)
+![Day](https://img.shields.io/badge/day-118-blue)
 
-## 📅 Today — Friday, October 23, 2026 (Day 117)
+## 📅 Today — Saturday, October 24, 2026 (Day 118)
 
-### 🧠 Challenge: Find Maximum in Array
-**Easy** · Arrays
+### 🧠 Challenge: Merge Two Sorted Arrays
+**Medium** · Arrays / Two Pointers
 
-Find the maximum value in an array without using `Math.max()` or `.sort()`.
+Given two sorted arrays `a` and `b`, merge them into a single sorted array.
 
-👉 [Full challenge + solution](./logs/2026-10-23.md)
+👉 [Full challenge + solution](./logs/2026-10-24.md)
 
-### 💡 Tip: Destructure with default values and renames
-You can provide defaults AND rename in one go:
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
@@ -24,6 +24,7 @@ You can provide defaults AND rename in one go:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-24](./logs/2026-10-24.md)
 - [2026-10-23](./logs/2026-10-23.md)
 - [2026-10-22](./logs/2026-10-22.md)
 - [2026-10-21](./logs/2026-10-21.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-13](./logs/2026-10-13.md)
 - [2026-10-12](./logs/2026-10-12.md)
 - [2026-10-11](./logs/2026-10-11.md)
-- [2026-10-10](./logs/2026-10-10.md)
 
 ---
 
