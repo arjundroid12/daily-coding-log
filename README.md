@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-120-blue)
+![Day](https://img.shields.io/badge/day-121-blue)
 
-## 📅 Today — Monday, October 26, 2026 (Day 120)
+## 📅 Today — Tuesday, October 27, 2026 (Day 121)
 
-### 🧠 Challenge: Throttle Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Anagram Check
+**Easy** · Strings / Sorting
 
-Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
+Check if two strings are anagrams (contain the same characters with the same frequencies).
 
-👉 [Full challenge + solution](./logs/2026-10-26.md)
+👉 [Full challenge + solution](./logs/2026-10-27.md)
 
-### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
-`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
@@ -24,6 +24,7 @@ Implement a `throttle(func, limit)` function that ensures `func` is called at mo
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-27](./logs/2026-10-27.md)
 - [2026-10-26](./logs/2026-10-26.md)
 - [2026-10-24](./logs/2026-10-24.md)
 - [2026-10-23](./logs/2026-10-23.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-15](./logs/2026-10-15.md)
 - [2026-10-14](./logs/2026-10-14.md)
 - [2026-10-13](./logs/2026-10-13.md)
-- [2026-10-12](./logs/2026-10-12.md)
 
 ---
 
