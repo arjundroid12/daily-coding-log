@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-121-blue)
+![Day](https://img.shields.io/badge/day-122-blue)
 
-## 📅 Today — Tuesday, October 27, 2026 (Day 121)
+## 📅 Today — Wednesday, October 28, 2026 (Day 122)
 
-### 🧠 Challenge: Anagram Check
-**Easy** · Strings / Sorting
+### 🧠 Challenge: Flatten Nested Array
+**Medium** · Recursion / Arrays
 
-Check if two strings are anagrams (contain the same characters with the same frequencies).
+Flatten a deeply nested array into a single-level array.
 
-👉 [Full challenge + solution](./logs/2026-10-27.md)
+👉 [Full challenge + solution](./logs/2026-10-28.md)
 
-### 💡 Tip: Use `AbortController` for cancellable fetch
-Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
+### 💡 Tip: Use `Intl` APIs for locale-aware formatting
+Stop hardcoding date/number formats. Use `Intl`:
 
 ---
 
@@ -24,6 +24,7 @@ Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-28](./logs/2026-10-28.md)
 - [2026-10-27](./logs/2026-10-27.md)
 - [2026-10-26](./logs/2026-10-26.md)
 - [2026-10-24](./logs/2026-10-24.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-16](./logs/2026-10-16.md)
 - [2026-10-15](./logs/2026-10-15.md)
 - [2026-10-14](./logs/2026-10-14.md)
-- [2026-10-13](./logs/2026-10-13.md)
 
 ---
 
