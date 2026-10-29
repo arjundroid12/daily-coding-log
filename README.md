@@ -8,15 +8,15 @@
 
 ## 📅 Today — Thursday, October 29, 2026 (Day 123)
 
-### 🧠 Challenge: Merge Two Sorted Arrays
-**Medium** · Arrays / Two Pointers
+### 🧠 Challenge: Binary Search
+**Medium** · Search Algorithms
 
-Given two sorted arrays `a` and `b`, merge them into a single sorted array.
+Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.
 
 👉 [Full challenge + solution](./logs/2026-10-29.md)
 
-### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
-For unique IDs, use the built-in crypto module:
+### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
+Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
 
 ---
 
