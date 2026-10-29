@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-122-blue)
+![Day](https://img.shields.io/badge/day-123-blue)
 
-## 📅 Today — Wednesday, October 28, 2026 (Day 122)
+## 📅 Today — Thursday, October 29, 2026 (Day 123)
 
-### 🧠 Challenge: Flatten Nested Array
-**Medium** · Recursion / Arrays
+### 🧠 Challenge: Merge Two Sorted Arrays
+**Medium** · Arrays / Two Pointers
 
-Flatten a deeply nested array into a single-level array.
+Given two sorted arrays `a` and `b`, merge them into a single sorted array.
 
-👉 [Full challenge + solution](./logs/2026-10-28.md)
+👉 [Full challenge + solution](./logs/2026-10-29.md)
 
-### 💡 Tip: Use `Intl` APIs for locale-aware formatting
-Stop hardcoding date/number formats. Use `Intl`:
+### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
+For unique IDs, use the built-in crypto module:
 
 ---
 
@@ -24,6 +24,7 @@ Stop hardcoding date/number formats. Use `Intl`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-29](./logs/2026-10-29.md)
 - [2026-10-28](./logs/2026-10-28.md)
 - [2026-10-27](./logs/2026-10-27.md)
 - [2026-10-26](./logs/2026-10-26.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-17](./logs/2026-10-17.md)
 - [2026-10-16](./logs/2026-10-16.md)
 - [2026-10-15](./logs/2026-10-15.md)
-- [2026-10-14](./logs/2026-10-14.md)
 
 ---
 
