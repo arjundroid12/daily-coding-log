@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-123-blue)
+![Day](https://img.shields.io/badge/day-124-blue)
 
-## 📅 Today — Thursday, October 29, 2026 (Day 123)
+## 📅 Today — Friday, October 30, 2026 (Day 124)
 
-### 🧠 Challenge: Binary Search
-**Medium** · Search Algorithms
+### 🧠 Challenge: Two Sum
+**Easy** · Arrays / Hash Maps
 
-Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.
+Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
 
-👉 [Full challenge + solution](./logs/2026-10-29.md)
+👉 [Full challenge + solution](./logs/2026-10-30.md)
 
-### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
-Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
+### 💡 Tip: Bit-shift for integer division by powers of 2
+Bit-shifting is faster than `Math.floor(n / 2)`:
 
 ---
 
@@ -24,6 +24,7 @@ Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-30](./logs/2026-10-30.md)
 - [2026-10-29](./logs/2026-10-29.md)
 - [2026-10-28](./logs/2026-10-28.md)
 - [2026-10-27](./logs/2026-10-27.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-18](./logs/2026-10-18.md)
 - [2026-10-17](./logs/2026-10-17.md)
 - [2026-10-16](./logs/2026-10-16.md)
-- [2026-10-15](./logs/2026-10-15.md)
 
 ---
 
