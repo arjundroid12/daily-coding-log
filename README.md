@@ -8,15 +8,15 @@
 
 ## 📅 Today — Friday, October 30, 2026 (Day 124)
 
-### 🧠 Challenge: Two Sum
-**Easy** · Arrays / Hash Maps
+### 🧠 Challenge: Valid Parentheses
+**Easy** · Stacks
 
-Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
+Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
 
 👉 [Full challenge + solution](./logs/2026-10-30.md)
 
-### 💡 Tip: Bit-shift for integer division by powers of 2
-Bit-shifting is faster than `Math.floor(n / 2)`:
+### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
+ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
 
 ---
 
