@@ -8,15 +8,15 @@
 
 ## 📅 Today — Saturday, October 31, 2026 (Day 125)
 
-### 🧠 Challenge: Deep Clone Object
-**Medium** · Objects / Recursion
+### 🧠 Challenge: Remove Duplicates from Array
+**Easy** · Arrays / Sets
 
-Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
+Return a new array with duplicates removed, preserving the order of first occurrence.
 
 👉 [Full challenge + solution](./logs/2026-10-31.md)
 
-### 💡 Tip: Use `??=` and `||=` for conditional assignment
-ES2021 added compound assignment for nullish and logical OR:
+### 💡 Tip: `Object.entries()` for key-value iteration
+Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
 
 ---
 
