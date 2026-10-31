@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-124-blue)
+![Day](https://img.shields.io/badge/day-125-blue)
 
-## 📅 Today — Friday, October 30, 2026 (Day 124)
+## 📅 Today — Saturday, October 31, 2026 (Day 125)
 
-### 🧠 Challenge: Valid Parentheses
-**Easy** · Stacks
+### 🧠 Challenge: Deep Clone Object
+**Medium** · Objects / Recursion
 
-Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
+Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
 
-👉 [Full challenge + solution](./logs/2026-10-30.md)
+👉 [Full challenge + solution](./logs/2026-10-31.md)
 
-### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
-ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
+### 💡 Tip: Use `??=` and `||=` for conditional assignment
+ES2021 added compound assignment for nullish and logical OR:
 
 ---
 
@@ -24,6 +24,7 @@ ES2023 added `findLast` / `findLastIndex` — find the LAST matching element wit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-10-31](./logs/2026-10-31.md)
 - [2026-10-30](./logs/2026-10-30.md)
 - [2026-10-29](./logs/2026-10-29.md)
 - [2026-10-28](./logs/2026-10-28.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-19](./logs/2026-10-19.md)
 - [2026-10-18](./logs/2026-10-18.md)
 - [2026-10-17](./logs/2026-10-17.md)
-- [2026-10-16](./logs/2026-10-16.md)
 
 ---
 
