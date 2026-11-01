@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-125-blue)
+![Day](https://img.shields.io/badge/day-126-blue)
 
-## 📅 Today — Saturday, October 31, 2026 (Day 125)
+## 📅 Today — Sunday, November 1, 2026 (Day 126)
 
 ### 🧠 Challenge: Remove Duplicates from Array
 **Easy** · Arrays / Sets
 
 Return a new array with duplicates removed, preserving the order of first occurrence.
 
-👉 [Full challenge + solution](./logs/2026-10-31.md)
+👉 [Full challenge + solution](./logs/2026-11-01.md)
 
-### 💡 Tip: `Object.entries()` for key-value iteration
-Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
+### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
+Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
 
 ---
 
@@ -24,6 +24,7 @@ Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` chec
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-01](./logs/2026-11-01.md)
 - [2026-10-31](./logs/2026-10-31.md)
 - [2026-10-30](./logs/2026-10-30.md)
 - [2026-10-29](./logs/2026-10-29.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-20](./logs/2026-10-20.md)
 - [2026-10-19](./logs/2026-10-19.md)
 - [2026-10-18](./logs/2026-10-18.md)
-- [2026-10-17](./logs/2026-10-17.md)
 
 ---
 
