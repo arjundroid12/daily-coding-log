@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-126-blue)
+![Day](https://img.shields.io/badge/day-127-blue)
 
-## 📅 Today — Sunday, November 1, 2026 (Day 126)
+## 📅 Today — Monday, November 2, 2026 (Day 127)
 
-### 🧠 Challenge: Remove Duplicates from Array
-**Easy** · Arrays / Sets
+### 🧠 Challenge: FizzBuzz
+**Easy** · Loops / Conditionals
 
-Return a new array with duplicates removed, preserving the order of first occurrence.
+Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
 
-👉 [Full challenge + solution](./logs/2026-11-01.md)
+👉 [Full challenge + solution](./logs/2026-11-02.md)
 
-### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
-Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
+### 💡 Tip: Tagged template literals for safe HTML
+Template literals can be tagged with a function that pre-processes parts:
 
 ---
 
@@ -24,6 +24,7 @@ Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-02](./logs/2026-11-02.md)
 - [2026-11-01](./logs/2026-11-01.md)
 - [2026-10-31](./logs/2026-10-31.md)
 - [2026-10-30](./logs/2026-10-30.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-21](./logs/2026-10-21.md)
 - [2026-10-20](./logs/2026-10-20.md)
 - [2026-10-19](./logs/2026-10-19.md)
-- [2026-10-18](./logs/2026-10-18.md)
 
 ---
 
