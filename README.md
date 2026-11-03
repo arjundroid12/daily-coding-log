@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-127-blue)
+![Day](https://img.shields.io/badge/day-128-blue)
 
-## 📅 Today — Monday, November 2, 2026 (Day 127)
+## 📅 Today — Tuesday, November 3, 2026 (Day 128)
 
-### 🧠 Challenge: FizzBuzz
-**Easy** · Loops / Conditionals
+### 🧠 Challenge: Capitalise Each Word
+**Easy** · Strings
 
-Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
+Given a sentence, capitalise the first letter of each word.
 
-👉 [Full challenge + solution](./logs/2026-11-02.md)
+👉 [Full challenge + solution](./logs/2026-11-03.md)
 
-### 💡 Tip: Tagged template literals for safe HTML
-Template literals can be tagged with a function that pre-processes parts:
+### 💡 Tip: Optional chaining `?.` is your friend
+Replace verbose `&&` chains with `?.`:
 
 ---
 
@@ -24,6 +24,7 @@ Template literals can be tagged with a function that pre-processes parts:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-03](./logs/2026-11-03.md)
 - [2026-11-02](./logs/2026-11-02.md)
 - [2026-11-01](./logs/2026-11-01.md)
 - [2026-10-31](./logs/2026-10-31.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-22](./logs/2026-10-22.md)
 - [2026-10-21](./logs/2026-10-21.md)
 - [2026-10-20](./logs/2026-10-20.md)
-- [2026-10-19](./logs/2026-10-19.md)
 
 ---
 
