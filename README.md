@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-128-blue)
+![Day](https://img.shields.io/badge/day-129-blue)
 
-## 📅 Today — Tuesday, November 3, 2026 (Day 128)
+## 📅 Today — Wednesday, November 4, 2026 (Day 129)
 
-### 🧠 Challenge: Capitalise Each Word
-**Easy** · Strings
+### 🧠 Challenge: Remove Duplicates from Array
+**Easy** · Arrays / Sets
 
-Given a sentence, capitalise the first letter of each word.
+Return a new array with duplicates removed, preserving the order of first occurrence.
 
-👉 [Full challenge + solution](./logs/2026-11-03.md)
+👉 [Full challenge + solution](./logs/2026-11-04.md)
 
-### 💡 Tip: Optional chaining `?.` is your friend
-Replace verbose `&&` chains with `?.`:
+### 💡 Tip: Top-level `await` works in ES modules
+In `.mjs` files (or with `"type": "module"` in package.json), you can use `await` at the top level — no wrapping IIFE needed:
 
 ---
 
@@ -24,6 +24,7 @@ Replace verbose `&&` chains with `?.`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-04](./logs/2026-11-04.md)
 - [2026-11-03](./logs/2026-11-03.md)
 - [2026-11-02](./logs/2026-11-02.md)
 - [2026-11-01](./logs/2026-11-01.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-23](./logs/2026-10-23.md)
 - [2026-10-22](./logs/2026-10-22.md)
 - [2026-10-21](./logs/2026-10-21.md)
-- [2026-10-20](./logs/2026-10-20.md)
 
 ---
 
