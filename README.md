@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-129-blue)
+![Day](https://img.shields.io/badge/day-130-blue)
 
-## 📅 Today — Wednesday, November 4, 2026 (Day 129)
+## 📅 Today — Thursday, November 5, 2026 (Day 130)
 
-### 🧠 Challenge: FizzBuzz
-**Easy** · Loops / Conditionals
+### 🧠 Challenge: Throttle Function
+**Medium** · Closures / Async
 
-Print numbers 1 to 100. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both 3 and 5, print 'FizzBuzz'.
+Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
 
-👉 [Full challenge + solution](./logs/2026-11-04.md)
+👉 [Full challenge + solution](./logs/2026-11-05.md)
 
-### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
-ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
+### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
+Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
 
 ---
 
@@ -24,6 +24,7 @@ ES2023 added `findLast` / `findLastIndex` — find the LAST matching element wit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-05](./logs/2026-11-05.md)
 - [2026-11-04](./logs/2026-11-04.md)
 - [2026-11-03](./logs/2026-11-03.md)
 - [2026-11-02](./logs/2026-11-02.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-24](./logs/2026-10-24.md)
 - [2026-10-23](./logs/2026-10-23.md)
 - [2026-10-22](./logs/2026-10-22.md)
-- [2026-10-21](./logs/2026-10-21.md)
 
 ---
 
