@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-130-blue)
+![Day](https://img.shields.io/badge/day-131-blue)
 
-## 📅 Today — Thursday, November 5, 2026 (Day 130)
+## 📅 Today — Friday, November 6, 2026 (Day 131)
 
-### 🧠 Challenge: Throttle Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Reverse a String
+**Easy** · Strings
 
-Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
+Reverse a string without using the built-in `.reverse()` method.
 
-👉 [Full challenge + solution](./logs/2026-11-05.md)
+👉 [Full challenge + solution](./logs/2026-11-06.md)
 
-### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
-Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
+### 💡 Tip: `Array.prototype.at()` for negative indexing
+Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 ---
 
@@ -24,6 +24,7 @@ Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-06](./logs/2026-11-06.md)
 - [2026-11-05](./logs/2026-11-05.md)
 - [2026-11-04](./logs/2026-11-04.md)
 - [2026-11-03](./logs/2026-11-03.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-26](./logs/2026-10-26.md)
 - [2026-10-24](./logs/2026-10-24.md)
 - [2026-10-23](./logs/2026-10-23.md)
-- [2026-10-22](./logs/2026-10-22.md)
 
 ---
 
