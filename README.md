@@ -8,10 +8,10 @@
 
 ## 📅 Today — Friday, November 6, 2026 (Day 131)
 
-### 🧠 Challenge: Reverse a String
-**Easy** · Strings
+### 🧠 Challenge: Remove Duplicates from Array
+**Easy** · Arrays / Sets
 
-Reverse a string without using the built-in `.reverse()` method.
+Return a new array with duplicates removed, preserving the order of first occurrence.
 
 👉 [Full challenge + solution](./logs/2026-11-06.md)
 
