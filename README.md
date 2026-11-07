@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-131-blue)
+![Day](https://img.shields.io/badge/day-132-blue)
 
-## 📅 Today — Friday, November 6, 2026 (Day 131)
+## 📅 Today — Saturday, November 7, 2026 (Day 132)
 
-### 🧠 Challenge: Remove Duplicates from Array
-**Easy** · Arrays / Sets
+### 🧠 Challenge: Reverse a String
+**Easy** · Strings
 
-Return a new array with duplicates removed, preserving the order of first occurrence.
+Reverse a string without using the built-in `.reverse()` method.
 
-👉 [Full challenge + solution](./logs/2026-11-06.md)
+👉 [Full challenge + solution](./logs/2026-11-07.md)
 
-### 💡 Tip: `Array.prototype.at()` for negative indexing
-Forget `arr[arr.length - 1]` — use `.at(-1)`.
+### 💡 Tip: Top-level `await` works in ES modules
+In `.mjs` files (or with `"type": "module"` in package.json), you can use `await` at the top level — no wrapping IIFE needed:
 
 ---
 
@@ -24,6 +24,7 @@ Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-07](./logs/2026-11-07.md)
 - [2026-11-06](./logs/2026-11-06.md)
 - [2026-11-05](./logs/2026-11-05.md)
 - [2026-11-04](./logs/2026-11-04.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-27](./logs/2026-10-27.md)
 - [2026-10-26](./logs/2026-10-26.md)
 - [2026-10-24](./logs/2026-10-24.md)
-- [2026-10-23](./logs/2026-10-23.md)
 
 ---
 
