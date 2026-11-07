@@ -8,15 +8,15 @@
 
 ## 📅 Today — Saturday, November 7, 2026 (Day 132)
 
-### 🧠 Challenge: Reverse a String
-**Easy** · Strings
+### 🧠 Challenge: Anagram Check
+**Easy** · Strings / Sorting
 
-Reverse a string without using the built-in `.reverse()` method.
+Check if two strings are anagrams (contain the same characters with the same frequencies).
 
 👉 [Full challenge + solution](./logs/2026-11-07.md)
 
-### 💡 Tip: Top-level `await` works in ES modules
-In `.mjs` files (or with `"type": "module"` in package.json), you can use `await` at the top level — no wrapping IIFE needed:
+### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
+For unique IDs, use the built-in crypto module:
 
 ---
 
