@@ -8,15 +8,15 @@
 
 ## 📅 Today — Sunday, November 8, 2026 (Day 133)
 
-### 🧠 Challenge: Count Vowels
-**Easy** · Strings / Regex
+### 🧠 Challenge: Factorial
+**Easy** · Recursion
 
-Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
+Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
 
 👉 [Full challenge + solution](./logs/2026-11-08.md)
 
-### 💡 Tip: `Object.entries()` for key-value iteration
-Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
+### 💡 Tip: Use `Intl` APIs for locale-aware formatting
+Stop hardcoding date/number formats. Use `Intl`:
 
 ---
 
