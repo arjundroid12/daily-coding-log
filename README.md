@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-132-blue)
+![Day](https://img.shields.io/badge/day-133-blue)
 
-## 📅 Today — Saturday, November 7, 2026 (Day 132)
+## 📅 Today — Sunday, November 8, 2026 (Day 133)
 
-### 🧠 Challenge: Anagram Check
-**Easy** · Strings / Sorting
+### 🧠 Challenge: Count Vowels
+**Easy** · Strings / Regex
 
-Check if two strings are anagrams (contain the same characters with the same frequencies).
+Count the number of vowels (a, e, i, o, u) in a string. Case-insensitive.
 
-👉 [Full challenge + solution](./logs/2026-11-07.md)
+👉 [Full challenge + solution](./logs/2026-11-08.md)
 
-### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
-For unique IDs, use the built-in crypto module:
+### 💡 Tip: `Object.entries()` for key-value iteration
+Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
 
 ---
 
@@ -24,6 +24,7 @@ For unique IDs, use the built-in crypto module:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-08](./logs/2026-11-08.md)
 - [2026-11-07](./logs/2026-11-07.md)
 - [2026-11-06](./logs/2026-11-06.md)
 - [2026-11-05](./logs/2026-11-05.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-28](./logs/2026-10-28.md)
 - [2026-10-27](./logs/2026-10-27.md)
 - [2026-10-26](./logs/2026-10-26.md)
-- [2026-10-24](./logs/2026-10-24.md)
 
 ---
 
