@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-133-blue)
+![Day](https://img.shields.io/badge/day-134-blue)
 
-## 📅 Today — Sunday, November 8, 2026 (Day 133)
+## 📅 Today — Monday, November 9, 2026 (Day 134)
 
-### 🧠 Challenge: Factorial
-**Easy** · Recursion
+### 🧠 Challenge: Find Maximum in Array
+**Easy** · Arrays
 
-Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
+Find the maximum value in an array without using `Math.max()` or `.sort()`.
 
-👉 [Full challenge + solution](./logs/2026-11-08.md)
+👉 [Full challenge + solution](./logs/2026-11-09.md)
 
-### 💡 Tip: Use `Intl` APIs for locale-aware formatting
-Stop hardcoding date/number formats. Use `Intl`:
+### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
+Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
 
 ---
 
@@ -24,6 +24,7 @@ Stop hardcoding date/number formats. Use `Intl`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-09](./logs/2026-11-09.md)
 - [2026-11-08](./logs/2026-11-08.md)
 - [2026-11-07](./logs/2026-11-07.md)
 - [2026-11-06](./logs/2026-11-06.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-29](./logs/2026-10-29.md)
 - [2026-10-28](./logs/2026-10-28.md)
 - [2026-10-27](./logs/2026-10-27.md)
-- [2026-10-26](./logs/2026-10-26.md)
 
 ---
 
