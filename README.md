@@ -8,15 +8,15 @@
 
 ## 📅 Today — Tuesday, November 10, 2026 (Day 135)
 
-### 🧠 Challenge: Remove Duplicates from Array
-**Easy** · Arrays / Sets
+### 🧠 Challenge: Valid Parentheses
+**Easy** · Stacks
 
-Return a new array with duplicates removed, preserving the order of first occurrence.
+Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
 
 👉 [Full challenge + solution](./logs/2026-11-10.md)
 
-### 💡 Tip: Use `Intl` APIs for locale-aware formatting
-Stop hardcoding date/number formats. Use `Intl`:
+### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
+`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
 
 ---
 
