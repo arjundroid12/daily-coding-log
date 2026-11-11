@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-135-blue)
+![Day](https://img.shields.io/badge/day-136-blue)
 
-## 📅 Today — Tuesday, November 10, 2026 (Day 135)
+## 📅 Today — Wednesday, November 11, 2026 (Day 136)
 
-### 🧠 Challenge: Valid Parentheses
-**Easy** · Stacks
+### 🧠 Challenge: Palindrome Check
+**Easy** · Strings
 
-Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, determine if the input string is valid. Open brackets must be closed by the same type, in the correct order.
+Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
 
-👉 [Full challenge + solution](./logs/2026-11-10.md)
+👉 [Full challenge + solution](./logs/2026-11-11.md)
 
-### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
-`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
+### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
+For unique IDs, use the built-in crypto module:
 
 ---
 
@@ -24,6 +24,7 @@ Given a string containing just the characters `(`, `)`, `{`, `}`, `[`, `]`, dete
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-11](./logs/2026-11-11.md)
 - [2026-11-10](./logs/2026-11-10.md)
 - [2026-11-09](./logs/2026-11-09.md)
 - [2026-11-08](./logs/2026-11-08.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-10-31](./logs/2026-10-31.md)
 - [2026-10-30](./logs/2026-10-30.md)
 - [2026-10-29](./logs/2026-10-29.md)
-- [2026-10-28](./logs/2026-10-28.md)
 
 ---
 
