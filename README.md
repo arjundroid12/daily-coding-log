@@ -8,15 +8,15 @@
 
 ## 📅 Today — Thursday, November 12, 2026 (Day 137)
 
-### 🧠 Challenge: Count Character Frequencies
-**Easy** · Strings / Hash Maps
+### 🧠 Challenge: Reverse a String
+**Easy** · Strings
 
-Return an object mapping each character in a string to its frequency. Case-sensitive.
+Reverse a string without using the built-in `.reverse()` method.
 
 👉 [Full challenge + solution](./logs/2026-11-12.md)
 
-### 💡 Tip: Use `Intl` APIs for locale-aware formatting
-Stop hardcoding date/number formats. Use `Intl`:
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
