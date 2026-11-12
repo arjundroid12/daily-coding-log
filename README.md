@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-136-blue)
+![Day](https://img.shields.io/badge/day-137-blue)
 
-## 📅 Today — Wednesday, November 11, 2026 (Day 136)
+## 📅 Today — Thursday, November 12, 2026 (Day 137)
 
-### 🧠 Challenge: Palindrome Check
-**Easy** · Strings
+### 🧠 Challenge: Count Character Frequencies
+**Easy** · Strings / Hash Maps
 
-Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
+Return an object mapping each character in a string to its frequency. Case-sensitive.
 
-👉 [Full challenge + solution](./logs/2026-11-11.md)
+👉 [Full challenge + solution](./logs/2026-11-12.md)
 
-### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
-For unique IDs, use the built-in crypto module:
+### 💡 Tip: Use `Intl` APIs for locale-aware formatting
+Stop hardcoding date/number formats. Use `Intl`:
 
 ---
 
@@ -24,6 +24,7 @@ For unique IDs, use the built-in crypto module:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-12](./logs/2026-11-12.md)
 - [2026-11-11](./logs/2026-11-11.md)
 - [2026-11-10](./logs/2026-11-10.md)
 - [2026-11-09](./logs/2026-11-09.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-01](./logs/2026-11-01.md)
 - [2026-10-31](./logs/2026-10-31.md)
 - [2026-10-30](./logs/2026-10-30.md)
-- [2026-10-29](./logs/2026-10-29.md)
 
 ---
 
