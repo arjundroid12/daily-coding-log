@@ -8,15 +8,15 @@
 
 ## 📅 Today — Friday, November 13, 2026 (Day 138)
 
-### 🧠 Challenge: Flatten Nested Array
-**Medium** · Recursion / Arrays
+### 🧠 Challenge: Count Character Frequencies
+**Easy** · Strings / Hash Maps
 
-Flatten a deeply nested array into a single-level array.
+Return an object mapping each character in a string to its frequency. Case-sensitive.
 
 👉 [Full challenge + solution](./logs/2026-11-13.md)
 
-### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
-Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
+### 💡 Tip: Use `Intl` APIs for locale-aware formatting
+Stop hardcoding date/number formats. Use `Intl`:
 
 ---
 
