@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-137-blue)
+![Day](https://img.shields.io/badge/day-138-blue)
 
-## 📅 Today — Thursday, November 12, 2026 (Day 137)
+## 📅 Today — Friday, November 13, 2026 (Day 138)
 
-### 🧠 Challenge: Reverse a String
-**Easy** · Strings
+### 🧠 Challenge: Flatten Nested Array
+**Medium** · Recursion / Arrays
 
-Reverse a string without using the built-in `.reverse()` method.
+Flatten a deeply nested array into a single-level array.
 
-👉 [Full challenge + solution](./logs/2026-11-12.md)
+👉 [Full challenge + solution](./logs/2026-11-13.md)
 
-### 💡 Tip: Use `structuredClone()` for deep copies
-Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
+### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
+Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
 
 ---
 
@@ -24,6 +24,7 @@ Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, u
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-13](./logs/2026-11-13.md)
 - [2026-11-12](./logs/2026-11-12.md)
 - [2026-11-11](./logs/2026-11-11.md)
 - [2026-11-10](./logs/2026-11-10.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-02](./logs/2026-11-02.md)
 - [2026-11-01](./logs/2026-11-01.md)
 - [2026-10-31](./logs/2026-10-31.md)
-- [2026-10-30](./logs/2026-10-30.md)
 
 ---
 
