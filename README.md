@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-138-blue)
+![Day](https://img.shields.io/badge/day-139-blue)
 
-## 📅 Today — Friday, November 13, 2026 (Day 138)
+## 📅 Today — Saturday, November 14, 2026 (Day 139)
 
-### 🧠 Challenge: Count Character Frequencies
-**Easy** · Strings / Hash Maps
+### 🧠 Challenge: Merge Two Sorted Arrays
+**Medium** · Arrays / Two Pointers
 
-Return an object mapping each character in a string to its frequency. Case-sensitive.
+Given two sorted arrays `a` and `b`, merge them into a single sorted array.
 
-👉 [Full challenge + solution](./logs/2026-11-13.md)
+👉 [Full challenge + solution](./logs/2026-11-14.md)
 
-### 💡 Tip: Use `Intl` APIs for locale-aware formatting
-Stop hardcoding date/number formats. Use `Intl`:
+### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
+For unique IDs, use the built-in crypto module:
 
 ---
 
@@ -24,6 +24,7 @@ Stop hardcoding date/number formats. Use `Intl`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-14](./logs/2026-11-14.md)
 - [2026-11-13](./logs/2026-11-13.md)
 - [2026-11-12](./logs/2026-11-12.md)
 - [2026-11-11](./logs/2026-11-11.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-03](./logs/2026-11-03.md)
 - [2026-11-02](./logs/2026-11-02.md)
 - [2026-11-01](./logs/2026-11-01.md)
-- [2026-10-31](./logs/2026-10-31.md)
 
 ---
 
