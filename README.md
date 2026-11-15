@@ -8,15 +8,15 @@
 
 ## 📅 Today — Sunday, November 15, 2026 (Day 140)
 
-### 🧠 Challenge: Two Sum
-**Easy** · Arrays / Hash Maps
+### 🧠 Challenge: Factorial
+**Easy** · Recursion
 
-Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
+Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
 
 👉 [Full challenge + solution](./logs/2026-11-15.md)
 
-### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
-ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
+### 💡 Tip: `Array.prototype.at()` for negative indexing
+Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 ---
 
