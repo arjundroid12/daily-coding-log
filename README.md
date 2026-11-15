@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-139-blue)
+![Day](https://img.shields.io/badge/day-140-blue)
 
-## 📅 Today — Saturday, November 14, 2026 (Day 139)
+## 📅 Today — Sunday, November 15, 2026 (Day 140)
 
-### 🧠 Challenge: Merge Two Sorted Arrays
-**Medium** · Arrays / Two Pointers
+### 🧠 Challenge: Two Sum
+**Easy** · Arrays / Hash Maps
 
-Given two sorted arrays `a` and `b`, merge them into a single sorted array.
+Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
 
-👉 [Full challenge + solution](./logs/2026-11-14.md)
+👉 [Full challenge + solution](./logs/2026-11-15.md)
 
-### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
-For unique IDs, use the built-in crypto module:
+### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
+ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
 
 ---
 
@@ -24,6 +24,7 @@ For unique IDs, use the built-in crypto module:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-15](./logs/2026-11-15.md)
 - [2026-11-14](./logs/2026-11-14.md)
 - [2026-11-13](./logs/2026-11-13.md)
 - [2026-11-12](./logs/2026-11-12.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-04](./logs/2026-11-04.md)
 - [2026-11-03](./logs/2026-11-03.md)
 - [2026-11-02](./logs/2026-11-02.md)
-- [2026-11-01](./logs/2026-11-01.md)
 
 ---
 
