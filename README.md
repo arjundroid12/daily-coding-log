@@ -8,15 +8,15 @@
 
 ## 📅 Today — Sunday, November 15, 2026 (Day 140)
 
-### 🧠 Challenge: Factorial
-**Easy** · Recursion
+### 🧠 Challenge: Flatten Nested Array
+**Medium** · Recursion / Arrays
 
-Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
+Flatten a deeply nested array into a single-level array.
 
 👉 [Full challenge + solution](./logs/2026-11-15.md)
 
-### 💡 Tip: `Array.prototype.at()` for negative indexing
-Forget `arr[arr.length - 1]` — use `.at(-1)`.
+### 💡 Tip: Optional chaining `?.` is your friend
+Replace verbose `&&` chains with `?.`:
 
 ---
 
