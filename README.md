@@ -8,15 +8,15 @@
 
 ## 📅 Today — Monday, November 16, 2026 (Day 141)
 
-### 🧠 Challenge: Flatten Nested Array
-**Medium** · Recursion / Arrays
+### 🧠 Challenge: Fibonacci (Efficient)
+**Medium** · Dynamic Programming
 
-Flatten a deeply nested array into a single-level array.
+Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
 
 👉 [Full challenge + solution](./logs/2026-11-16.md)
 
-### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
-Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
+### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
+Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
 
 ---
 
