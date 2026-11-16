@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-140-blue)
+![Day](https://img.shields.io/badge/day-141-blue)
 
-## 📅 Today — Sunday, November 15, 2026 (Day 140)
+## 📅 Today — Monday, November 16, 2026 (Day 141)
 
-### 🧠 Challenge: Flatten Nested Array
-**Medium** · Recursion / Arrays
+### 🧠 Challenge: Find Maximum in Array
+**Easy** · Arrays
 
-Flatten a deeply nested array into a single-level array.
+Find the maximum value in an array without using `Math.max()` or `.sort()`.
 
-👉 [Full challenge + solution](./logs/2026-11-15.md)
+👉 [Full challenge + solution](./logs/2026-11-16.md)
 
-### 💡 Tip: Optional chaining `?.` is your friend
-Replace verbose `&&` chains with `?.`:
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
@@ -24,6 +24,7 @@ Replace verbose `&&` chains with `?.`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-16](./logs/2026-11-16.md)
 - [2026-11-15](./logs/2026-11-15.md)
 - [2026-11-14](./logs/2026-11-14.md)
 - [2026-11-13](./logs/2026-11-13.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-05](./logs/2026-11-05.md)
 - [2026-11-04](./logs/2026-11-04.md)
 - [2026-11-03](./logs/2026-11-03.md)
-- [2026-11-02](./logs/2026-11-02.md)
 
 ---
 
