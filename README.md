@@ -15,8 +15,8 @@ Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Han
 
 👉 [Full challenge + solution](./logs/2026-11-16.md)
 
-### 💡 Tip: `Promise.allSettled()` waits for all, never rejects
-Unlike `Promise.all()` which rejects on the first failure, `Promise.allSettled()` waits for all and reports status:
+### 💡 Tip: Optional chaining `?.` is your friend
+Replace verbose `&&` chains with `?.`:
 
 ---
 
