@@ -8,15 +8,15 @@
 
 ## 📅 Today — Monday, November 16, 2026 (Day 141)
 
-### 🧠 Challenge: Find Maximum in Array
-**Easy** · Arrays
+### 🧠 Challenge: Flatten Nested Array
+**Medium** · Recursion / Arrays
 
-Find the maximum value in an array without using `Math.max()` or `.sort()`.
+Flatten a deeply nested array into a single-level array.
 
 👉 [Full challenge + solution](./logs/2026-11-16.md)
 
-### 💡 Tip: Use `structuredClone()` for deep copies
-Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
+### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
+Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
 
 ---
 
