@@ -8,15 +8,15 @@
 
 ## 📅 Today — Tuesday, November 17, 2026 (Day 142)
 
-### 🧠 Challenge: Throttle Function
-**Medium** · Closures / Async
+### 🧠 Challenge: Merge Two Sorted Arrays
+**Medium** · Arrays / Two Pointers
 
-Implement a `throttle(func, limit)` function that ensures `func` is called at most once per `limit` ms.
+Given two sorted arrays `a` and `b`, merge them into a single sorted array.
 
 👉 [Full challenge + solution](./logs/2026-11-17.md)
 
-### 💡 Tip: Destructure with default values and renames
-You can provide defaults AND rename in one go:
+### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
+For unique IDs, use the built-in crypto module:
 
 ---
 
