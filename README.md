@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-141-blue)
+![Day](https://img.shields.io/badge/day-142-blue)
 
-## 📅 Today — Monday, November 16, 2026 (Day 141)
+## 📅 Today — Tuesday, November 17, 2026 (Day 142)
 
 ### 🧠 Challenge: Fibonacci (Efficient)
 **Medium** · Dynamic Programming
 
 Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
 
-👉 [Full challenge + solution](./logs/2026-11-16.md)
+👉 [Full challenge + solution](./logs/2026-11-17.md)
 
-### 💡 Tip: Optional chaining `?.` is your friend
-Replace verbose `&&` chains with `?.`:
+### 💡 Tip: `Object.entries()` for key-value iteration
+Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
 
 ---
 
@@ -24,6 +24,7 @@ Replace verbose `&&` chains with `?.`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-17](./logs/2026-11-17.md)
 - [2026-11-16](./logs/2026-11-16.md)
 - [2026-11-15](./logs/2026-11-15.md)
 - [2026-11-14](./logs/2026-11-14.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-06](./logs/2026-11-06.md)
 - [2026-11-05](./logs/2026-11-05.md)
 - [2026-11-04](./logs/2026-11-04.md)
-- [2026-11-03](./logs/2026-11-03.md)
 
 ---
 
