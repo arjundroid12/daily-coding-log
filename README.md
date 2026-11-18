@@ -15,8 +15,8 @@ Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric c
 
 👉 [Full challenge + solution](./logs/2026-11-18.md)
 
-### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
-`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
+### 💡 Tip: `Object.entries()` for key-value iteration
+Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
 
 ---
 
