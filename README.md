@@ -8,15 +8,15 @@
 
 ## 📅 Today — Wednesday, November 18, 2026 (Day 143)
 
-### 🧠 Challenge: Remove Duplicates from Array
-**Easy** · Arrays / Sets
+### 🧠 Challenge: Palindrome Check
+**Easy** · Strings
 
-Return a new array with duplicates removed, preserving the order of first occurrence.
+Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
 
 👉 [Full challenge + solution](./logs/2026-11-18.md)
 
-### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
-Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
+### 💡 Tip: Use `Array.from()` with a mapper for clean transforms
+`Array.from()` accepts a map function as its second argument — cleaner than `.map()` after `.fill()`.
 
 ---
 
