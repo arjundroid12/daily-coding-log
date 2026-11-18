@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-142-blue)
+![Day](https://img.shields.io/badge/day-143-blue)
 
-## 📅 Today — Tuesday, November 17, 2026 (Day 142)
+## 📅 Today — Wednesday, November 18, 2026 (Day 143)
 
-### 🧠 Challenge: Merge Two Sorted Arrays
-**Medium** · Arrays / Two Pointers
+### 🧠 Challenge: Remove Duplicates from Array
+**Easy** · Arrays / Sets
 
-Given two sorted arrays `a` and `b`, merge them into a single sorted array.
+Return a new array with duplicates removed, preserving the order of first occurrence.
 
-👉 [Full challenge + solution](./logs/2026-11-17.md)
+👉 [Full challenge + solution](./logs/2026-11-18.md)
 
-### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
-For unique IDs, use the built-in crypto module:
+### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
+Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
 
 ---
 
@@ -24,6 +24,7 @@ For unique IDs, use the built-in crypto module:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-18](./logs/2026-11-18.md)
 - [2026-11-17](./logs/2026-11-17.md)
 - [2026-11-16](./logs/2026-11-16.md)
 - [2026-11-15](./logs/2026-11-15.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-07](./logs/2026-11-07.md)
 - [2026-11-06](./logs/2026-11-06.md)
 - [2026-11-05](./logs/2026-11-05.md)
-- [2026-11-04](./logs/2026-11-04.md)
 
 ---
 
