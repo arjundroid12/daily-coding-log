@@ -8,10 +8,10 @@
 
 ## 📅 Today — Thursday, November 19, 2026 (Day 144)
 
-### 🧠 Challenge: Fibonacci (Efficient)
-**Medium** · Dynamic Programming
+### 🧠 Challenge: Palindrome Check
+**Easy** · Strings
 
-Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
+Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
 
 👉 [Full challenge + solution](./logs/2026-11-19.md)
 
