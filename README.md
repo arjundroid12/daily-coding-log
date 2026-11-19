@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-143-blue)
+![Day](https://img.shields.io/badge/day-144-blue)
 
-## 📅 Today — Wednesday, November 18, 2026 (Day 143)
+## 📅 Today — Thursday, November 19, 2026 (Day 144)
 
-### 🧠 Challenge: Palindrome Check
-**Easy** · Strings
+### 🧠 Challenge: Fibonacci (Efficient)
+**Medium** · Dynamic Programming
 
-Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
+Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
 
-👉 [Full challenge + solution](./logs/2026-11-18.md)
+👉 [Full challenge + solution](./logs/2026-11-19.md)
 
-### 💡 Tip: `Object.entries()` for key-value iteration
-Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` check:
+### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
+Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
 
 ---
 
@@ -24,6 +24,7 @@ Iterating an object's entries is cleaner than `for...in` + `hasOwnProperty` chec
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-19](./logs/2026-11-19.md)
 - [2026-11-18](./logs/2026-11-18.md)
 - [2026-11-17](./logs/2026-11-17.md)
 - [2026-11-16](./logs/2026-11-16.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-08](./logs/2026-11-08.md)
 - [2026-11-07](./logs/2026-11-07.md)
 - [2026-11-06](./logs/2026-11-06.md)
-- [2026-11-05](./logs/2026-11-05.md)
 
 ---
 
