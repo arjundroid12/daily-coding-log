@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-144-blue)
+![Day](https://img.shields.io/badge/day-145-blue)
 
-## 📅 Today — Thursday, November 19, 2026 (Day 144)
+## 📅 Today — Friday, November 20, 2026 (Day 145)
 
-### 🧠 Challenge: Palindrome Check
-**Easy** · Strings
+### 🧠 Challenge: Binary Search
+**Medium** · Search Algorithms
 
-Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
+Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.
 
-👉 [Full challenge + solution](./logs/2026-11-19.md)
+👉 [Full challenge + solution](./logs/2026-11-20.md)
 
-### 💡 Tip: Use `Object.hasOwn(obj, key)` instead of `obj.hasOwnProperty(key)`
-Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to `obj.hasOwnProperty(key)`.
+### 💡 Tip: Use `Set` for fast membership checks
+`Set.has()` is O(1), `Array.includes()` is O(n).
 
 ---
 
@@ -24,6 +24,7 @@ Modern JS (ES2022) provides `Object.hasOwn(obj, key)` as a safer alternative to 
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-20](./logs/2026-11-20.md)
 - [2026-11-19](./logs/2026-11-19.md)
 - [2026-11-18](./logs/2026-11-18.md)
 - [2026-11-17](./logs/2026-11-17.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-09](./logs/2026-11-09.md)
 - [2026-11-08](./logs/2026-11-08.md)
 - [2026-11-07](./logs/2026-11-07.md)
-- [2026-11-06](./logs/2026-11-06.md)
 
 ---
 
