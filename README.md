@@ -8,15 +8,15 @@
 
 ## 📅 Today — Friday, November 20, 2026 (Day 145)
 
-### 🧠 Challenge: Binary Search
-**Medium** · Search Algorithms
+### 🧠 Challenge: Find Maximum in Array
+**Easy** · Arrays
 
-Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.
+Find the maximum value in an array without using `Math.max()` or `.sort()`.
 
 👉 [Full challenge + solution](./logs/2026-11-20.md)
 
-### 💡 Tip: Use `Set` for fast membership checks
-`Set.has()` is O(1), `Array.includes()` is O(n).
+### 💡 Tip: Bit-shift for integer division by powers of 2
+Bit-shifting is faster than `Math.floor(n / 2)`:
 
 ---
 
