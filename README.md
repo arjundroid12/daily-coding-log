@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-145-blue)
+![Day](https://img.shields.io/badge/day-146-blue)
 
-## 📅 Today — Friday, November 20, 2026 (Day 145)
+## 📅 Today — Saturday, November 21, 2026 (Day 146)
 
-### 🧠 Challenge: Find Maximum in Array
-**Easy** · Arrays
+### 🧠 Challenge: Two Sum
+**Easy** · Arrays / Hash Maps
 
-Find the maximum value in an array without using `Math.max()` or `.sort()`.
+Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
 
-👉 [Full challenge + solution](./logs/2026-11-20.md)
+👉 [Full challenge + solution](./logs/2026-11-21.md)
 
-### 💡 Tip: Bit-shift for integer division by powers of 2
-Bit-shifting is faster than `Math.floor(n / 2)`:
+### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
+Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
 
 ---
 
@@ -24,6 +24,7 @@ Bit-shifting is faster than `Math.floor(n / 2)`:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-21](./logs/2026-11-21.md)
 - [2026-11-20](./logs/2026-11-20.md)
 - [2026-11-19](./logs/2026-11-19.md)
 - [2026-11-18](./logs/2026-11-18.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-10](./logs/2026-11-10.md)
 - [2026-11-09](./logs/2026-11-09.md)
 - [2026-11-08](./logs/2026-11-08.md)
-- [2026-11-07](./logs/2026-11-07.md)
 
 ---
 
