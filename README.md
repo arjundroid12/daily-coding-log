@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-146-blue)
+![Day](https://img.shields.io/badge/day-147-blue)
 
-## 📅 Today — Saturday, November 21, 2026 (Day 146)
+## 📅 Today — Sunday, November 22, 2026 (Day 147)
 
-### 🧠 Challenge: Two Sum
-**Easy** · Arrays / Hash Maps
+### 🧠 Challenge: Factorial
+**Easy** · Recursion
 
-Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
+Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
 
-👉 [Full challenge + solution](./logs/2026-11-21.md)
+👉 [Full challenge + solution](./logs/2026-11-22.md)
 
-### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
-Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
+### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
+For unique IDs, use the built-in crypto module:
 
 ---
 
@@ -24,6 +24,7 @@ Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-22](./logs/2026-11-22.md)
 - [2026-11-21](./logs/2026-11-21.md)
 - [2026-11-20](./logs/2026-11-20.md)
 - [2026-11-19](./logs/2026-11-19.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-11](./logs/2026-11-11.md)
 - [2026-11-10](./logs/2026-11-10.md)
 - [2026-11-09](./logs/2026-11-09.md)
-- [2026-11-08](./logs/2026-11-08.md)
 
 ---
 
