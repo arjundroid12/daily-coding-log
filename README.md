@@ -8,15 +8,15 @@
 
 ## 📅 Today — Sunday, November 22, 2026 (Day 147)
 
-### 🧠 Challenge: Two Sum
-**Easy** · Arrays / Hash Maps
+### 🧠 Challenge: Palindrome Check
+**Easy** · Strings
 
-Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
+Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
 
 👉 [Full challenge + solution](./logs/2026-11-22.md)
 
-### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
-`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
+### 💡 Tip: Use `??=` and `||=` for conditional assignment
+ES2021 added compound assignment for nullish and logical OR:
 
 ---
 
