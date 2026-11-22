@@ -8,15 +8,15 @@
 
 ## 📅 Today — Sunday, November 22, 2026 (Day 147)
 
-### 🧠 Challenge: Factorial
-**Easy** · Recursion
+### 🧠 Challenge: Two Sum
+**Easy** · Arrays / Hash Maps
 
-Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
+Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
 
 👉 [Full challenge + solution](./logs/2026-11-22.md)
 
-### 💡 Tip: Use `crypto.randomUUID()` for IDs, not `Math.random()`
-For unique IDs, use the built-in crypto module:
+### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
+`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
 
 ---
 
