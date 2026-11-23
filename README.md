@@ -8,15 +8,15 @@
 
 ## 📅 Today — Monday, November 23, 2026 (Day 148)
 
-### 🧠 Challenge: Remove Duplicates from Array
-**Easy** · Arrays / Sets
+### 🧠 Challenge: Deep Clone Object
+**Medium** · Objects / Recursion
 
-Return a new array with duplicates removed, preserving the order of first occurrence.
+Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
 
 👉 [Full challenge + solution](./logs/2026-11-23.md)
 
-### 💡 Tip: Avoid `forEach` when you need to `break` or `return`
-`forEach` doesn't support `break` or early return — use `for...of` instead:
+### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
+Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
 
 ---
 
