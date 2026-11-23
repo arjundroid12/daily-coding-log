@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-147-blue)
+![Day](https://img.shields.io/badge/day-148-blue)
 
-## 📅 Today — Sunday, November 22, 2026 (Day 147)
+## 📅 Today — Monday, November 23, 2026 (Day 148)
 
-### 🧠 Challenge: Palindrome Check
-**Easy** · Strings
+### 🧠 Challenge: Remove Duplicates from Array
+**Easy** · Arrays / Sets
 
-Check if a string is a palindrome, ignoring case, spaces, and non-alphanumeric characters.
+Return a new array with duplicates removed, preserving the order of first occurrence.
 
-👉 [Full challenge + solution](./logs/2026-11-22.md)
+👉 [Full challenge + solution](./logs/2026-11-23.md)
 
-### 💡 Tip: Use `??=` and `||=` for conditional assignment
-ES2021 added compound assignment for nullish and logical OR:
+### 💡 Tip: Avoid `forEach` when you need to `break` or `return`
+`forEach` doesn't support `break` or early return — use `for...of` instead:
 
 ---
 
@@ -24,6 +24,7 @@ ES2021 added compound assignment for nullish and logical OR:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-23](./logs/2026-11-23.md)
 - [2026-11-22](./logs/2026-11-22.md)
 - [2026-11-21](./logs/2026-11-21.md)
 - [2026-11-20](./logs/2026-11-20.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-12](./logs/2026-11-12.md)
 - [2026-11-11](./logs/2026-11-11.md)
 - [2026-11-10](./logs/2026-11-10.md)
-- [2026-11-09](./logs/2026-11-09.md)
 
 ---
 
