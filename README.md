@@ -8,15 +8,15 @@
 
 ## 📅 Today — Monday, November 23, 2026 (Day 148)
 
-### 🧠 Challenge: Deep Clone Object
-**Medium** · Objects / Recursion
+### 🧠 Challenge: Binary Search
+**Medium** · Search Algorithms
 
-Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
+Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.
 
 👉 [Full challenge + solution](./logs/2026-11-23.md)
 
-### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
-Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
+### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
+ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
 
 ---
 
