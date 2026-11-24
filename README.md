@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-148-blue)
+![Day](https://img.shields.io/badge/day-149-blue)
 
-## 📅 Today — Monday, November 23, 2026 (Day 148)
+## 📅 Today — Tuesday, November 24, 2026 (Day 149)
 
-### 🧠 Challenge: Binary Search
-**Medium** · Search Algorithms
+### 🧠 Challenge: Factorial
+**Easy** · Recursion
 
-Given a sorted array and a target value, return the index of the target (or -1 if not found). Must be O(log n) time.
+Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
 
-👉 [Full challenge + solution](./logs/2026-11-23.md)
+👉 [Full challenge + solution](./logs/2026-11-24.md)
 
-### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
-ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
@@ -24,6 +24,7 @@ ES2023 added `findLast` / `findLastIndex` — find the LAST matching element wit
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-24](./logs/2026-11-24.md)
 - [2026-11-23](./logs/2026-11-23.md)
 - [2026-11-22](./logs/2026-11-22.md)
 - [2026-11-21](./logs/2026-11-21.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-13](./logs/2026-11-13.md)
 - [2026-11-12](./logs/2026-11-12.md)
 - [2026-11-11](./logs/2026-11-11.md)
-- [2026-11-10](./logs/2026-11-10.md)
 
 ---
 
