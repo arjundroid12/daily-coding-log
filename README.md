@@ -8,15 +8,15 @@
 
 ## 📅 Today — Wednesday, November 25, 2026 (Day 150)
 
-### 🧠 Challenge: Count Character Frequencies
-**Easy** · Strings / Hash Maps
+### 🧠 Challenge: Capitalise Each Word
+**Easy** · Strings
 
-Return an object mapping each character in a string to its frequency. Case-sensitive.
+Given a sentence, capitalise the first letter of each word.
 
 👉 [Full challenge + solution](./logs/2026-11-25.md)
 
-### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
-Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
+### 💡 Tip: Use `AbortController` for cancellable fetch
+Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
 
 ---
 
