@@ -8,15 +8,15 @@
 
 ## 📅 Today — Wednesday, November 25, 2026 (Day 150)
 
-### 🧠 Challenge: Capitalise Each Word
-**Easy** · Strings
+### 🧠 Challenge: Deep Clone Object
+**Medium** · Objects / Recursion
 
-Given a sentence, capitalise the first letter of each word.
+Deep-clone an object (including nested objects and arrays) without using `JSON.parse(JSON.stringify())` or `structuredClone()`.
 
 👉 [Full challenge + solution](./logs/2026-11-25.md)
 
-### 💡 Tip: Use `AbortController` for cancellable fetch
-Need to cancel an in-flight fetch (e.g., user typed again)? Use `AbortController`:
+### 💡 Tip: Use `??` (nullish coalescing) instead of `||` for default values
+`||` treats `0`, `''`, `false`, `NaN` as falsy — usually not what you want for defaults.
 
 ---
 
