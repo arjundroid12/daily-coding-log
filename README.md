@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-149-blue)
+![Day](https://img.shields.io/badge/day-150-blue)
 
-## 📅 Today — Tuesday, November 24, 2026 (Day 149)
+## 📅 Today — Wednesday, November 25, 2026 (Day 150)
 
-### 🧠 Challenge: Factorial
-**Easy** · Recursion
+### 🧠 Challenge: Count Character Frequencies
+**Easy** · Strings / Hash Maps
 
-Compute n! (n factorial) — the product of all positive integers up to n. Note: 0! = 1.
+Return an object mapping each character in a string to its frequency. Case-sensitive.
 
-👉 [Full challenge + solution](./logs/2026-11-24.md)
+👉 [Full challenge + solution](./logs/2026-11-25.md)
 
-### 💡 Tip: Use `structuredClone()` for deep copies
-Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
+### 💡 Tip: Use `Number.isFinite()` not `isFinite()`
+Global `isFinite()` coerces — `isFinite('42')` returns `true`. `Number.isFinite()` doesn't.
 
 ---
 
@@ -24,6 +24,7 @@ Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, u
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-25](./logs/2026-11-25.md)
 - [2026-11-24](./logs/2026-11-24.md)
 - [2026-11-23](./logs/2026-11-23.md)
 - [2026-11-22](./logs/2026-11-22.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-14](./logs/2026-11-14.md)
 - [2026-11-13](./logs/2026-11-13.md)
 - [2026-11-12](./logs/2026-11-12.md)
-- [2026-11-11](./logs/2026-11-11.md)
 
 ---
 
