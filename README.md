@@ -8,15 +8,15 @@
 
 ## 📅 Today — Thursday, November 26, 2026 (Day 151)
 
-### 🧠 Challenge: Anagram Check
-**Easy** · Strings / Sorting
+### 🧠 Challenge: Remove Duplicates from Array
+**Easy** · Arrays / Sets
 
-Check if two strings are anagrams (contain the same characters with the same frequencies).
+Return a new array with duplicates removed, preserving the order of first occurrence.
 
 👉 [Full challenge + solution](./logs/2026-11-26.md)
 
-### 💡 Tip: Optional chaining `?.` is your friend
-Replace verbose `&&` chains with `?.`:
+### 💡 Tip: Use `structuredClone()` for deep copies
+Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
 
 ---
 
