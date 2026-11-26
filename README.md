@@ -8,15 +8,15 @@
 
 ## 📅 Today — Thursday, November 26, 2026 (Day 151)
 
-### 🧠 Challenge: Fibonacci (Efficient)
-**Medium** · Dynamic Programming
+### 🧠 Challenge: Anagram Check
+**Easy** · Strings / Sorting
 
-Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
+Check if two strings are anagrams (contain the same characters with the same frequencies).
 
 👉 [Full challenge + solution](./logs/2026-11-26.md)
 
-### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
-ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
+### 💡 Tip: Optional chaining `?.` is your friend
+Replace verbose `&&` chains with `?.`:
 
 ---
 
