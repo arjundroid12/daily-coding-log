@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-150-blue)
+![Day](https://img.shields.io/badge/day-151-blue)
 
-## 📅 Today — Wednesday, November 25, 2026 (Day 150)
+## 📅 Today — Thursday, November 26, 2026 (Day 151)
 
-### 🧠 Challenge: Remove Duplicates from Array
-**Easy** · Arrays / Sets
+### 🧠 Challenge: Fibonacci (Efficient)
+**Medium** · Dynamic Programming
 
-Return a new array with duplicates removed, preserving the order of first occurrence.
+Return the nth Fibonacci number. F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Handle n up to 50 efficiently.
 
-👉 [Full challenge + solution](./logs/2026-11-25.md)
+👉 [Full challenge + solution](./logs/2026-11-26.md)
 
-### 💡 Tip: Destructure with default values and renames
-You can provide defaults AND rename in one go:
+### 💡 Tip: Use `Array.prototype.findLast()` and `.findLastIndex()`
+ES2023 added `findLast` / `findLastIndex` — find the LAST matching element without reversing:
 
 ---
 
@@ -24,6 +24,7 @@ You can provide defaults AND rename in one go:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-26](./logs/2026-11-26.md)
 - [2026-11-25](./logs/2026-11-25.md)
 - [2026-11-24](./logs/2026-11-24.md)
 - [2026-11-23](./logs/2026-11-23.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-15](./logs/2026-11-15.md)
 - [2026-11-14](./logs/2026-11-14.md)
 - [2026-11-13](./logs/2026-11-13.md)
-- [2026-11-12](./logs/2026-11-12.md)
 
 ---
 
