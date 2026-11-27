@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-151-blue)
+![Day](https://img.shields.io/badge/day-152-blue)
 
-## 📅 Today — Thursday, November 26, 2026 (Day 151)
+## 📅 Today — Friday, November 27, 2026 (Day 152)
 
-### 🧠 Challenge: Remove Duplicates from Array
-**Easy** · Arrays / Sets
+### 🧠 Challenge: Reverse a String
+**Easy** · Strings
 
-Return a new array with duplicates removed, preserving the order of first occurrence.
+Reverse a string without using the built-in `.reverse()` method.
 
-👉 [Full challenge + solution](./logs/2026-11-26.md)
+👉 [Full challenge + solution](./logs/2026-11-27.md)
 
-### 💡 Tip: Use `structuredClone()` for deep copies
-Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, undefined, functions, and chokes on circular refs.
+### 💡 Tip: Bit-shift for integer division by powers of 2
+Bit-shifting is faster than `Math.floor(n / 2)`:
 
 ---
 
@@ -24,6 +24,7 @@ Stop writing `JSON.parse(JSON.stringify(obj))` — it loses Dates, Maps, Sets, u
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-27](./logs/2026-11-27.md)
 - [2026-11-26](./logs/2026-11-26.md)
 - [2026-11-25](./logs/2026-11-25.md)
 - [2026-11-24](./logs/2026-11-24.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-16](./logs/2026-11-16.md)
 - [2026-11-15](./logs/2026-11-15.md)
 - [2026-11-14](./logs/2026-11-14.md)
-- [2026-11-13](./logs/2026-11-13.md)
 
 ---
 
