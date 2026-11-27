@@ -8,15 +8,15 @@
 
 ## 📅 Today — Friday, November 27, 2026 (Day 152)
 
-### 🧠 Challenge: Reverse a String
-**Easy** · Strings
+### 🧠 Challenge: Anagram Check
+**Easy** · Strings / Sorting
 
-Reverse a string without using the built-in `.reverse()` method.
+Check if two strings are anagrams (contain the same characters with the same frequencies).
 
 👉 [Full challenge + solution](./logs/2026-11-27.md)
 
-### 💡 Tip: Bit-shift for integer division by powers of 2
-Bit-shifting is faster than `Math.floor(n / 2)`:
+### 💡 Tip: Destructure with default values and renames
+You can provide defaults AND rename in one go:
 
 ---
 
