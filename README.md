@@ -15,8 +15,8 @@ Check if two strings are anagrams (contain the same characters with the same fre
 
 👉 [Full challenge + solution](./logs/2026-11-27.md)
 
-### 💡 Tip: Destructure with default values and renames
-You can provide defaults AND rename in one go:
+### 💡 Tip: Tagged template literals for safe HTML
+Template literals can be tagged with a function that pre-processes parts:
 
 ---
 
