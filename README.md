@@ -4,19 +4,19 @@
 
 ![Daily Commit](https://github.com/arjundroid12/daily-coding-log/actions/workflows/daily.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Day](https://img.shields.io/badge/day-152-blue)
+![Day](https://img.shields.io/badge/day-153-blue)
 
-## 📅 Today — Friday, November 27, 2026 (Day 152)
+## 📅 Today — Saturday, November 28, 2026 (Day 153)
 
-### 🧠 Challenge: Anagram Check
-**Easy** · Strings / Sorting
+### 🧠 Challenge: Count Character Frequencies
+**Easy** · Strings / Hash Maps
 
-Check if two strings are anagrams (contain the same characters with the same frequencies).
+Return an object mapping each character in a string to its frequency. Case-sensitive.
 
-👉 [Full challenge + solution](./logs/2026-11-27.md)
+👉 [Full challenge + solution](./logs/2026-11-28.md)
 
-### 💡 Tip: Tagged template literals for safe HTML
-Template literals can be tagged with a function that pre-processes parts:
+### 💡 Tip: `Array.prototype.at()` for negative indexing
+Forget `arr[arr.length - 1]` — use `.at(-1)`.
 
 ---
 
@@ -24,6 +24,7 @@ Template literals can be tagged with a function that pre-processes parts:
 
 All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 
+- [2026-11-28](./logs/2026-11-28.md)
 - [2026-11-27](./logs/2026-11-27.md)
 - [2026-11-26](./logs/2026-11-26.md)
 - [2026-11-25](./logs/2026-11-25.md)
@@ -37,7 +38,6 @@ All daily logs are saved in [`./logs/`](./logs/) as `YYYY-MM-DD.md` files.
 - [2026-11-17](./logs/2026-11-17.md)
 - [2026-11-16](./logs/2026-11-16.md)
 - [2026-11-15](./logs/2026-11-15.md)
-- [2026-11-14](./logs/2026-11-14.md)
 
 ---
 
